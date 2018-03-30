@@ -1,0 +1,31 @@
+.logo-component {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+}
+
+.first-name {
+  font-weight: bolder;
+  font-size: larger;
+  color: #F05D5E;
+}
+
+.middle-name {
+  font-size: larger;
+  color: #134B72;
+}
+
+.title {
+  justify-content: center;
+  display: flex;
+  font-size: 35px;
+}
+
+.job-description {
+  color: #030D44;
+}

@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
 
-import './main.css'
+import Logo from './Logo'
+
 
 export default class Main extends Component {
   render() {
 
     return (
       <div className='main-component'>
-        <p className='first-name'>alisha</p>
-        <p className='middle-name'>antoinette</p>
+        <Logo />
       </div>
     )
 
