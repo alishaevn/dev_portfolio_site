@@ -15,7 +15,7 @@ export default class Nav extends Component {
         </div>
         <div className='navigation-links'>
           <p>About Me</p>
-          <p>Work</p>
+          <p>Portfolio</p>
         </div>
       </div>
     )
