@@ -5,6 +5,7 @@
 .logo-component {
   display: flex;
   flex-direction: column;
+  height: 500px;
 }
 
 .name {
@@ -31,6 +32,6 @@
   text-align: center;
 }
 
-.job-description {
-  /* color: #1C1435; */
-}
+/* .job-description {
+  color: #1C1435;
+} */
