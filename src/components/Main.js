@@ -15,8 +15,3 @@ export default class Main extends Component {
   }
 
 }
-
-
-/**
- * Color palette - 'https://coolors.co/030d44-eaebff-134b72-f05d5e-fefffe'
- */
