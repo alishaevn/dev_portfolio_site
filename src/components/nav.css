@@ -1,5 +1,6 @@
 .nav-component {
   display: flex;
+  height: 70px;
 }
 
 .social-media-link {
