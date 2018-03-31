@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import Nav from './Nav'
 import Logo from './Logo'
 import AboutMe from './AboutMe'
+import Portfolio from './Portfolio'
 
 
 export default class Main extends Component {
@@ -13,6 +14,7 @@ export default class Main extends Component {
         <Nav />
         <Logo />
         <AboutMe />
+        <Portfolio />
       </div>
     )
 
