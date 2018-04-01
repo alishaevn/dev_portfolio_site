@@ -16,14 +16,15 @@
 }
 
 .first-name {
-  font-weight: bolder;
+  font-weight: 500;
   font-size: larger;
-  /* color: #E0B1CB; */
+  color: #5E548E;
 }
 
 .middle-name {
   font-size: larger;
-  /* color: #9F86C0; */
+  color: #9F86C0;
+  font-weight: 200;
 }
 
 .title {
@@ -31,8 +32,9 @@
   width: 75%;
   margin: 0 auto;
   text-align: center;
+  font-weight: 400;
 }
 
-/* .job-description {
-  color: #1C1435;
-} */
+.job-description {
+  color: #E0B1CB;
+}
