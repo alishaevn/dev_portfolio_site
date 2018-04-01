@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import Nav from './Nav'
+import Footer from './Footer'
 import Logo from './Logo'
 import AboutMe from './AboutMe'
 import Portfolio from './Portfolio'
@@ -11,10 +11,10 @@ export default class Main extends Component {
 
     return (
       <div className='main-component'>
-        <Nav />
         <Logo />
         <Portfolio />
         <AboutMe />
+        <Footer />
       </div>
     )
 
