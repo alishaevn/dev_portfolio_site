@@ -13,8 +13,8 @@ export default class Main extends Component {
       <div className='main-component'>
         <Nav />
         <Logo />
-        <AboutMe />
         <Portfolio />
+        <AboutMe />
       </div>
     )
 
