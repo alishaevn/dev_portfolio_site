@@ -1,5 +1,11 @@
 .portfolio-component {
-  background-color: #1C1435;
+  background-color: #ffffff;
+}
+.portfolio-title {
+  font-weight: 200;
+  text-align: center;
+  color: #5E548E;
+  font-size: 25px;
 }
 
 .project-one {
@@ -10,4 +16,21 @@
 
 .ftw-mock {
   width: 100%;
+}
+
+.portfolio-project-name {
+  color: #5E548E;
+  text-decoration: none;
+}
+
+.portfolio-project-name:hover {
+  color: #9F86C0;
+}
+
+.portfolio-project-name:visited {
+  color: #1C1435;
+}
+
+.portfolio-project-description {
+  font-size: 13px;
 }
