@@ -4,6 +4,8 @@
 
 .home-component {
   background-image: url('../images/mobile_phone_bg.png');
+  background-repeat:no-repeat;
+  background-size:cover;
   display: flex;
   flex-direction: column;
   /* height: calc(100vh - 70px); */
