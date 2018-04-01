@@ -3,9 +3,11 @@
  */
 
 .logo-component {
+  background-image: url('../images/mobile_phone_bg.png');
   display: flex;
   flex-direction: column;
-  height: calc(100vh - 70px);
+  /* height: calc(100vh - 70px); */
+  height: 100vh;
   padding-top: 100px;
 }
 
@@ -36,5 +38,5 @@
 }
 
 .job-description {
-  color: #E0B1CB;
+  color: #1C1435;
 }
