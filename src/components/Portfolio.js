@@ -6,7 +6,7 @@ export default class Portfolio extends Component {
   render() {
 
     return (
-      <div className='portfolio-component'>
+      <div className='portfolio-component' id='portfolio'>
         <div className='col-one' >
           <div className='project-one'>
             <img src={require('../images/FTW_Mock.png')} alt='For The Win Mockup' className='ftw-mock' />

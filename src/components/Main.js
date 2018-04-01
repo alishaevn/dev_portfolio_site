@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 
-import Footer from './Footer'
-import Logo from './Logo'
-import AboutMe from './AboutMe'
+import Home from './Home'
 import Portfolio from './Portfolio'
+import AboutMe from './AboutMe'
+import Contact from './Contact'
 
 
 export default class Main extends Component {
@@ -11,10 +11,10 @@ export default class Main extends Component {
 
     return (
       <div className='main-component'>
-        <Logo />
+        <Home />
         <Portfolio />
         <AboutMe />
-        <Footer />
+        <Contact />
       </div>
     )
 
