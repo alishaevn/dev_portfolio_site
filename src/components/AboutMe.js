@@ -9,7 +9,7 @@ export default class AboutMe extends Component {
       <div className='about-me-component'>
         <h3 className='about-me-title'>ABOUT ME</h3>
         <div className='pic-div'>
-          <img src={require('../images/IMG_7768.jpg')} alt='mountains' className='personal-pic' />
+          <img src={require('../images/portfolio_pic.jpg')} alt='mountains' className='personal-pic' />
         </div>
         <div className='about-me-div'>
           <h4>Hello!</h4>
