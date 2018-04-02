@@ -14,7 +14,7 @@ export default class Home extends Component {
           <p className='middle-name'>antoinette</p>
         </div>
         <div className='title'>
-          <p className='job-description'> full stack web developer && brand identity designer </p>
+          <p className='job-description'> full stack web developer </p>
         </div>
         <button className='to-portfolio-btn'>
           <HashLink 

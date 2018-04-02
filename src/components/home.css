@@ -33,11 +33,7 @@
 }
 
 .title {
-  display: flex;
-  width: 75%;
   margin: 0 auto;
-  text-align: center;
-  font-weight: 400;
 }
 
 .job-description {
