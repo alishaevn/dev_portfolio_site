@@ -1,7 +1,10 @@
 import React, { Component } from 'react'
-import { HashLink } from 'react-router-hash-link';
+import { HashLink } from 'react-router-hash-link'
+import smoothscroll from 'smoothscroll-polyfill'
 
 import './home.css'
+
+smoothscroll.polyfill();
 
 export default class Home extends Component {
   
