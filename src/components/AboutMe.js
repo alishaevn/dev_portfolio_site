@@ -7,11 +7,14 @@ export default class AboutMe extends Component {
 
     return (
       <div className='about-me-component'>
+        <h3 className='about-me-title'>ABOUT ME</h3>
         <div className='pic-div'>
           <img src={require('../images/IMG_7768.jpg')} alt='mountains' className='personal-pic' />
         </div>
         <div className='about-me-div'>
-          <p className='about-me-text'>Experienced brand identity strategist and graphic designer endeavoring to transition into the role of a front end web developer. Skilled in several front and back end programming libraries and frameworks; I've also worked with clients to develop effective, creative solutions to enhance their brand. I possess superb verbal and written communication as well as critical thinking skills that are useful in client correspondence, team meetings and my work. As a collaborative worker I’m dedicated to mutual learning and growth; I’m a quick learner and appreciate a challenge. </p>
+          <h4>Hello!</h4>
+          <p className='about-me-text'> I'm a full stack web developer with an M.F.A. in Media Design currently living in San Diego, CA. I'm also a Christian, logophile, sports fan, brain games aficionado && photographer. </p>
+          <p className='about-me-text'>Please feel free to reach out to me via the methods below! </p>
         </div>
       </div>
     )
