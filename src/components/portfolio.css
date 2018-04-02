@@ -32,5 +32,11 @@
 }
 
 .portfolio-project-description {
-  font-size: 13px;
+  font-size: 14px;
+  color: #1C1435;
+}
+
+.portfolio-tech-stack {
+ font-size: 13px;
+ color: #5E548E;
 }

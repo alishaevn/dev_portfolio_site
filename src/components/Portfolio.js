@@ -21,6 +21,7 @@ export default class Portfolio extends Component {
                 >For The Win</a>
             </h5>
             <p className='portfolio-project-description'>The basketball enthusiast's favorite way to track stats for their favorite players.</p>
+            <p className='portfolio-tech-stack'>Tech stack: Mongo, Express, Passport, Node, React, Redux, CSS</p>
           </div>
         </div>
       </div>
