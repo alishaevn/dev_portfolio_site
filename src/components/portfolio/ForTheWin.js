@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-// import './portfolioProjects.css'
+import './portfolioProjects.css'
 
 export default class ForTheWin extends Component {
   render() {
@@ -11,17 +11,20 @@ export default class ForTheWin extends Component {
 
         <div className='portfolio-project-row-one'>
           <div className='portfolio-project-info-div'>
-            <p className='portfolio-project-description'>
-              The basketball enthusiast's favorite way to track stats for their favorite players.
+            <p className='portfolio-project-tagline'>
+              The basketball enthusiast's preferred way to track stats for their favorite players.
             </p>
-            <h3>
+            <p className='portfolio-project-description'>
+              blahzay blahzay blahzay blahzay blahzay blahzay blahzay blahzay blahzay blahzay blahzay blahzay blahzay blahzay blahzay blahzay blahzay blahzay blahzay blahzay blahzay blahzay blahzay blahzay blahzay blahzay blahzay blahzay blahzay blahzay 
+            </p>
+            <h5>
               <a
                 href='https://for-the-win-app.netlify.com/'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='portfolio-project-link'
-              >For The Win</a>
-            </h3>
+              >Live Site</a>
+            </h5>
           </div>
           <img 
             src={require('../../images/portfolio/ftw_mock.png')} 
@@ -31,18 +34,33 @@ export default class ForTheWin extends Component {
         </div>
 
         <div className='portfolio-project-row-two'>
-          <img 
-            src={require('../../images/portfolio/ftw_responsive.png')} 
-            alt='for the win responsive versions' 
-            className='portfolio-project-responsive-image' 
+          <h4 className='tech-stack-header'>
+            Tech:
+          </h4>
+          <ul className='portfolio-project-stack'>
+            <li className='tech-stack-li'>Mongo</li>
+            <li className='tech-stack-li'>Express</li>
+            <li className='tech-stack-li'>Passport</li>
+            <li className='tech-stack-li'>Node</li>
+            <li className='tech-stack-li'>REST API</li>
+            <li className='tech-stack-li'>React</li>
+            <li className='tech-stack-li'>Redux</li>
+            <li className='tech-stack-li'>CSS</li>
+            <li className='tech-stack-li'>Responsive</li>
+          </ul>
+          <img
+            src={require('../../images/portfolio/ftw_responsive.png')}
+            alt='for the win responsive versions'
+            className='portfolio-project-responsive-image'
           />
-          <p className='portfolio-project-stack'>
-            Tech stack: Mongo, Express, Passport, Node, React, Redux, CSS
-          </p>
         </div>
 
         <div className='portfolio-project-row-three'>
         </div>
+
+        <button className='back-to-home-button'>
+          Home
+        </button>
       </div>
     )
 

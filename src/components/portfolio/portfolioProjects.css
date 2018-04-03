@@ -1,0 +1,45 @@
+.portfolio-project-component {
+  width: 90%;
+  margin: auto;
+}
+
+.portfolio-project-title-div {
+  text-align: center;
+  color: #1C1435;
+}
+
+.portfolio-project-tagline,
+.portfolio-project-description,
+.tech-stack-li {
+  font-size: 14px;
+}
+
+.portfolio-project-tagline {
+  font-weight: 300;
+}
+
+.portfolio-project-link {
+  text-decoration: none;
+  color: #1C1435;
+}
+
+.portfolio-project-main-image {
+  width: 100%;
+  /* display: none; */
+}
+
+.portfolio-project-responsive-image {
+  width: 100%;
+}
+
+.tech-stack-header {
+  color: #5E548E;
+}
+
+.back-to-home-button {
+  border: 1px solid #5E548E;
+  background-color: transparent;
+  width: 35%;
+  padding: 10px;
+  margin: 40px auto;
+}
