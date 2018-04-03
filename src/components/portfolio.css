@@ -14,7 +14,7 @@
   margin: auto;
 }
 
-.ftw-mock {
+.portfolio-homepage-mock {
   width: 100%;
 }
 
@@ -23,7 +23,11 @@
   text-decoration: none;
 }
 
-.portfolio-project-name:hover {
+.project-image-link:hover {
+  color: #ffffff;
+}
+
+/* .portfolio-project-name:hover {
   color: #9F86C0;
 }
 
@@ -39,4 +43,4 @@
 .portfolio-tech-stack {
  font-size: 13px;
  color: #5E548E;
-}
+} */
