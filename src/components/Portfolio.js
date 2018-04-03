@@ -11,7 +11,7 @@ export default class Portfolio extends Component {
         <h3 className='portfolio-title'>PORTFOLIO</h3>
         <div className='row-one' >
           <div className='project-one'>
-            <img src={require('../images/FTW_Mock.png')} alt='For The Win Mockup' className='ftw-mock' />
+            <img src={require('../images/portfolio/ftw_mock.png')} alt='For The Win Mockup' className='ftw-mock' />
             <h5>
               <a 
                 href='https://for-the-win-app.netlify.com/'
