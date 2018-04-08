@@ -2,30 +2,79 @@
   background-color: #ffffff;
 }
 .portfolio-title {
-  font-weight: 200;
+  font-weight: 400;
   text-align: center;
   color: #5E548E;
   font-size: 25px;
+  letter-spacing: 2px;
 }
 
 .project-one {
   width: 85%;
-  padding: 25px 0;
+  padding: 5px 0;
   margin: auto;
+  text-align: center;
 }
 
-.portfolio-homepage-mock {
+.portfolio-responsive-mock {
   width: 100%;
+  margin: 10px 0;
 }
 
-.portfolio-project-name {
+.portfolio-project-title {
+  text-align: center;
+  color: #5E548E;
+  margin: 10px 0 auto;
+  padding-top: 5px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.portfolio-services {
+  font-size: 12px;
+  margin: 0 0 15px 0;
+  color: #9F86C0;
+}
+
+.portfolio-project-tagline {
+  font-style: italic;
+  font-size: 16px;
+  margin: 40px auto;
+}
+
+.live-portfolio-par {
+  padding: 9px;
+}
+
+.live-portfolio-link {
+  text-decoration: none;
+  border: 1.25px solid #1C1435;
+  border-radius: 9px;
+  padding: 8px 15px;
+  color: #9F86C0;
+  font-size: 13px;
+}
+
+.github-repo-par {
+  margin-top: -15px;
+}
+
+.github-repo-link {
+  text-decoration: none;
+  color: #BE95C4;
+  letter-spacing: 0.5px;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+/* .portfolio-project-name {
   color: #5E548E;
   text-decoration: none;
 }
 
 .project-image-link:hover {
   color: #ffffff;
-}
+} */
 
 /* .portfolio-project-name:hover {
   color: #9F86C0;
