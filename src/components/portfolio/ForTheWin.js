@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
+import Contact from '../Contact'
 
-import './portfolioProjects.css'
+// import './portfolioProjects.css'
 
 export default class ForTheWin extends Component {
   render() {
@@ -14,23 +15,27 @@ export default class ForTheWin extends Component {
             <p className='portfolio-project-tagline'>
               The basketball enthusiast's preferred way to track stats for their favorite players.
             </p>
-            <p className='portfolio-project-description'>
-              blahzay blahzay blahzay blahzay blahzay blahzay blahzay blahzay blahzay blahzay blahzay blahzay blahzay blahzay blahzay blahzay blahzay blahzay blahzay blahzay blahzay blahzay blahzay blahzay blahzay blahzay blahzay blahzay blahzay blahzay 
-            </p>
-            <h5>
+            
+            <div className='portfolio-project-repo'>
               <a
                 href='https://for-the-win-app.netlify.com/'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='portfolio-project-link'
-              >Live Site</a>
-            </h5>
+              >Live Site
+              </a> | <a
+                href='https://github.com/thinkful-ei18/for_the_win_client'
+                target='_blank'
+                rel='noopener noreferrer'
+                className='portfolio-project-link'
+              >Project Repo</a>
+            </div>
+            <img
+              src={require('../../images/portfolio/ftw_responsive.png')}
+              alt='for the win responsive versions'
+              className='portfolio-project-responsive-image'
+            />
           </div>
-          <img 
-            src={require('../../images/portfolio/ftw_mock.png')} 
-            alt='for the win desktop app' 
-            className='portfolio-project-main-image' 
-          />
         </div>
 
         <div className='portfolio-project-row-two'>
@@ -48,11 +53,6 @@ export default class ForTheWin extends Component {
             <li className='tech-stack-li'>CSS</li>
             <li className='tech-stack-li'>Responsive</li>
           </ul>
-          <img
-            src={require('../../images/portfolio/ftw_responsive.png')}
-            alt='for the win responsive versions'
-            className='portfolio-project-responsive-image'
-          />
         </div>
 
         <div className='portfolio-project-row-three'>
@@ -61,8 +61,23 @@ export default class ForTheWin extends Component {
         <button className='back-to-home-button'>
           Home
         </button>
+        <Contact />
       </div>
     )
 
   }
 }
+
+
+/**
+ <p className='portfolio-project-description'>
+    The concept of For The Win came about because I'm a sports fan and felt that an app that allowed fans such as myself to track the stats of their favorite players would be something nice to have.
+  </p>
+
+
+<img
+  src={require('../../images/portfolio/ftw_mock.png')}
+  alt='for the win desktop app'
+  className='portfolio-project-main-image'
+/>
+ */

@@ -1,39 +1,65 @@
 .portfolio-project-component {
-  width: 90%;
+  /* width: 90%; */
   margin: auto;
+  /* background-image: url('../../images/mobile_phone_portfolio_bg.png');
+  background-repeat:no-repeat;
+  background-size:cover; */
 }
 
 .portfolio-project-title-div {
+  /* width: 90%; */
   text-align: center;
-  color: #1C1435;
+  color: #ffffff;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.portfolio-project-info-div {
+  text-align: center;
 }
 
 .portfolio-project-tagline,
 .portfolio-project-description,
 .tech-stack-li {
+  width: 90%;
+  margin: 0 auto;
   font-size: 14px;
 }
 
 .portfolio-project-tagline {
-  font-weight: 300;
+  font-style: italic;
 }
 
 .portfolio-project-link {
   text-decoration: none;
   color: #1C1435;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.portfolio-project-repo {
+  margin: 5px 17px;
+}
+
+img {
+  margin: auto;
 }
 
 .portfolio-project-main-image {
-  width: 100%;
+  /* width: 100%; */
+  width: 90%;
+  margin-top: 20px;
   /* display: none; */
 }
 
 .portfolio-project-responsive-image {
-  width: 100%;
+  width: 90%;
+  /* width: 100%; */
 }
 
 .tech-stack-header {
   color: #5E548E;
+  margin: 5px 17px;
 }
 
 .back-to-home-button {
@@ -42,4 +68,6 @@
   width: 35%;
   padding: 10px;
   margin: 40px auto;
+  display: flex;
+  justify-content: center;
 }
