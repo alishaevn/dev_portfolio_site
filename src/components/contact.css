@@ -6,10 +6,16 @@
 height: 50px;
 padding: 10px;
 text-align: center;
+margin: 5px;
+}
+
+.copyright {
+  margin-bottom: 20px;
 }
 
 .copyright-info {
-  font-size: 10px;
+  font-size: 11px;
+  letter-spacing: 1px;
   text-align: center;
   margin: 0;
   color: #1C1435;
@@ -24,4 +30,17 @@ MEDIA QUERIES
 @media only screen and (min-device-width: 768px) and (max-device-width: 1023px) and (-webkit-min-device-pixel-ratio: 1) {}
 
 /* desktop */
-@media only screen and (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {}
+@media only screen and (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+
+  .social-media-icons {
+    margin: 15px;
+  }
+
+  .copyright {
+    margin-bottom: 20px;
+  }
+
+  .copyright-info {
+    font-size: 13px;
+  }
+}

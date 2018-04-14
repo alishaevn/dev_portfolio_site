@@ -4,8 +4,8 @@
 
 .home-component {
   background-image: url('../images/mobile_phone_bg.png');
-  background-repeat:no-repeat;
-  background-size:cover;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   /* height: calc(100vh - 70px); */
@@ -16,18 +16,16 @@
 .name {
   display: flex;
   justify-content: center;
-  font-size: 25px;
+  font-size: 33px;
   height: 65px;
 }
 
 .first-name {
   font-weight: 500;
-  font-size: larger;
   color: #5E548E;
 }
 
 .middle-name {
-  font-size: larger;
   color: #9F86C0;
   font-weight: 200;
 }
@@ -52,13 +50,35 @@
   text-decoration: none;
 }
 
-
 /* ============================ 
 MEDIA QUERIES
 ============================*/
 
 /* tablet */
+
 @media only screen and (min-device-width: 768px) and (max-device-width: 1023px) and (-webkit-min-device-pixel-ratio: 1) {}
 
 /* desktop */
-@media only screen and (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {}
+
+@media only screen and (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .home-component {
+    background-image: url('../images/full_size_bg.png');
+  }
+  .name {
+    font-size: 75px;
+    margin-top: 75px;
+  }
+  .first-name {
+    margin: 0;
+  }
+  .middle-name {
+    margin: 0;
+  }
+  .title {
+    margin: 20px auto;
+    font-size: 27px;
+  }
+  .to-portfolio-btn {
+    width: 20%;
+  }
+}
