@@ -10,18 +10,21 @@ export default class Footer extends Component {
       height: 30,
       width: 30,
       marginRight: 10,
+      marginBottom: 10
     }
 
     return (
-      <div className='contact-component'>
+      <section className='contact-component'>
         <div className='social-media-icons'>
           <SocialIcon url='https://www.linkedin.com/in/alishaevans/' style={socialIconStyles} color='#5E548E' />
           <SocialIcon url='https://github.com/alishaevn' style={socialIconStyles} color='#5E548E' />
           <SocialIcon url='mailto:alieva.inc@gmail.com' style={socialIconStyles} color='#5E548E' />
         </div>
-        <p className='copyright-info'>© Copyright Alisha Antoinette Evans 2018.</p>
-        <p className='copyright-info'>All Rights Reserved.</p>
-      </div>
+        <div className='copyright'>
+          <p className='copyright-info'>© Copyright Alisha Antoinette Evans 2018.</p>
+          <p className='copyright-info'>All Rights Reserved.</p>
+        </div>
+      </section>
     )
 
   }
