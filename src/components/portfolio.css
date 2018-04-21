@@ -1,6 +1,7 @@
 .portfolio-component {
   background-color: #ffffff;
 }
+
 .portfolio-title {
   font-weight: 200;
   text-align: center;
@@ -10,9 +11,14 @@
 }
 
 .project-one {
+  border-bottom: 1px solid #5e548e;
+}
+
+.project-one,
+.project-two {
   width: 85%;
   padding: 5px 0;
-  margin: auto;
+  margin: 0 auto 10px;
   text-align: center;
 }
 
@@ -67,52 +73,28 @@
   font-weight: bold;
 }
 
-/* .portfolio-project-name {
-  color: #5E548E;
-  text-decoration: none;
-}
-
-.project-image-link:hover {
-  color: #ffffff;
-} */
-
-/* .portfolio-project-name:hover {
-  color: #9F86C0;
-}
-
-.portfolio-project-name:visited {
-  color: #1C1435;
-}
-
-.portfolio-project-description {
-  font-size: 14px;
-  color: #1C1435;
-}
-
-.portfolio-tech-stack {
- font-size: 13px;
- color: #5E548E;
-} */
-
-
-
 /* ============================ 
 MEDIA QUERIES
 ============================*/
 
 /* tablet */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) and (-webkit-min-device-pixel-ratio: 1) {
 
-}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) and (-webkit-min-device-pixel-ratio: 1) {}
 
 /* desktop */
+
 @media only screen and (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-  .project-one {
+  .row-one {
+    display: flex;
+  }
+  .project-one,
+  .project-two {
     width: 30%;
   }
-
+  .project-one {
+    border: none;
+  }
   .portfolio-component {
     min-height: 100vh;
   }
-
 }
