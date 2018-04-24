@@ -11,7 +11,7 @@
 }
 
 .project-one {
-  border-bottom: 1px solid #5e548e;
+  border-bottom: 3px solid #5e548e;
 }
 
 .project-one,
@@ -37,7 +37,8 @@
 }
 
 .portfolio-services {
-  font-size: 12px;
+  font-size: 14px;
+  letter-spacing: 1px;
   margin: 0 0 15px 0;
   color: #9F86C0;
 }
@@ -61,15 +62,13 @@
   font-size: 13px;
 }
 
-.github-repo-par {
-  margin-top: -15px;
-}
+.github-repo-par {}
 
 .github-repo-link {
   text-decoration: none;
   color: #BE95C4;
   letter-spacing: 0.5px;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: bold;
 }
 

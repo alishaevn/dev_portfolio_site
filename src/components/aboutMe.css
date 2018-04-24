@@ -14,8 +14,10 @@
 }
 
 .pic-div {
-  display: flex;
-  padding: 30px 0px;
+  width: 80%;
+  margin: 15px auto;
+  text-align: center;
+  padding: 5px 20px;
 }
 
 .personal-pic {
@@ -30,9 +32,12 @@
   margin: auto;
 }
 
-.skillset-area {
-
+.personality {
+  font-weight: 300;
+  font-size: 14px;
 }
+
+.skillset-area {}
 
 .skillset-div {
   background-color: rgba(255, 255, 255, 0.9);
@@ -65,20 +70,28 @@ MEDIA QUERIES
 ============================*/
 
 /* tablet */
+
 @media only screen and (min-device-width: 768px) and (max-device-width: 1023px) and (-webkit-min-device-pixel-ratio: 1) {}
 
 /* desktop */
+
 @media only screen and (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
   .skillset-area {
     display: flex;
   }
-
   .about-me-div {
     width: 75%;
   }
-
   .skillset-div {
     margin: 15px;
     width: 45%;
+  }
+  .pic-div {
+    display: flex;
+    width: 50%;
+  }
+  .personality {
+    margin-left: 25px;
+    align-self: center;
   }
 }
