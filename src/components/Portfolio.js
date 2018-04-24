@@ -18,7 +18,7 @@ export default class Portfolio extends Component {
             <p className='portfolio-project-tagline'>
               The basketball enthusiast's preferred way to track stats for their favorite players.
             </p>
-            <p classname='live-porfolio-par'>
+            <p className='live-porfolio-par'>
               <a
                 href='https://for-the-win-app.netlify.com/'
                 target='_blank'
@@ -27,7 +27,7 @@ export default class Portfolio extends Component {
               >View the Live Site
               </a>
             </p>
-            <p classname='github-repo-par'>
+            <p className='github-repo-par'>
               <a
                 href='https://github.com/thinkful-ei18/for_the_win_client'
                 target='_blank'
@@ -42,9 +42,9 @@ export default class Portfolio extends Component {
             <p className='portfolio-project-title'>Foodie Phonetics</p>
             <p className='portfolio-services'>FULL STACK DEVELOPMENT • UI/UX DESIGN</p>
             <p className='portfolio-project-tagline'>
-              Using a spaced repetition algorithm, Foodie Phonetics teaches the user how to say the most common food items in their language of choice.
+              Learn to say common food items in French using a spaced repetition algorithm.
             </p>
-            <p classname='live-porfolio-par'>
+            <p className='live-porfolio-par'>
               <a
                 href='https://foodiephonetics.netlify.com/'
                 target='_blank'
@@ -53,7 +53,7 @@ export default class Portfolio extends Component {
               >View the Live Site
               </a>
             </p>
-            <p classname='github-repo-par'>
+            <p className='github-repo-par'>
               <a
                 href='https://github.com/thinkful-ei18/Alisha_Brian_SpacedRep_Client'
                 target='_blank'
