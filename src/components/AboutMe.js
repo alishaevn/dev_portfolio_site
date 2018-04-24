@@ -9,7 +9,16 @@ export default class AboutMe extends Component {
       <div className='about-me-component'>
         <h3 className='about-me-title'>ABOUT</h3>
         <div className='pic-div'>
-          <img src={require('../images/about_me_pic.jpg')} alt='headshot' className='personal-pic' />
+          <img 
+            src={require('../images/about_me_pic.png')} 
+            alt='headshot' 
+            className='personal-pic' 
+          />
+          <p className='personality'>
+            I play sudoku for fun. I love artistry; particularly design, photography && music.
+            A logophile with an affinity for lowercase.
+            An athlete && coach.
+          </p> 
         </div>
         <div className='about-me-div'>
 
