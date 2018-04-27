@@ -48,6 +48,7 @@
 
 .to-portfolio-hashlink {
   text-decoration: none;
+  padding: 10px 37px;
 }
 
 /* ============================ 
@@ -80,5 +81,8 @@ MEDIA QUERIES
   }
   .to-portfolio-btn {
     width: 20%;
+  }
+  .to-portfolio-hashlink {
+    padding: 10px 80px;
   }
 }
