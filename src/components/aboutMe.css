@@ -21,8 +21,8 @@
 }
 
 .personal-pic {
-  height: 120px;
-  width: 120px;
+  height: 150px;
+  width: 150px;
   border-radius: 5px;
   margin: auto;
 }
@@ -88,7 +88,7 @@ MEDIA QUERIES
   }
   .pic-div {
     display: flex;
-    width: 50%;
+    width: 60%;
   }
   .personality {
     margin-left: 25px;

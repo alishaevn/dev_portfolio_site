@@ -15,9 +15,9 @@ export default class AboutMe extends Component {
             className='personal-pic' 
           />
           <p className='personality'>
-            I play sudoku for fun. I love artistry; particularly design, photography && music.
-            A logophile with an affinity for lowercase.
-            An athlete && coach.
+            I'm a full stack web developer with an M.F.A. in Media Design & a hobbyist photographer. 
+            My desire for organized simplicity is evident in the way I write my code as well as the UI/UX choices that I make.
+            I'm a logophile with an affinity for lowercase; an athlete, coach & I play sudoku for fun.
           </p> 
         </div>
         <div className='about-me-div'>
