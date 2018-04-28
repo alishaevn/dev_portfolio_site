@@ -96,4 +96,7 @@ MEDIA QUERIES
   .portfolio-component {
     min-height: 100vh;
   }
+  .portfolio-title {
+    margin-bottom: 60px;
+  }
 }
