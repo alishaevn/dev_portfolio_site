@@ -39,7 +39,7 @@
 }
 
 .to-portfolio-btn {
-  border: 1px solid #5E548E;
+  border: 2px solid #5E548E;
   background-color: transparent;
   width: 35%;
   padding: 10px;
@@ -47,8 +47,10 @@
 }
 
 .to-portfolio-hashlink {
+  color: #1c1435;
   text-decoration: none;
-  padding: 10px 37px;
+  padding: 1em 8em;
+  margin: -9em;
 }
 
 /* ============================ 
@@ -81,8 +83,5 @@ MEDIA QUERIES
   }
   .to-portfolio-btn {
     width: 20%;
-  }
-  .to-portfolio-hashlink {
-    padding: 10px 80px;
   }
 }

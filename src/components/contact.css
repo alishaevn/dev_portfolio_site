@@ -1,12 +1,16 @@
+/**
+ * coolors.co/1c1435-5e548e-9f86c0-be95c4-e0b1cb
+ */
+
 .contact-component {
   height: 50px;
 }
 
 .social-media-icons {
-height: 50px;
-padding: 10px;
-text-align: center;
-margin: 5px;
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+  margin: 5px;
 }
 
 .copyright {
@@ -21,25 +25,23 @@ margin: 5px;
   color: #1C1435;
 }
 
-
 /* ============================ 
 MEDIA QUERIES
 ============================*/
 
 /* tablet */
+
 @media only screen and (min-device-width: 768px) and (max-device-width: 1023px) and (-webkit-min-device-pixel-ratio: 1) {}
 
 /* desktop */
-@media only screen and (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
 
+@media only screen and (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
   .social-media-icons {
     margin: 15px;
   }
-
   .copyright {
     margin-bottom: 20px;
   }
-
   .copyright-info {
     font-size: 13px;
   }

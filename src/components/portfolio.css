@@ -1,3 +1,7 @@
+/**
+ * coolors.co/1c1435-5e548e-9f86c0-be95c4-e0b1cb
+ */
+
 .portfolio-component {
   background-color: #ffffff;
 }
@@ -47,6 +51,7 @@
   font-style: italic;
   font-size: 16px;
   margin: 40px auto;
+  color: #1c1435;
 }
 
 .live-portfolio-par {
@@ -55,10 +60,11 @@
 
 .live-portfolio-link {
   text-decoration: none;
-  border: 1.25px solid #1C1435;
+  background-color: #BE95C4;
   border-radius: 9px;
-  padding: 8px 15px;
-  color: #9F86C0;
+  padding: 10px 15px;
+  color: #FFFFFF;
+  letter-spacing: 1px;
   font-size: 13px;
 }
 
