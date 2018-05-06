@@ -17,7 +17,7 @@ export default class Footer extends Component {
       <section className='contact-component'>
         <div className='social-media-icons'>
           <SocialIcon url='https://www.linkedin.com/in/alishaevans/' style={socialIconStyles} color='#5E548E' />
-          <SocialIcon url='https://github.com/alishaevn' style={socialIconStyles} color='#5E548E' />
+          <SocialIcon url='https://github.com/alishaantoinette' style={socialIconStyles} color='#5E548E' />
           <SocialIcon url='mailto:alieva.inc@gmail.com' style={socialIconStyles} color='#5E548E' />
         </div>
         <div className='copyright'>
