@@ -18,7 +18,7 @@ export default class AboutMe extends Component {
             I'm a full stack web developer with an M.F.A. in Media Design. 
             One of the most satisfying parts of being a developer is actualizing an idea. I look forward to being able to do that for future client's as I work with/learn from my team. 
             My desire for organized simplicity is evident in the way I write my code as well as the UI/UX choices that I make.
-            I'm a logophile with an affinity for lowercase; an athlete, coach & I play sudoku for fun.
+            I'm also a logophile with an affinity for lowercase; an athlete, coach & I play sudoku for fun.
           </p> 
         </div>
         <div className='about-me-div'>
