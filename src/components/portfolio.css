@@ -14,12 +14,14 @@
   letter-spacing: 2px;
 }
 
-.project-one {
+.project-one,
+.project-two {
   border-bottom: 3px solid #5e548e;
 }
 
 .project-one,
-.project-two {
+.project-two,
+.project-three {
   width: 85%;
   padding: 5px 0;
   margin: 0 auto 10px;
@@ -93,10 +95,12 @@ MEDIA QUERIES
     display: flex;
   }
   .project-one,
-  .project-two {
+  .project-two,
+  .project-three {
     width: 30%;
   }
-  .project-one {
+  .project-one,
+  .project-two {
     border: none;
   }
   .portfolio-component {
@@ -104,5 +108,9 @@ MEDIA QUERIES
   }
   .portfolio-title {
     margin-bottom: 60px;
+  }
+  .portfolio-project-tagline {
+    padding-right: 15px;
+    padding-left: 15px;
   }
 }
