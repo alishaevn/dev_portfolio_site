@@ -7,10 +7,10 @@
 }
 
 .portfolio-title {
-  font-weight: 200;
+  font-weight: 300;
   text-align: center;
   color: #5E548E;
-  font-size: 25px;
+  font-size: 35px;
   letter-spacing: 2px;
 }
 
@@ -23,8 +23,8 @@
 .project-two,
 .project-three {
   width: 85%;
-  padding: 5px 0;
-  margin: 0 auto 10px;
+  padding: 25px 0;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -38,12 +38,12 @@
   color: #5E548E;
   margin: 10px 0 auto;
   padding-top: 5px;
-  font-size: 25px;
+  font-size: 35px;
   font-weight: 600;
 }
 
 .portfolio-services {
-  font-size: 14px;
+  font-size: 17px;
   letter-spacing: 1px;
   margin: 0 0 15px 0;
   color: #9F86C0;
@@ -51,7 +51,7 @@
 
 .portfolio-project-tagline {
   font-style: italic;
-  font-size: 16px;
+  font-size: 18px;
   margin: 40px auto;
   color: #1c1435;
 }
@@ -67,16 +67,18 @@
   padding: 10px 15px;
   color: #FFFFFF;
   letter-spacing: 1px;
-  font-size: 13px;
+  font-size: 16px;
 }
 
-.github-repo-par {}
+.github-repo-par {
+  margin: 0;
+}
 
 .github-repo-link {
   text-decoration: none;
   color: #1c1435;
   letter-spacing: 0.5px;
-  font-size: 13px;
+  font-size: 18px;
   font-weight: bold;
 }
 
@@ -93,6 +95,7 @@ MEDIA QUERIES
 @media only screen and (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
   .row-one {
     display: flex;
+    padding-bottom: 20px;
   }
   .project-one,
   .project-two,
@@ -108,9 +111,19 @@ MEDIA QUERIES
   }
   .portfolio-title {
     margin-bottom: 60px;
+    font-size: 55px;
+  }
+  .portfolio-services {
+    font-size: 22px;
   }
   .portfolio-project-tagline {
-    padding-right: 15px;
-    padding-left: 15px;
+    padding: 0 25px;
+    font-size: 20px;
+  }
+  .live-portfolio-link {
+    font-size: 18px;
+  }
+  .github-repo-link {
+    font-size: 20px;
   }
 }

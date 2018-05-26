@@ -14,9 +14,9 @@ export default class Portfolio extends Component {
           <div className='project-one'>
             <img src={require('../images/portfolio/safer_responsive.png')} alt='safeR Mockup' className='portfolio-responsive-mock' />
             <p className='portfolio-project-title'>safeR</p>
-            <p className='portfolio-services'>FULL STACK DEVELOPMENT • UI/UX DESIGN • MOBILE APP</p>
+            <p className='portfolio-services'>FULL STACK DEVELOPMENT • UI/UX DESIGN • REACT NATIVE</p>
             <p className='portfolio-project-tagline'>
-              Aims to keep the community safer by making sure they are up to date on local crimes or incidents in the area.
+              Keep the community safer by staying up to date on local crimes & incidents in the area.
             </p>
             <p className='live-porfolio-par'>
               <a
@@ -70,7 +70,7 @@ export default class Portfolio extends Component {
             <p className='portfolio-project-title'>For The Win</p>
             <p className='portfolio-services'>FULL STACK DEVELOPMENT • UI/UX DESIGN</p>
             <p className='portfolio-project-tagline'>
-              The basketball enthusiast's preferred way to track stats for their favorite players.
+              Join a fantasy basketball league with friends & track your favorite player's stats.
             </p>
             <p className='live-porfolio-par'>
               <a

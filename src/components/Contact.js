@@ -7,10 +7,10 @@ export default class Footer extends Component {
   render() {
 
     const socialIconStyles = {
-      height: 30,
-      width: 30,
-      marginRight: 10,
-      marginBottom: 10
+      height: 40,
+      width: 40,
+      marginRight: 20,
+      marginBottom: 40
     }
 
     return (

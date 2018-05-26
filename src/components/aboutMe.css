@@ -9,11 +9,12 @@
 }
 
 .about-me-title {
-  font-weight: 200;
+  font-weight: 300;
   text-align: center;
   color: #5E548E;
-  font-size: 25px;
+  font-size: 35px;
   margin: 0;
+  padding-top: 20px;
   letter-spacing: 2px;
 }
 
@@ -21,7 +22,7 @@
   width: 80%;
   margin: 15px auto;
   text-align: center;
-  padding: 5px 20px;
+  /* padding: 5px 20px; */
 }
 
 .personal-pic {
@@ -38,7 +39,7 @@
 
 .personality {
   font-weight: 300;
-  font-size: 14px;
+  font-size: 17px;
 }
 
 .skillset-area {}
@@ -54,11 +55,12 @@
   margin: 0;
   color: #5E548E;
   font-weight: 300;
+  font-size: 17px;
 }
 
 .skillset-text {
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
   padding: 10px;
   margin: 0;
   color: #1C1435;
@@ -80,22 +82,39 @@ MEDIA QUERIES
 /* desktop */
 
 @media only screen and (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .about-me-component {
+    padding-bottom: 50px;
+  }
+  .about-me-title {
+    font-size: 55px;
+  }
   .skillset-area {
     display: flex;
   }
   .about-me-div {
-    width: 75%;
+    width: 90%;
+  }
+  .pic-div {
+    display: flex;
+    width: 80%;
+  }
+  .personal-pic {
+    height: 200px;
+    width: 200px;
+  }
+  .personality {
+    margin-left: 25px;
+    align-self: center;
+    font-size: 21px;
   }
   .skillset-div {
     margin: 15px;
     width: 45%;
   }
-  .pic-div {
-    display: flex;
-    width: 60%;
+  .skillset-title {
+    font-size: 23px;
   }
-  .personality {
-    margin-left: 25px;
-    align-self: center;
+  .skillset-text {
+    font-size: 20px;
   }
 }
