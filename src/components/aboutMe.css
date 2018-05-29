@@ -4,7 +4,6 @@
 
 .about-me-component {
   background-color: rgba(224, 177, 203, 0.6);
-  /* height: 100vh; */
   padding: 15px 0;
 }
 
@@ -22,7 +21,6 @@
   width: 80%;
   margin: 15px auto;
   text-align: center;
-  /* padding: 5px 20px; */
 }
 
 .personal-pic {
@@ -77,25 +75,17 @@ MEDIA QUERIES
 
 /* tablet */
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) and (-webkit-min-device-pixel-ratio: 1) {}
-
-/* desktop */
-
-@media only screen and (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media only screen and (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
   .about-me-component {
     padding-bottom: 50px;
   }
   .about-me-title {
     font-size: 55px;
   }
-  .skillset-area {
-    display: flex;
-  }
   .about-me-div {
     width: 90%;
   }
   .pic-div {
-    display: flex;
     width: 80%;
   }
   .personal-pic {
@@ -108,13 +98,24 @@ MEDIA QUERIES
     font-size: 21px;
   }
   .skillset-div {
-    margin: 15px;
-    width: 45%;
+    margin: 4%;
   }
   .skillset-title {
     font-size: 23px;
   }
   .skillset-text {
     font-size: 20px;
+  }
+}
+
+/* desktop */
+
+@media only screen and (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .skillset-area {
+    display: flex;
+  }
+  .skillset-div {
+    margin: 15px;
+    width: 45%;
   }
 }

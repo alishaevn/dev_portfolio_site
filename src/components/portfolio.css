@@ -105,9 +105,13 @@
   margin: 14px;
 }
 
-.github-repo-link:hover,
+.github-repo-link:hover {
+  color: #BE95C4;
+}
+
 .github-icon:hover {
-  /* width: 32px; */
+  background-color: #BE95C4;
+  border-radius: 100%;
 }
 
 /* ============================ 
@@ -117,6 +121,9 @@ MEDIA QUERIES
 /* tablet */
 
 @media only screen and (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
+  .row-one {
+    margin: 0 70px;
+  }
   .portfolio-project-title {
     font-size: 50px;
   }

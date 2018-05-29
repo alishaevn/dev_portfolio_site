@@ -61,7 +61,26 @@ MEDIA QUERIES
 
 /* tablet */
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) and (-webkit-min-device-pixel-ratio: 1) {}
+@media only screen and (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
+  .home-component {
+    background-image: url('../images/tablet_bg.png');
+  }
+  .name {
+    font-size: 80px;
+    margin-top: 75px;
+  }
+  .title {
+    margin: 80px auto;
+    font-size: 40px;
+  }
+  .to-portfolio-btn {
+    width: 30%;
+  }
+  .to-portfolio-hashlink {
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+}
 
 /* desktop */
 
@@ -71,7 +90,6 @@ MEDIA QUERIES
   }
   .name {
     font-size: 120px;
-    margin-top: 75px;
   }
   .first-name {
     margin: 0;
