@@ -25,7 +25,7 @@ export default class Portfolio extends Component {
             </a>
             <p className='portfolio-services'> FULL STACK DEVELOPMENT • UI/UX DESIGN • REACT NATIVE </p>
             <p className='portfolio-project-tagline'>
-              Keep the community safer by staying up to date on local crimes & incidents in the area.
+              Stay safer by staying up to date on local crimes & incidents in the area.
             </p>
             <p className='live-porfolio-par'>
               <a
@@ -36,14 +36,45 @@ export default class Portfolio extends Component {
               >View the Live Site
               </a>
             </p>
-            <p className='github-repo-par'>
-              <a
-                href='https://github.com/thinkful-ei18/maajac-client'
-                target='_blank'
-                rel='noopener noreferrer'
-                className='github-repo-link'
-              >Github Repo</a>
-            </p>
+            <div className='github-repos'>
+              <div>
+                <a
+                  href='https://github.com/thinkful-ei18/maajac-client'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <img src={require('../images/github_icon.png')} alt='link to client repo' className='github-icon' />
+                </a>
+                <a
+                  href='https://github.com/thinkful-ei18/majaac-server'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <img src={require('../images/github_icon.png')} alt='link to server repo' className='github-icon' />
+                </a>
+                <a
+                  href='https://github.com/thinkful-ei18/MOBILE-maajac-client'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <img src={require('../images/github_icon.png')} alt='link to mobile repo' className='github-icon' />
+                </a>
+              </div>
+              <div>
+                <a href='https://github.com/thinkful-ei18/maajac-client'
+                  className='github-repo-link' > 
+                  Client 
+                </a>
+                <a href='https://github.com/thinkful-ei18/majaac-server' 
+                  className='github-repo-link'> 
+                  Server 
+                </a>
+                <a href='https://github.com/thinkful-ei18/MOBILE-maajac-client' 
+                  className='github-repo-link'> 
+                  Mobile 
+                </a>
+              </div>
+            </div>
           </div>
 
 
@@ -72,14 +103,34 @@ export default class Portfolio extends Component {
               >View the Live Site
               </a>
             </p>
-            <p className='github-repo-par'>
-              <a
-                href='https://github.com/thinkful-ei18/Alisha_Brian_SpacedRep_Client'
-                target='_blank'
-                rel='noopener noreferrer'
-                className='github-repo-link'
-              >Github Repo</a>
-            </p>
+            <div className='github-repos'>
+              <div>
+                <a
+                  href='https://github.com/thinkful-ei18/Alisha_Brian_SpacedRep_Client'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <img src={require('../images/github_icon.png')} alt='link to client repo' className='github-icon' />
+                </a>
+                <a
+                  href='https://github.com/thinkful-ei18/alisha_brian_spacedRep_server'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <img src={require('../images/github_icon.png')} alt='link to server repo' className='github-icon' />
+                </a>
+              </div>
+              <div>
+                <a href='https://github.com/thinkful-ei18/Alisha_Brian_SpacedRep_Client'
+                  className='github-repo-link'> 
+                  Client 
+                </a>
+                <a href='https://github.com/thinkful-ei18/alisha_brian_spacedRep_server'
+                  className='github-repo-link'> 
+                  Server 
+                </a>
+              </div>
+            </div>
           </div>
 
           
@@ -108,14 +159,34 @@ export default class Portfolio extends Component {
               >View the Live Site
               </a>
             </p>
-            <p className='github-repo-par'>
-              <a
-                href='https://github.com/thinkful-ei18/for_the_win_client'
-                target='_blank'
-                rel='noopener noreferrer'
-                className='github-repo-link'
-              >Github Repo</a>
-            </p>
+            <div className='github-repos'>
+              <div>
+                <a
+                  href='https://github.com/thinkful-ei18/for_the_win_client'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <img src={require('../images/github_icon.png')} alt='link to client repo' className='github-icon' />
+                </a>
+                <a
+                  href='https://github.com/thinkful-ei18/for_the_win_server'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <img src={require('../images/github_icon.png')} alt='link to server repo' className='github-icon' />
+                </a>
+              </div>
+              <div>
+                <a href='https://github.com/thinkful-ei18/for_the_win_client'
+                  className='github-repo-link'> 
+                  Client 
+                </a>
+                <a href='https://github.com/thinkful-ei18/for_the_win_server'
+                  className='github-repo-link'> 
+                  Server 
+                </a>
+              </div>
+            </div>
           </div>
 
         </div>
