@@ -31,6 +31,12 @@
 .portfolio-responsive-mock {
   width: 100%;
   margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 3px 3px rgba(94, 84, 142, 0.7);
+}
+
+.portfolio-responsive-mock:hover {
+  opacity: 0.7;
 }
 
 .portfolio-project-title {
@@ -40,6 +46,11 @@
   padding-top: 5px;
   font-size: 35px;
   font-weight: 600;
+  text-decoration: none;
+}
+
+.portfolio-project-title:hover {
+  border-bottom: 3px double #5E548E;
 }
 
 .portfolio-services {
@@ -70,6 +81,10 @@
   font-size: 16px;
 }
 
+.live-portfolio-link:hover {
+  background-color: #5E548E;
+}
+
 .github-repo-par {
   margin: 0;
 }
@@ -80,6 +95,10 @@
   letter-spacing: 0.5px;
   font-size: 18px;
   font-weight: bold;
+}
+
+.github-repo-link:hover {
+  color: #BE95C4;
 }
 
 /* ============================ 

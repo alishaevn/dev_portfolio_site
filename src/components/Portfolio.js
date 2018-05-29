@@ -12,9 +12,18 @@ export default class Portfolio extends Component {
         <div className='row-one' >
 
           <div className='project-one'>
-            <img src={require('../images/portfolio/safer_responsive.png')} alt='safeR Mockup' className='portfolio-responsive-mock' />
-            <p className='portfolio-project-title'>safeR</p>
-            <p className='portfolio-services'>FULL STACK DEVELOPMENT • UI/UX DESIGN • REACT NATIVE</p>
+            <a href='https://safer.netlify.com/'
+              target='_blank'
+              rel='noopener noreferrer' >
+              <img src={require('../images/portfolio/safer_responsive.png')} alt='safeR Mockup' className='portfolio-responsive-mock' />
+            </a>
+            <a href='https://safer.netlify.com/' 
+              className='portfolio-project-title'
+              target='_blank'
+              rel='noopener noreferrer' > 
+              safeR 
+            </a>
+            <p className='portfolio-services'> FULL STACK DEVELOPMENT • UI/UX DESIGN • REACT NATIVE </p>
             <p className='portfolio-project-tagline'>
               Keep the community safer by staying up to date on local crimes & incidents in the area.
             </p>
@@ -39,8 +48,17 @@ export default class Portfolio extends Component {
 
 
           <div className='project-two'>
-            <img src={require('../images/portfolio/fp_responsive.png')} alt='Foodie Phonetics Mockup' className='portfolio-responsive-mock' />
-            <p className='portfolio-project-title'>Foodie Phonetics</p>
+            <a href='https://foodiephonetics.netlify.com/'
+              target='_blank'
+              rel='noopener noreferrer'>
+              <img src={require('../images/portfolio/fp_responsive.png')} alt='Foodie Phonetics Mockup' className='portfolio-responsive-mock' />
+            </a>
+            <a href='https://foodiephonetics.netlify.com/' 
+              className='portfolio-project-title'
+              target='_blank'
+              rel='noopener noreferrer' > 
+              Foodie Phonetics 
+            </a>
             <p className='portfolio-services'>FULL STACK DEVELOPMENT • UI/UX DESIGN</p>
             <p className='portfolio-project-tagline'>
               Learn to say common food items in French using a spaced repetition algorithm.
@@ -66,11 +84,20 @@ export default class Portfolio extends Component {
 
           
           <div className='project-three'>
-            <img src={require('../images/portfolio/ftw_responsive.png')} alt='For The Win Mockup' className='portfolio-responsive-mock' />
-            <p className='portfolio-project-title'>For The Win</p>
+            <a href='https://for-the-win-app.netlify.com/'
+              target='_blank'
+              rel='noopener noreferrer'>
+              <img src={require('../images/portfolio/ftw_responsive.png')} alt='For The Win Mockup' className='portfolio-responsive-mock' />
+              </a>
+            <a href='https://for-the-win-app.netlify.com/' 
+              className='portfolio-project-title'
+              target='_blank'
+              rel='noopener noreferrer'> 
+              For The Win 
+            </a>
             <p className='portfolio-services'>FULL STACK DEVELOPMENT • UI/UX DESIGN</p>
             <p className='portfolio-project-tagline'>
-              Join a fantasy basketball league with friends & track your favorite player's stats.
+              The basketball enthusiast's preferred fantasy basketball league and stat tracker.
             </p>
             <p className='live-porfolio-par'>
               <a
