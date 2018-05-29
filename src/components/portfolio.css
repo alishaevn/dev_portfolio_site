@@ -85,20 +85,29 @@
   background-color: #5E548E;
 }
 
-.github-repo-par {
+.github-repos {
   margin: 0;
+  padding-top: 15px;
 }
 
 .github-repo-link {
   text-decoration: none;
   color: #1c1435;
   letter-spacing: 0.5px;
-  font-size: 18px;
-  font-weight: bold;
+  font-weight: 500;
+  display: inline-block;
+  margin-top: 0px;
+  padding: 10px;
 }
 
-.github-repo-link:hover {
-  color: #BE95C4;
+.github-icon {
+  width: 45px;
+  margin: 14px;
+}
+
+.github-repo-link:hover,
+.github-icon:hover {
+  /* width: 32px; */
 }
 
 /* ============================ 
@@ -107,7 +116,27 @@ MEDIA QUERIES
 
 /* tablet */
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) and (-webkit-min-device-pixel-ratio: 1) {}
+@media only screen and (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
+  .portfolio-project-title {
+    font-size: 50px;
+  }
+  .portfolio-services {
+    font-size: 25px;
+  }
+  .portfolio-responsive-mock {
+    box-shadow: 5px 5px rgba(94, 84, 142, 0.7)
+  }
+  .portfolio-project-tagline {
+    font-size: 24px;
+  }
+  .github-icon {
+    width: 60px;
+  }
+  .github-repo-link {
+    padding: 18px;
+    font-size: 20px;
+  }
+}
 
 /* desktop */
 
