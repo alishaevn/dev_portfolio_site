@@ -36,15 +36,10 @@ export default class Home extends Component {
   render() {
 
     const socialIconStyles = {
-      norm: {
-        height: 35,
-        width: 35,
-        marginRight: 5,
-        marginLeft: 5,
-      },
-      hover: {
-        color: 'red'
-      }
+      height: 35,
+      width: 35,
+      marginRight: 5,
+      marginLeft: 5
     }
 
     let style;
@@ -71,12 +66,6 @@ export default class Home extends Component {
                 className='menu-hashlink'>
                 about
               </HashLink>
-							{/* <HashLink 
-                to="/#contact"
-                smooth={true}
-                className='menu-hashlink'>
-                contact
-              </HashLink> */}
 						</div>
 					) 
           : null }
@@ -98,9 +87,9 @@ export default class Home extends Component {
           </HashLink>
         </button>
         <div className='social-media-icons'>
-          <SocialIcon url='https://www.linkedin.com/in/alishaevans/' style={socialIconStyles.norm} color='#5E548E' />
-          <SocialIcon url='https://github.com/alishaantoinette' style={socialIconStyles.norm} color='#5E548E' />
-          <SocialIcon url='mailto:alieva.inc@gmail.com' style={socialIconStyles.norm} color='#5E548E' />
+          <SocialIcon url='https://www.linkedin.com/in/alishaevans/' style={socialIconStyles} color='#5E548E' />
+          <SocialIcon url='https://github.com/alishaantoinette' style={socialIconStyles} color='#5E548E' />
+          <SocialIcon url='mailto:alieva.inc@gmail.com' style={socialIconStyles} color='#5E548E' />
         </div>
       </div>
     )
