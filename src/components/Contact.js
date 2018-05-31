@@ -14,7 +14,7 @@ export default class Footer extends Component {
     }
 
     return (
-      <section className='contact-component'>
+      <section className='contact-component' id='contact'>
         <div className='social-media-icons'>
           <SocialIcon url='https://www.linkedin.com/in/alishaevans/' style={socialIconStyles} color='#5E548E' />
           <SocialIcon url='https://github.com/alishaantoinette' style={socialIconStyles} color='#5E548E' />
