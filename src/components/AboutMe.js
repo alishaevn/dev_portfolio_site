@@ -6,7 +6,7 @@ export default class AboutMe extends Component {
   render() {
 
     return (
-      <div className='about-me-component'>
+      <div className='about-me-component' id='about'>
         <h3 className='about-me-title'>ABOUT</h3>
         <div className='pic-div'>
           <img 
