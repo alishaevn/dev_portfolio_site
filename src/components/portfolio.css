@@ -15,13 +15,19 @@
 }
 
 .project-one,
-.project-two {
+.project-two,
+.project-three,
+.project-four,
+.project-five {
   border-bottom: 3px solid #5e548e;
 }
 
 .project-one,
 .project-two,
-.project-three {
+.project-three,
+.project-four,
+.project-five,
+.project-six {
   width: 85%;
   padding: 25px 0;
   margin: 0 auto;
@@ -47,10 +53,13 @@
   font-size: 35px;
   font-weight: 600;
   text-decoration: none;
+  line-height: 35px;
 }
 
 .portfolio-project-title:hover {
-  border-bottom: 3px double #5E548E;
+  /* border-bottom: 3px double #5E548E; */
+  /* font-style: italic; */
+  font-kerning: 20px;
 }
 
 .portfolio-services {
@@ -121,11 +130,12 @@ MEDIA QUERIES
 /* tablet */
 
 @media only screen and (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
-  .row-one {
+  .row-one,
+  .row-two {
     margin: 0 70px;
   }
   .portfolio-project-title {
-    font-size: 50px;
+    font-size: 47px;
   }
   .portfolio-services {
     font-size: 25px;
@@ -148,17 +158,24 @@ MEDIA QUERIES
 /* desktop */
 
 @media only screen and (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-  .row-one {
+  .row-one,
+  .row-two {
     display: flex;
     padding-bottom: 20px;
   }
   .project-one,
   .project-two,
-  .project-three {
+  .project-three,
+  .project-four,
+  .project-five,
+  .project-six {
     width: 30%;
   }
   .project-one,
-  .project-two {
+  .project-two,
+  .project-three,
+  .project-four,
+  .project-five {
     border: none;
   }
   .portfolio-component {
@@ -180,5 +197,8 @@ MEDIA QUERIES
   }
   .github-repo-link {
     font-size: 20px;
+  }
+  .portfolio-project-title {
+    line-height: 45px;
   }
 }
