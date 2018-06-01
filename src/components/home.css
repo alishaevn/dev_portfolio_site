@@ -64,7 +64,7 @@
 .name {
   display: flex;
   justify-content: center;
-  font-size: 33px;
+  font-size: 36px;
   height: 65px;
   padding-top: 120px;
 }
@@ -87,22 +87,26 @@
 
 .job-description {
   color: #1C1435;
+  font-size: 16px;
+  text-align: center;
+  width: 75%;
+  margin: 25px auto;
 }
 
 .to-portfolio-btn {
   border: 2px solid #5E548E;
   background-color: transparent;
   width: 35%;
-  padding: 10px;
-  margin: 40px auto;
+  padding: 8px;
+  margin: 50px auto 30px;
 }
 
 .to-portfolio-hashlink {
   color: #1c1435;
   text-decoration: none;
-  padding: 1em 8em;
+  padding: 1em 2em;
   margin: -9em;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 /* ============================ 
@@ -136,15 +140,21 @@ MEDIA QUERIES
     margin-top: 75px;
   }
   .title {
-    margin: 80px auto;
+    margin: 80px auto 10px;
     font-size: 40px;
+  }
+  .job-description {
+    font-size: 32px;
+    margin: 55px auto;
   }
   .to-portfolio-btn {
     width: 30%;
+    padding: 12px;
   }
   .to-portfolio-hashlink {
     font-size: 20px;
     letter-spacing: 1px;
+    padding: 1em 4em;
   }
 }
 
@@ -183,6 +193,10 @@ MEDIA QUERIES
   .title {
     margin: 20px auto;
     font-size: 65px;
+  }
+  .job-description {
+    font-size: 50px;
+    margin: 65px auto 0;
   }
   .to-portfolio-btn {
     width: 20%;

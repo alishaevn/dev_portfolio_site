@@ -66,6 +66,12 @@ export default class Home extends Component {
                 className='menu-hashlink'>
                 about
               </HashLink>
+              <HashLink 
+                to="/#contact"
+                smooth={true}
+                className='menu-hashlink'>
+                contact
+              </HashLink>
 						</div>
 					) 
           : null }
@@ -76,7 +82,9 @@ export default class Home extends Component {
           <p className='middle-name'>antoinette</p>
         </div>
         <div className='title'>
-          <p className='job-description'> full stack developer </p>
+          <p className='job-description'> full stack developer, brand identity designer & photographer</p>
+          {/* <p className='job-description'> brand identity designer </p> */}
+          {/* <p className='job-description'> & photographer </p> */}
         </div>
         <button className='to-portfolio-btn'>
           <HashLink 
