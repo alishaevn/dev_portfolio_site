@@ -3,32 +3,32 @@ import React, { Component } from 'react'
 import '../portfolio.css'
 
 
-export default class ForTheWin extends Component {
+export default class FoodiePhonetics extends Component {
   render() {
 
     return (
       <div className='portfolio-component'>
         <div className='row-one' >
 
-          <div className='project-three'>
-            <a href='https://for-the-win-app.netlify.com/'
+          <div className='project-two'>
+            <a href='https://foodiephonetics.netlify.com/'
               target='_blank'
               rel='noopener noreferrer'>
-              <img src={require('../../images/portfolio/ftw_responsive.png')} alt='For The Win Mockup' className='portfolio-responsive-mock' />
-              </a>
-            <a href='https://for-the-win-app.netlify.com/' 
+              <img src={require('../../images/portfolio/fp_responsive.png')} alt='Foodie Phonetics Mockup' className='portfolio-responsive-mock' />
+            </a>
+            <a href='https://foodiephonetics.netlify.com/' 
               className='portfolio-project-title'
               target='_blank'
-              rel='noopener noreferrer'> 
-              For The Win 
+              rel='noopener noreferrer' > 
+              Foodie Phonetics 
             </a>
             <p className='portfolio-services'>FULL STACK DEVELOPMENT • UI/UX DESIGN</p>
             <p className='portfolio-project-tagline'>
-              The basketball enthusiast's preferred fantasy basketball league and stat tracker.
+              Learn to say common food items in French using a spaced repetition algorithm.
             </p>
             <p className='live-porfolio-par'>
               <a
-                href='https://for-the-win-app.netlify.com/'
+                href='https://foodiephonetics.netlify.com/'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='live-portfolio-link'
@@ -38,14 +38,14 @@ export default class ForTheWin extends Component {
             <div className='github-repos'>
               <div>
                 <a
-                  href='https://github.com/thinkful-ei18/for_the_win_client'
+                  href='https://github.com/thinkful-ei18/Alisha_Brian_SpacedRep_Client'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
                   <img src={require('../../images/github_icon.png')} alt='link to client repo' className='github-icon' />
                 </a>
                 <a
-                  href='https://github.com/thinkful-ei18/for_the_win_server'
+                  href='https://github.com/thinkful-ei18/alisha_brian_spacedRep_server'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
@@ -53,11 +53,11 @@ export default class ForTheWin extends Component {
                 </a>
               </div>
               <div>
-                <a href='https://github.com/thinkful-ei18/for_the_win_client'
+                <a href='https://github.com/thinkful-ei18/Alisha_Brian_SpacedRep_Client'
                   className='github-repo-link'> 
                   Client 
                 </a>
-                <a href='https://github.com/thinkful-ei18/for_the_win_server'
+                <a href='https://github.com/thinkful-ei18/alisha_brian_spacedRep_server'
                   className='github-repo-link'> 
                   Server 
                 </a>
