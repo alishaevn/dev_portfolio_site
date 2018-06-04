@@ -2,8 +2,14 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-import Main from './components/Main'
-import ForTheWin from './components/portfolio/ForTheWin'
+// import Main from './components/Main'
+import Home from './components/Home';
+import Portfolio from './components/Portfolio';
+import About from './components/AboutMe';
+import Contact from './components/Contact';
+import Safer from './components/portfolio/Safer';
+import FoodiePhonetics from './components/portfolio/FoodiePhonetics';
+import ForTheWin from './components/portfolio/ForTheWin';
 
 
 export default class Routes extends Component {
@@ -14,8 +20,14 @@ export default class Routes extends Component {
       <Router>
         <div className='appPage'>
           <main className='main' role='main'>
-            <Route exact path='/' component={Main} />
+            <Home />
+            <Route exact path='/' component={Portfolio} />
+            <Route exact path='/safer' component={Safer} />
+            <Route exact path='/foodiephonetics' component={FoodiePhonetics} />
             <Route exact path='/forthewin' component={ForTheWin} />
+            <About />
+            <Contact />
+
           </main>
         </div>
       </Router>
