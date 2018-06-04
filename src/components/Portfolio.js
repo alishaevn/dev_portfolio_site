@@ -1,68 +1,59 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { Redirect } from 'react-router-dom';
 
-import './portfolio.css'
+import './portfolio.css';
 
 
 export default class Portfolio extends Component {
+  constructor() {
+    super();
+    this.state = {
+      project: null
+    }
+  }
+
   render() {
 
     return (
       <div className='portfolio-component' id='portfolio'>
-        <h3 className='portfolio-title'>PORTFOLIO</h3>
+        { this.state.project ? <Redirect to={this.state.project} /> : '' }
+        <h3 className='portfolio-title'> PORTFOLIO </h3>
         <div className='row-one' >
 
-          <div className='project-one'>
-            <a href='https://safer.netlify.com/'
-              target='_blank'
-              rel='noopener noreferrer' >
-              <img src={require('../images/portfolio/safer_responsive.png')} alt='safeR Mockup' className='portfolio-responsive-mock' />
-            </a>
-            <a href='https://safer.netlify.com/' 
-              className='portfolio-project-title'
-              target='_blank'
-              rel='noopener noreferrer' > 
-              safeR 
-            </a>
-            <p className='portfolio-services'> FULL STACK DEVELOPMENT • UI/UX DESIGN • REACT NATIVE </p>
-          </div>
+          <li className='project-one' 
+            onClick={() => this.setState({ project: 'safer'})} >
+              <img className='portfolio-responsive-mock'
+                src={require('../images/portfolio/safer_responsive.png')} 
+                alt='safeR Mockup' />
+              <p className='portfolio-project-title'> safeR </p> 
+              <p className='portfolio-services'> FULL STACK DEVELOPMENT • UI/UX DESIGN • REACT NATIVE </p>
+          </li>
 
 
-          <div className='project-two'>
-            <a href='https://foodiephonetics.netlify.com/'
-              target='_blank'
-              rel='noopener noreferrer'>
-              <img src={require('../images/portfolio/fp_responsive.png')} alt='Foodie Phonetics Mockup' className='portfolio-responsive-mock' />
-            </a>
-            <a href='https://foodiephonetics.netlify.com/' 
-              className='portfolio-project-title'
-              target='_blank'
-              rel='noopener noreferrer' > 
-              Foodie Phonetics 
-            </a>
-            <p className='portfolio-services'>FULL STACK DEVELOPMENT • UI/UX DESIGN</p>
-          </div>
+          <li className='project-two'
+            onClick={() => this.setState({ project: 'foodiephonetics'})} >
+              <img className='portfolio-responsive-mock'
+                src={require('../images/portfolio/fp_responsive.png')} 
+                alt='Foodie Phonetics Mockup' />
+            <p className='portfolio-project-title'> Foodie Phonetics </p>
+            <p className='portfolio-services'> FULL STACK DEVELOPMENT • UI/UX DESIGN </p>
+          </li>
 
           
-          <div className='project-three'>
-            <a href='https://for-the-win-app.netlify.com/'
-              target='_blank'
-              rel='noopener noreferrer'>
-              <img src={require('../images/portfolio/ftw_responsive.png')} alt='For The Win Mockup' className='portfolio-responsive-mock' />
-              </a>
-            <a href='https://for-the-win-app.netlify.com/' 
-              className='portfolio-project-title'
-              target='_blank'
-              rel='noopener noreferrer'> 
-              For The Win 
-            </a>
-            <p className='portfolio-services'>FULL STACK DEVELOPMENT • UI/UX DESIGN</p>
-          </div>
+          <li className='project-three'
+            onClick={() => this.setState({ project: 'forthewin'})} >
+              <img className='portfolio-responsive-mock'
+                src={require('../images/portfolio/ftw_responsive.png')} 
+                alt='For The Win Mockup' />
+            <p className='portfolio-project-title' > For The Win </p>
+            <p className='portfolio-services'> FULL STACK DEVELOPMENT • UI/UX DESIGN </p>
+          </li>
 
         </div>
 
         <div className='row-two' >
 
-          <div className='project-four'>
+          <li className='project-four'>
             <img src={require('../images/portfolio/69th_mockup.png')} 
               alt='69th CoC Mockup' 
               className='portfolio-responsive-mock' />
@@ -72,10 +63,10 @@ export default class Portfolio extends Component {
             <p className='portfolio-services'> 
               VISUAL BRAND IDENTITY • PRINT DESIGN • PHOTOGRAPHY
             </p>
-          </div>
+          </li>
 
 
-          <div className='project-five'>
+          <li className='project-five'>
             <img src={require('../images/portfolio/ncss_mockup.png')} 
               alt='NCSS Mockup' 
               className='portfolio-responsive-mock' />
@@ -85,10 +76,10 @@ export default class Portfolio extends Component {
             <p className='portfolio-services'> 
               VISUAL BRAND IDENTITY • PRINT DESIGN 
             </p>
-          </div>
+          </li>
 
           
-          <div className='project-six'>
+          <li className='project-six'>
             <img src={require('../images/portfolio/frsh_mkt_mockup.png')} 
               alt='Fresh Market Mockup' 
               className='portfolio-responsive-mock' />
@@ -98,7 +89,7 @@ export default class Portfolio extends Component {
             <p className='portfolio-services'> 
               VISUAL BRAND IDENTITY • PRINT DESIGN • PHOTOGRAPHY
             </p>
-          </div>
+          </li>
 
         </div>
       </div>
