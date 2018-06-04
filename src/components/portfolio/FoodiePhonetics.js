@@ -1,13 +1,28 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { Redirect } from 'react-router-dom';
 
 import '../portfolio.css'
 
 
 export default class FoodiePhonetics extends Component {
+  constructor() {
+    super();
+    this.state = {
+      close: false
+    }
+  }
+
   render() {
+    if (this.state.close) {
+      return <Redirect to='/' />
+    }
 
     return (
       <div className='portfolio-component'>
+        <p className='close-portfolio'
+          onClick={() => this.setState({ close: true})} > 
+            X
+        </p>
         <div className='row-one' >
 
           <div className='project-two'>
