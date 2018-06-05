@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Redirect } from 'react-router-dom';
 
-import '../portfolio.css';
+import './dev.css';
 
 
 export default class Safer extends Component {
@@ -12,39 +12,49 @@ export default class Safer extends Component {
     }
   }
 
-  // componentWillUnmount() {
-  //   this.setState({ close: false })
-  // }
-
   render() {
     if (this.state.close) {
       return <Redirect to='/' />
     } 
 
     return (
-      <div className='portfolio-component'>
+      <div className='project-component'>
         <p className='close-portfolio'
           onClick={() => this.setState({ close: true})} > 
             X
         </p>
-        <div className='row-one' >
 
-          <div className='project-one'>
-            <a href='https://safer.netlify.com/'
-              target='_blank'
-              rel='noopener noreferrer' >
-              <img src={require('../../images/portfolio/safer_responsive.png')} alt='safeR Mockup' className='portfolio-responsive-mock' />
-            </a>
-            <a href='https://safer.netlify.com/' 
-              className='portfolio-project-title'
-              target='_blank'
-              rel='noopener noreferrer' > 
-              safeR 
-            </a>
-            <p className='portfolio-services'> FULL STACK DEVELOPMENT • UI/UX DESIGN • REACT NATIVE </p>
-            <p className='portfolio-project-tagline'>
-              Stay safer by staying up to date on local crimes & incidents in the area.
-            </p>
+          <div className='portfolio-project'>
+            <div className='opening-sequence'>
+              <a className='photo-link'
+                href='https://safer.netlify.com/'
+                target='_blank'
+                rel='noopener noreferrer' >
+                <img className='project-responsive-mock'
+                  src={require('../../images/portfolio/safer_responsive.png')} 
+                  alt='safeR Mockup' />
+              </a>
+              <div className='description-block'>
+                <a className='project-title'
+                  href='https://safer.netlify.com/' 
+                  target='_blank'
+                  rel='noopener noreferrer' > 
+                  safeR 
+                </a>
+                <p className='project-tagline'>
+                  Stay safer by staying up to date on local crimes & incidents in the area.
+                </p>
+              </div>
+            </div>
+            <p className='project-services'> FULL STACK DEVELOPMENT • UI/UX DESIGN • REACT NATIVE </p>
+            <div className='desktop-only'>
+              <p className='project-summary'>
+              SafeReport/safeR is an app that aims to keep the community safer by making sure they are up to date on local crimes or incidents in the area. When the app loads the user is greeted with a map with reports pinned in their local area. If the user chooses to sign up and login, they can submit a report or view the dashboard for previous reports they submitted themselves.
+              </p>
+              {/* <img className='project-responsive-mock-2'
+                src={require('../../images/portfolio/safer_responsive.png')}
+                alt='safeR Mockup' /> */}
+            </div>
             <p className='live-porfolio-par'>
               <a
                 href='https://safer.netlify.com/'
@@ -95,7 +105,6 @@ export default class Safer extends Component {
             </div>
           </div>
 
-        </div>
       </div>
     )
 

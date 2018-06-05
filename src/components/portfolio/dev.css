@@ -1,0 +1,196 @@
+/**
+ * coolors.co/1c1435-5e548e-9f86c0-be95c4-e0b1cb
+ */
+
+.project-component {
+  background-color: #ffffff;
+}
+
+.close-portfolio {
+  margin: 0 0 0 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.portfolio-project {}
+
+.project-responsive-mock {
+  width: 100%;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 3px 3px rgba(94, 84, 142, 0.7);
+}
+
+.project-title {
+  text-align: center;
+  color: #5E548E;
+  margin: 10px 0 auto;
+  padding-top: 5px;
+  font-size: 35px;
+  font-weight: 600;
+  text-decoration: none;
+  line-height: 35px;
+}
+
+.portfolio-project-title:hover {
+  /* border-bottom: 3px double #5E548E; */
+  /* font-style: italic; */
+  font-kerning: 20px;
+}
+
+.project-tagline {
+  font-style: italic;
+  font-size: 18px;
+  margin: 5px auto 25px;
+  color: #1c1435;
+}
+
+.project-services {
+  font-size: 17px;
+  letter-spacing: 1px;
+  margin: 15px 0;
+  color: #9F86C0;
+}
+
+.desktop-only {
+  display: none;
+}
+
+.project-summary {}
+
+.project-responsive-mock-2 {
+  width: 100%;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 3px 3px rgba(94, 84, 142, 0.7);
+}
+
+.live-portfolio-par {
+  padding: 9px;
+}
+
+.live-portfolio-link {
+  text-decoration: none;
+  background-color: #BE95C4;
+  border-radius: 9px;
+  padding: 10px 15px;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+
+.live-portfolio-link:hover {
+  background-color: #5E548E;
+}
+
+.github-repos {
+  margin: 0;
+  padding-top: 15px;
+}
+
+.github-repo-link {
+  text-decoration: none;
+  color: #1c1435;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  display: inline-block;
+  margin-top: 0px;
+  padding: 10px;
+}
+
+.github-icon {
+  width: 45px;
+  margin: 14px;
+}
+
+.github-repo-link:hover {
+  color: #BE95C4;
+}
+
+.github-icon:hover {
+  background-color: #BE95C4;
+  border-radius: 100%;
+}
+
+/* ============================ 
+MEDIA QUERIES
+============================*/
+
+/* tablet */
+
+@media only screen and (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
+  .photo-link {
+    width: 100%;
+  }
+  .project-responsive-mock {
+    width: 100%;
+  }
+  .project-tagline {
+    display: none;
+  }
+  .project-summary {
+    font-style: italic;
+    font-size: 18px;
+    margin: 5px auto 25px;
+    color: #1c1435;
+    width: 90%;
+  }
+  .github-icon {
+    width: 60px;
+  }
+  .github-repo-link {
+    padding: 18px;
+    font-size: 20px;
+  }
+  .desktop-only {
+    display: initial;
+  }
+}
+
+/* desktop */
+
+@media only screen and (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .close-portfolio {
+    font-size: 40px;
+  }
+  .opening-sequence {
+    display: inline-flex;
+  }
+  .project-title {
+    font-size: 70px;
+  }
+  .project-responsive-mock {
+    width: 80%;
+  }
+  .description-block {
+    width: 30%;
+    margin-top: 115px;
+  }
+  .project-tagline {
+    display: inline-block;
+    padding: 0 25px;
+    font-size: 25px;
+    margin-top: 30px;
+  }
+  .project-services {
+    font-size: 30px;
+  }
+  .project-summary {
+    font-size: 20px;
+  }
+  .live-portfolio-par {
+    margin-top: 35px;
+  }
+  .live-portfolio-link {
+    font-size: 23px;
+  }
+  .github-icon {
+    margin: 0 20px;
+  }
+  .github-repo-link {
+    font-size: 20px;
+  }
+  .portfolio-project-title {
+    line-height: 45px;
+  }
+}
