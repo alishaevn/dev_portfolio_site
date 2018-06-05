@@ -18,7 +18,7 @@ export default class Portfolio extends Component {
       <div className='portfolio-component' id='portfolio'>
         { this.state.project ? <Redirect to={this.state.project} /> : '' }
         <h3 className='portfolio-title'> PORTFOLIO </h3>
-        <div className='row-one' >
+        <ul className='row-one' >
 
           <li className='project-one' 
             onClick={() => this.setState({ project: 'safer'})} >
@@ -49,9 +49,9 @@ export default class Portfolio extends Component {
             <p className='portfolio-services'> FULL STACK DEVELOPMENT • UI/UX DESIGN </p>
           </li>
 
-        </div>
+        </ul>
 
-        <div className='row-two' >
+        <ul className='row-two' >
 
           <li className='project-four'>
             <img src={require('../images/portfolio/69th_mockup.png')} 
@@ -91,7 +91,7 @@ export default class Portfolio extends Component {
             </p>
           </li>
 
-        </div>
+        </ul>
       </div>
     )
 
