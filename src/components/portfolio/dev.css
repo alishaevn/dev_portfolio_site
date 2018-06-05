@@ -159,10 +159,13 @@ MEDIA QUERIES
     display: inline-flex;
   }
   .project-title {
-    font-size: 70px;
+    font-size: 55px;
     line-height: 65px;
   }
   .project-responsive-mock {
+    width: 80%;
+  }
+  .photo-link {
     width: 80%;
   }
   .description-block {
@@ -171,8 +174,8 @@ MEDIA QUERIES
   }
   .project-tagline {
     display: inline-block;
-    padding: 0 25px;
-    font-size: 25px;
+    padding: 0;
+    font-size: 20px;
     margin-top: 30px;
   }
   .project-services {
