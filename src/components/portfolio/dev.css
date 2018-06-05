@@ -21,6 +21,10 @@
   box-shadow: 3px 3px rgba(94, 84, 142, 0.7);
 }
 
+.project-responsive-mock:hover {
+  opacity: 0.7;
+}
+
 .project-title {
   text-align: center;
   color: #5E548E;
@@ -32,10 +36,8 @@
   line-height: 35px;
 }
 
-.portfolio-project-title:hover {
-  /* border-bottom: 3px double #5E548E; */
-  /* font-style: italic; */
-  font-kerning: 20px;
+.project-title:hover {
+  text-decoration: underline;
 }
 
 .project-tagline {
@@ -158,13 +160,14 @@ MEDIA QUERIES
   }
   .project-title {
     font-size: 70px;
+    line-height: 65px;
   }
   .project-responsive-mock {
     width: 80%;
   }
   .description-block {
     width: 30%;
-    margin-top: 115px;
+    margin-top: 75px;
   }
   .project-tagline {
     display: inline-block;
@@ -189,8 +192,5 @@ MEDIA QUERIES
   }
   .github-repo-link {
     font-size: 20px;
-  }
-  .portfolio-project-title {
-    line-height: 45px;
   }
 }

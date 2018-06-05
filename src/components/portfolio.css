@@ -63,9 +63,7 @@
 }
 
 .portfolio-project-title:hover {
-  /* border-bottom: 3px double #5E548E; */
-  /* font-style: italic; */
-  font-kerning: 20px;
+  /* text-decoration: underline; */
 }
 
 .portfolio-services {
@@ -74,8 +72,6 @@
   margin: 15px 0;
   color: #9F86C0;
 }
-
-.portfolio-project-summary {}
 
 /* ============================ 
 MEDIA QUERIES
@@ -139,6 +135,9 @@ MEDIA QUERIES
   .portfolio-title {
     margin-bottom: 60px;
     font-size: 55px;
+  }
+  .portfolio-project-title {
+    line-height: 45px;
   }
   .portfolio-services {
     font-size: 22px;
