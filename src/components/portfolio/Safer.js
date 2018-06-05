@@ -51,55 +51,51 @@ export default class Safer extends Component {
               <p className='project-summary'>
               SafeReport/safeR is an app that aims to keep the community safer by making sure they are up to date on local crimes or incidents in the area. When the app loads the user is greeted with a map with reports pinned in their local area. If the user chooses to sign up and login, they can submit a report or view the dashboard for previous reports they submitted themselves.
               </p>
-              {/* <img className='project-responsive-mock-2'
-                src={require('../../images/portfolio/safer_responsive.png')}
-                alt='safeR Mockup' /> */}
             </div>
             <p className='live-porfolio-par'>
-              <a
+              <a className='live-portfolio-link'
                 href='https://safer.netlify.com/'
                 target='_blank'
-                rel='noopener noreferrer'
-                className='live-portfolio-link'
-              >View the Live Site
+                rel='noopener noreferrer' >
+                  View the Live Site
               </a>
             </p>
             <div className='github-repos'>
               <div>
-                <a
-                  href='https://github.com/thinkful-ei18/maajac-client'
+                <a href='https://github.com/thinkful-ei18/maajac-client'
                   target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  <img src={require('../../images/github_icon.png')} alt='link to client repo' className='github-icon' />
+                  rel='noopener noreferrer' >
+                    <img className='github-icon'
+                      src={require('../../images/github_icon.png')} 
+                      alt='link to client repo' />
                 </a>
-                <a
-                  href='https://github.com/thinkful-ei18/majaac-server'
+                <a href='https://github.com/thinkful-ei18/majaac-server'
                   target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  <img src={require('../../images/github_icon.png')} alt='link to server repo' className='github-icon' />
+                  rel='noopener noreferrer' >
+                    <img className='github-icon'
+                      src={require('../../images/github_icon.png')} 
+                      alt='link to server repo' />
                 </a>
-                <a
-                  href='https://github.com/thinkful-ei18/MOBILE-maajac-client'
+                <a href='https://github.com/thinkful-ei18/MOBILE-maajac-client'
                   target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  <img src={require('../../images/github_icon.png')} alt='link to mobile repo' className='github-icon' />
+                  rel='noopener noreferrer' >
+                    <img className='github-icon'
+                      src={require('../../images/github_icon.png')} 
+                      alt='link to mobile repo' />
                 </a>
               </div>
               <div>
-                <a href='https://github.com/thinkful-ei18/maajac-client'
-                  className='github-repo-link' > 
-                  Client 
+                <a className='github-repo-link'
+                  href='https://github.com/thinkful-ei18/maajac-client' > 
+                    Client 
                 </a>
-                <a href='https://github.com/thinkful-ei18/majaac-server' 
-                  className='github-repo-link'> 
-                  Server 
+                <a className='github-repo-link'
+                  href='https://github.com/thinkful-ei18/majaac-server' > 
+                    Server 
                 </a>
-                <a href='https://github.com/thinkful-ei18/MOBILE-maajac-client' 
-                  className='github-repo-link'> 
-                  Mobile 
+                <a className='github-repo-link'
+                  href='https://github.com/thinkful-ei18/MOBILE-maajac-client' > 
+                    Mobile 
                 </a>
               </div>
             </div>
