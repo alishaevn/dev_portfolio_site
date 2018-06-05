@@ -18,7 +18,7 @@ export default class FoodiePhonetics extends Component {
     }
 
     return (
-      <div className='portfolio-component'>
+      <div className='project-component'>
         <p className='close-portfolio'
           onClick={() => this.setState({ close: true})} > 
             X
@@ -30,26 +30,26 @@ export default class FoodiePhonetics extends Component {
                 href='https://foodiephonetics.netlify.com/'
                 target='_blank'
                 rel='noopener noreferrer'>
-                <img className='project-responsive-mock'
-                  src={require('../../images/portfolio/fp_responsive.png')}
-                  alt='Foodie Phonetics Mockup' />
+                  <img className='project-responsive-mock'
+                    src={require('../../images/portfolio/fp_responsive.png')}
+                    alt='Foodie Phonetics Mockup' />
               </a>
               <div className='description-block'>
               <a className='project-title'
                 href='https://foodiephonetics.netlify.com/' 
                 target='_blank'
                 rel='noopener noreferrer' > 
-                Foodie Phonetics 
+                  Foodie Phonetics 
               </a>
               <p className='project-tagline'>
-                Learn to say common food items in French using a spaced repetition algorithm.
+                Learn to say common food items in French!
               </p>
               </div>
             </div>
             <p className='project-services'> FULL STACK DEVELOPMENT • UI/UX DESIGN </p>
             <div className='desktop-only'>
               <p className='project-summary'>
-              SafeReport/safeR is an app that aims to keep the community safer by making sure they are up to date on local crimes or incidents in the area. When the app loads the user is greeted with a map with reports pinned in their local area. If the user chooses to sign up and login, they can submit a report or view the dashboard for previous reports they submitted themselves.
+              Using a spaced repetition algorithm, Foodie Phonetics teaches the user how to say the most common food items in their language of choice. Each time the user gets a question correct, that question is moved farther back in a singly linked list. If the user gets a question incorrect, it will be moved to the top of the list instead.
               </p>
             </div>
             <p className='live-porfolio-par'>
