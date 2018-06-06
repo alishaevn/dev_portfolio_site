@@ -25,13 +25,13 @@ export default class Safer extends Component {
         </p>
 
           <div className='portfolio-project'>
+            <a className='project-title'
+              href='https://safer.netlify.com/' 
+              target='_blank'
+              rel='noopener noreferrer' > 
+              safeR 
+            </a>
             <div className='opening-sequence'>
-                <a className='project-title'
-                  href='https://safer.netlify.com/' 
-                  target='_blank'
-                  rel='noopener noreferrer' > 
-                  safeR 
-                </a>
               <a className='photo-link'
                 href='https://safer.netlify.com/'
                 target='_blank'
@@ -40,13 +40,11 @@ export default class Safer extends Component {
                   src={require('../../images/portfolio/safer_responsive.png')} 
                   alt='safeR Mockup' />
               </a>
-            </div>
-            <p className='project-services'> FULL STACK DEVELOPMENT • UI/UX DESIGN • REACT NATIVE </p>
-            <div className='desktop-only'>
               <p className='project-summary'>
               SafeReport/safeR is an app that aims to keep the community safer by making sure they are up to date on local crimes or incidents in the area. When the app loads the user is greeted with a map with reports pinned in their local area. If the user chooses to sign up and login, they can submit a report or view the dashboard for previous reports they submitted themselves.
               </p>
             </div>
+            <p className='project-services'> FULL STACK DEVELOPMENT • UI/UX DESIGN • REACT NATIVE </p>
             <p className='live-portfolio-par'>
               <a className='live-portfolio-link'
                 href='https://safer.netlify.com/'

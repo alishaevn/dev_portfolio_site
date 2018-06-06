@@ -25,13 +25,13 @@ export default class FoodiePhonetics extends Component {
         </p>
 
           <div className='portfolio-project'>
+            <a className='project-title'
+              href='https://foodiephonetics.netlify.com/' 
+              target='_blank'
+              rel='noopener noreferrer' > 
+                Foodie Phonetics 
+            </a>
             <div className='opening-sequence'>
-              <a className='project-title'
-                href='https://foodiephonetics.netlify.com/' 
-                target='_blank'
-                rel='noopener noreferrer' > 
-                  Foodie Phonetics 
-              </a>
               <a className='photo-link'
                 href='https://foodiephonetics.netlify.com/'
                 target='_blank'
@@ -40,14 +40,12 @@ export default class FoodiePhonetics extends Component {
                     src={require('../../images/portfolio/fp_responsive.png')}
                     alt='Foodie Phonetics Mockup' />
               </a>
-            </div>
-            <p className='project-services'> FULL STACK DEVELOPMENT • UI/UX DESIGN </p>
-            <div className='desktop-only'>
               <p className='project-summary'>
               Using a spaced repetition algorithm, Foodie Phonetics teaches the user how to say the most common food items in their language of choice. Each time the user gets a question correct, that question is moved farther back in a singly linked list. If the user gets a question incorrect, it will be moved to the top of the list instead.
               </p>
             </div>
-            <p className='live-porfolio-par'>
+            <p className='project-services'> FULL STACK DEVELOPMENT • UI/UX DESIGN </p>
+            <p className='live-portfolio-par'>
               <a className='live-portfolio-link'
                 href='https://foodiephonetics.netlify.com/'
                 target='_blank'
