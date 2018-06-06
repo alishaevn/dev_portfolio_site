@@ -25,7 +25,7 @@ export default class coc69th extends Component {
         </p>
 
           <div className='portfolio-project'>
-            <p className='project-title'> 69th Street CoC </p> 
+            <p className='branding-project-title'> 69th Street CoC </p> 
             <div className='opening-sequence'>
               <div className='branding-main-photo'>
                 <img className='branding-project-responsive-mock'

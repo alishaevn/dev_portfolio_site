@@ -25,7 +25,7 @@ export default class NCSS extends Component {
         </p>
 
           <div className='portfolio-project'>
-            <p className='project-title'> NCSS </p> 
+            <p className='branding-project-title'> NCSS </p> 
             <div className='opening-sequence'>
               <div className='branding-main-photo'>
                 <img className='branding-project-responsive-mock'

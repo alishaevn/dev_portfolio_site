@@ -24,7 +24,8 @@
   opacity: 0.7;
 }
 
-.project-title {
+.project-title,
+.branding-project-title {
   text-align: center;
   color: #5E548E;
   margin: 10px 0 auto;
@@ -143,7 +144,8 @@ MEDIA QUERIES
   .portfolio-project {
     width: 90%;
   }
-  .project-title {
+  .project-title,
+  .branding-project-title {
     font-size: 60px;
     line-height: 40px;
   }
@@ -207,7 +209,8 @@ MEDIA QUERIES
   .branding-main-photo {
     width: 85%;
   }
-  .project-title {
+  .project-title,
+  .branding-project-title {
     font-size: 70px;
     line-height: 80px;
   }

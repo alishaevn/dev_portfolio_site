@@ -25,7 +25,7 @@ export default class FreshMarket extends Component {
         </p>
 
           <div className='portfolio-project'>
-            <p className='project-title'> Fresh Market </p> 
+            <p className='branding-project-title'> Fresh Market </p> 
             <div className='opening-sequence'>
               <div className='branding-main-photo'>
                 <img className='branding-project-responsive-mock'
