@@ -33,9 +33,6 @@ export default class Safer extends Component {
                   rel='noopener noreferrer' > 
                   safeR 
                 </a>
-                {/* <p className='project-tagline'>
-                  Stay safer by staying up to date on local crimes & incidents in the area.
-                </p> */}
               </div>
               <a className='photo-link'
                 href='https://safer.netlify.com/'

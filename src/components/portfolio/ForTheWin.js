@@ -26,14 +26,6 @@ export default class ForTheWin extends Component {
 
           <div className='portfolio-project'>
             <div className='opening-sequence'>
-              <a className='photo-link'
-                href='https://for-the-win-app.netlify.com/'
-                target='_blank'
-                rel='noopener noreferrer'>
-                  <img className='project-responsive-mock'
-                  src={require('../../images/portfolio/ftw_responsive.png')} 
-                  alt='For The Win Mockup' />
-              </a>
               <div className='description-block'>
                 <a className='project-title'
                   href='https://for-the-win-app.netlify.com/'
@@ -42,6 +34,14 @@ export default class ForTheWin extends Component {
                     For The Win 
                 </a>
               </div>
+              <a className='photo-link'
+                href='https://for-the-win-app.netlify.com/'
+                target='_blank'
+                rel='noopener noreferrer'>
+                  <img className='project-responsive-mock'
+                  src={require('../../images/portfolio/ftw_responsive.png')} 
+                  alt='For The Win Mockup' />
+              </a>
             </div>
             <p className='project-services'> FULL STACK DEVELOPMENT • UI/UX DESIGN </p>
             <div className='desktop-only'>

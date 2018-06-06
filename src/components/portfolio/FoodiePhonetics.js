@@ -26,14 +26,6 @@ export default class FoodiePhonetics extends Component {
 
           <div className='portfolio-project'>
             <div className='opening-sequence'>
-              <a className='photo-link'
-                href='https://foodiephonetics.netlify.com/'
-                target='_blank'
-                rel='noopener noreferrer'>
-                  <img className='project-responsive-mock'
-                    src={require('../../images/portfolio/fp_responsive.png')}
-                    alt='Foodie Phonetics Mockup' />
-              </a>
               <div className='description-block'>
               <a className='project-title'
                 href='https://foodiephonetics.netlify.com/' 
@@ -42,6 +34,14 @@ export default class FoodiePhonetics extends Component {
                   Foodie Phonetics 
               </a>
               </div>
+              <a className='photo-link'
+                href='https://foodiephonetics.netlify.com/'
+                target='_blank'
+                rel='noopener noreferrer'>
+                  <img className='project-responsive-mock'
+                    src={require('../../images/portfolio/fp_responsive.png')}
+                    alt='Foodie Phonetics Mockup' />
+              </a>
             </div>
             <p className='project-services'> FULL STACK DEVELOPMENT • UI/UX DESIGN </p>
             <div className='desktop-only'>
