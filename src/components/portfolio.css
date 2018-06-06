@@ -35,7 +35,8 @@
 .project-five,
 .project-six {
   width: 85%;
-  /* padding: 25px 0; */
+  /* margin: 30px auto; */
+  padding: 25px 0;
   list-style-type: none;
   text-align: center;
 }
@@ -95,7 +96,7 @@ MEDIA QUERIES
   .project-four,
   .project-five,
   .project-six {
-    margin: 0 auto;
+    /* margin: 30px auto; */
   }
   .portfolio-services {
     font-size: 25px;

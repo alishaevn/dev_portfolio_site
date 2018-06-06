@@ -20,33 +20,50 @@ export default class Portfolio extends Component {
         <h3 className='portfolio-title'> PORTFOLIO </h3>
         <ul className='row-one' >
 
-          <li className='project-one' 
-            onClick={() => this.setState({ project: 'safer'})} >
+          <li className='project-one' >
               <img className='portfolio-responsive-mock'
+                onClick={() => this.setState({ project: 'safer'})}
                 src={require('../images/portfolio/safer_responsive.png')} 
                 alt='safeR Mockup' />
-              <p className='portfolio-project-title'> safeR </p> 
-              <p className='portfolio-services'> FULL STACK DEVELOPMENT • UI/UX DESIGN • REACT NATIVE </p>
+              <p className='portfolio-project-title'
+                onClick={() => this.setState({ project: 'safer'})} > 
+                  safeR 
+              </p> 
+              <p className='portfolio-services'> 
+                FULL STACK DEVELOPMENT • UI/UX DESIGN • REACT NATIVE </p>
+              <p className='project-tagline'>
+                Stay safer by staying up to date on local crimes & incidents in the area.
+              </p>
           </li>
 
 
-          <li className='project-two'
-            onClick={() => this.setState({ project: 'foodiephonetics'})} >
-              <img className='portfolio-responsive-mock'
-                src={require('../images/portfolio/fp_responsive.png')} 
-                alt='Foodie Phonetics Mockup' />
-            <p className='portfolio-project-title'> Foodie Phonetics </p>
+          <li className='project-two' >
+            <img className='portfolio-responsive-mock'
+              onClick={() => this.setState({ project: 'foodiephonetics'})}
+              src={require('../images/portfolio/fp_responsive.png')} 
+              alt='Foodie Phonetics Mockup' />
+            <p className='portfolio-project-title'
+              onClick={() => this.setState({ project: 'foodiephonetics'})}> 
+                Foodie Phonetics 
+            </p>
             <p className='portfolio-services'> FULL STACK DEVELOPMENT • UI/UX DESIGN </p>
+            <p className='project-tagline'>
+                Learn to say common food items in French!
+            </p>
           </li>
 
           
-          <li className='project-three'
-            onClick={() => this.setState({ project: 'forthewin'})} >
-              <img className='portfolio-responsive-mock'
-                src={require('../images/portfolio/ftw_responsive.png')} 
-                alt='For The Win Mockup' />
-            <p className='portfolio-project-title' > For The Win </p>
+          <li className='project-three' >
+            <img className='portfolio-responsive-mock'
+              onClick={() => this.setState({ project: 'forthewin'})}
+              src={require('../images/portfolio/ftw_responsive.png')} 
+              alt='For The Win Mockup' />
+            <p className='portfolio-project-title'
+              onClick={() => this.setState({ project: 'forthewin'})} > For The Win </p>
             <p className='portfolio-services'> FULL STACK DEVELOPMENT • UI/UX DESIGN </p>
+            <p className='project-tagline'>
+              The basketball enthusiast's preferred fantasy basketball league and stat tracker.
+            </p>
           </li>
 
         </ul>
