@@ -26,14 +26,12 @@ export default class ForTheWin extends Component {
 
           <div className='portfolio-project'>
             <div className='opening-sequence'>
-              <div className='description-block'>
                 <a className='project-title'
                   href='https://for-the-win-app.netlify.com/'
                   target='_blank'
                   rel='noopener noreferrer'> 
                     For The Win 
                 </a>
-              </div>
               <a className='photo-link'
                 href='https://for-the-win-app.netlify.com/'
                 target='_blank'

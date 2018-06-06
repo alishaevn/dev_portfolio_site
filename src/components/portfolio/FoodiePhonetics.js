@@ -26,14 +26,12 @@ export default class FoodiePhonetics extends Component {
 
           <div className='portfolio-project'>
             <div className='opening-sequence'>
-              <div className='description-block'>
               <a className='project-title'
                 href='https://foodiephonetics.netlify.com/' 
                 target='_blank'
                 rel='noopener noreferrer' > 
                   Foodie Phonetics 
               </a>
-              </div>
               <a className='photo-link'
                 href='https://foodiephonetics.netlify.com/'
                 target='_blank'

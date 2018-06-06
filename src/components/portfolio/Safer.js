@@ -26,14 +26,12 @@ export default class Safer extends Component {
 
           <div className='portfolio-project'>
             <div className='opening-sequence'>
-              <div className='description-block'>
                 <a className='project-title'
                   href='https://safer.netlify.com/' 
                   target='_blank'
                   rel='noopener noreferrer' > 
                   safeR 
                 </a>
-              </div>
               <a className='photo-link'
                 href='https://safer.netlify.com/'
                 target='_blank'
