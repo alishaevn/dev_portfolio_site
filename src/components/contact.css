@@ -6,6 +6,16 @@
   height: 50px;
 }
 
+.contact-title {
+  font-weight: 300;
+  text-align: center;
+  color: #5E548E;
+  font-size: 35px;
+  margin: 0;
+  padding-top: 20px;
+  letter-spacing: 2px;
+}
+
 .social-media-icons {
   height: 50px;
   padding: 10px;
@@ -33,6 +43,9 @@ MEDIA QUERIES
 /* tablet */
 
 @media only screen and (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
+  .about-me-title {
+    font-size: 55px;
+  }
   .social-media-icons {
     margin: 15px;
   }
