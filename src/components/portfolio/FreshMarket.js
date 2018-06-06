@@ -4,7 +4,7 @@ import { Redirect } from 'react-router-dom';
 import './projects.css';
 
 
-export default class NCSS extends Component {
+export default class FreshMarket extends Component {
   constructor() {
     super();
     this.state = {
@@ -15,7 +15,7 @@ export default class NCSS extends Component {
   render() {
     if (this.state.close) {
       return <Redirect to='/' />
-    }
+    } 
 
     return (
       <div className='project-component'>
@@ -25,33 +25,33 @@ export default class NCSS extends Component {
         </p>
 
           <div className='portfolio-project'>
-            <p className='project-title'> NCSS </p> 
+            <p className='project-title'> Fresh Market </p> 
             <div className='opening-sequence'>
               <div className='branding-main-photo'>
                 <img className='branding-project-responsive-mock'
-                src={require('../../images/portfolio/ncss_mockup.png')} 
+                src={require('../../images/portfolio/frsh_mkt_mockup.png')} 
                 alt='NCSS Mockup' />
               </div>
               <p className='design-project-summary'>
-              The committee for the 41st Annual National Christian Singles seminar asked that I design a logo for print and apparel uses during the 2017 weekend event in addition to a souvenir booklet. My idea was to design a united look for all collateral in order to simplify the current visual processes. The inspiration behind the pictorial mark came from 1 Corinthians 7:32-35 and it represent’s one’s heart being on fire for the Lord.
+              The following is the culmination of a fictional rebranding effort for The Fresh Market. I chose to rebrand them as a result of its lack of brand recognition outside of the Southeastern markets. The research and development phases led to the assembling of a new logo, style guide [including imagery, brand colors, a tagline, etc.], social media concepts, website design, print ads, apparel, promotional items and a guerilla marketing tactic. The intention was to increase the brand awareness in order to allow for successful expansion into the western markets.
               </p>
             </div>
 
-            <p className='project-services'> VISUAL BRAND IDENTITY • PRINT DESIGN </p>
+            <p className='project-services'> VISUAL BRAND IDENTITY • PRINT DESIGN • PHOTOGRAPHY </p>
 
             <div className='photo-bank'>
               <img className='project-photos-row'
-                src={require('../../images/portfolio/design/ncss_3.png')} 
+                src={require('../../images/portfolio/design/TFM-02.png')} 
                 alt='NCSS Mockup' />
               <img className='project-photos-row'
-                src={require('../../images/portfolio/design/ncss_4.png')} 
+                src={require('../../images/portfolio/design/TFM-03.png')} 
                 alt='NCSS Mockup' />
               <img className='project-photos-row'
-                src={require('../../images/portfolio/design/ncss_6.png')} 
+                src={require('../../images/portfolio/design/TFM-06.png')} 
                 alt='NCSS Mockup' />
             </div>
             <img className='project-photos-column'
-              src={require('../../images/portfolio/design/ncss_7.png')} 
+              src={require('../../images/portfolio/design/TFM-07.png')} 
               alt='NCSS Mockup' />
           </div>
 
