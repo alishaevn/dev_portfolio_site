@@ -28,7 +28,6 @@ export default class Portfolio extends Component {
               <p className='portfolio-project-title'> safeR </p> 
           </li>
 
-
           <li className='project-two'
             onClick={() => this.setState({ project: 'foodiephonetics'})} >
             <img className='portfolio-responsive-mock'
@@ -37,7 +36,6 @@ export default class Portfolio extends Component {
             <p className='portfolio-project-title' > Foodie Phonetics </p>
           </li>
 
-          
           <li className='project-three'
             onClick={() => this.setState({ project: 'forthewin'})} >
             <img className='portfolio-responsive-mock'
@@ -51,24 +49,20 @@ export default class Portfolio extends Component {
         <ul className='row-two' >
 
           <li className='project-four'
-            onClick={() => this.setState({ project: '69th'})} >
-              <img className='portfolio-responsive-mock'
-                src={require('../images/portfolio/69th_mockup.png')} 
-                alt='69th CoC Mockup' />
-            <p className='portfolio-project-title'> 69th Street </p>
-            {/* <p className='portfolio-services'> VISUAL BRAND IDENTITY • PRINT DESIGN • PHOTOGRAPHY </p> */}
-          </li>
-
-
-          <li className='project-five'
             onClick={() => this.setState({ project: 'ncss'})} >
               <img className='portfolio-responsive-mock'
                 src={require('../images/portfolio/ncss_mockup.png')} 
                 alt='NCSS Mockup' />
             <p className='portfolio-project-title'> NCSS </p>
-            {/* <p className='portfolio-services'> VISUAL BRAND IDENTITY • PRINT DESIGN </p> */}
           </li>
 
+          <li className='project-five'
+            onClick={() => this.setState({ project: '69th'})} >
+              <img className='portfolio-responsive-mock'
+                src={require('../images/portfolio/69th_mockup.png')} 
+                alt='69th CoC Mockup' />
+            <p className='portfolio-project-title'> 69th Street CoC </p>
+          </li>
           
           <li className='project-six'
             onClick={() => this.setState({ project: 'freshmarket'})} >
@@ -76,7 +70,6 @@ export default class Portfolio extends Component {
                 src={require('../images/portfolio/frsh_mkt_mockup.png')} 
                 alt='Fresh Market Mockup' />
             <p className='portfolio-project-title'> Fresh Market </p>
-            {/* <p className='portfolio-services'> VISUAL BRAND IDENTITY • PRINT DESIGN • PHOTOGRAPHY </p> */}
           </li>
 
         </ul>
