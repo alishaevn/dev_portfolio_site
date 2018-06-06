@@ -21,6 +21,11 @@
   text-align: right;
 }
 
+.navigation {
+  margin: 25px auto;
+  text-align: center;
+}
+
 .menu-button,
 .menu-button-clicked {
   position: absolute;
@@ -54,9 +59,10 @@
 
 .menu-hashlink {
   text-decoration: none;
-  background-color: #1c1435;
-  color: #ffffff;
-  padding: 5px 10px;
+  /* background-color: #1c1435; */
+  /* color: #ffffff; */
+  color: #5E548E;
+  padding: 5px 25px;
   font-size: 12px;
   letter-spacing: 0.5px;
 }
@@ -119,6 +125,9 @@ MEDIA QUERIES
   .home-component {
     background-image: url('../images/tablet_bg.png');
   }
+  .navigation {
+    margin: 40px auto 10px;
+  }
   .menu-button,
   .menu-button-clicked {
     height: 45px;
@@ -133,7 +142,7 @@ MEDIA QUERIES
     width: 140px;
   }
   .menu-hashlink {
-    font-size: 20px;
+    font-size: 25px;
   }
   .name {
     font-size: 80px;
@@ -182,7 +191,8 @@ MEDIA QUERIES
   }
   .name {
     font-size: 120px;
-    padding-top: 170px;
+    margin-top: 0;
+    /* padding-top: 170px; */
   }
   .first-name {
     margin: 0;
@@ -200,6 +210,8 @@ MEDIA QUERIES
   }
   .to-portfolio-btn {
     width: 20%;
+    /* padding: 20px; */
+    margin-top: 30px;
   }
   .to-portfolio-hashlink {
     font-size: 30px;
