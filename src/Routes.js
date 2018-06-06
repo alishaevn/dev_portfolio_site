@@ -10,6 +10,7 @@ import Contact from './components/Contact';
 import Safer from './components/portfolio/Safer';
 import FoodiePhonetics from './components/portfolio/FoodiePhonetics';
 import ForTheWin from './components/portfolio/ForTheWin';
+import NCSS from './components/portfolio/NCSS';
 
 
 export default class Routes extends Component {
@@ -25,6 +26,7 @@ export default class Routes extends Component {
             <Route exact path='/safer' component={Safer} />
             <Route exact path='/foodiephonetics' component={FoodiePhonetics} />
             <Route exact path='/forthewin' component={ForTheWin} />
+            <Route exact path='/ncss' component={NCSS} />
             <About />
             <Contact />
 
