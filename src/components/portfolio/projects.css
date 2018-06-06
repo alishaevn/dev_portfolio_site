@@ -12,9 +12,8 @@
   font-weight: bold;
 }
 
-.portfolio-project {}
-
-.project-responsive-mock {
+.project-responsive-mock,
+.branding-project-responsive-mock {
   width: 100%;
   margin: 10px 0;
   border-radius: 5px;
@@ -30,7 +29,7 @@
   color: #5E548E;
   margin: 10px 0 auto;
   padding-top: 5px;
-  font-size: 35px;
+  font-size: 45px;
   font-weight: 600;
   text-decoration: none;
   line-height: 35px;
@@ -54,11 +53,11 @@
   color: #9F86C0;
 }
 
-.desktop-only {
-  display: none;
+.project-summary,
+.design-project-summary {
+  font-weight: 300;
+  margin-top: 10px;
 }
-
-.project-summary {}
 
 .project-responsive-mock-2 {
   width: 100%;
@@ -87,7 +86,7 @@
 
 .github-repos {
   margin: 0;
-  padding-top: 15px;
+  /* padding-top: 15px; */
 }
 
 .github-repo-link {
@@ -97,12 +96,12 @@
   font-weight: 500;
   display: inline-block;
   margin-top: 0px;
-  padding: 10px;
+  padding: 0 10px 10px;
 }
 
 .github-icon {
   width: 45px;
-  margin: 14px;
+  margin: 14px 14px 0;
 }
 
 .github-repo-link:hover {
@@ -114,6 +113,23 @@
   border-radius: 100%;
 }
 
+/* BRANDING ONLY STYLES */
+
+.photo-bank {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.project-photos-row {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.project-photos-column {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
 /* ============================ 
 MEDIA QUERIES
 ============================*/
@@ -121,31 +137,56 @@ MEDIA QUERIES
 /* tablet */
 
 @media only screen and (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
+  .close-portfolio {
+    font-size: 30px;
+  }
+  .portfolio-project {
+    width: 90%;
+  }
+  .project-title {
+    font-size: 60px;
+    line-height: 40px;
+  }
+  .opening-sequence {
+    padding-top: 20px;
+  }
   .photo-link {
     width: 100%;
   }
-  .project-responsive-mock {
-    width: 100%;
+  .project-responsive-mock,
+  .branding-project-responsive-mock {
+    width: 80%;
   }
   .project-tagline {
     display: none;
   }
-  .project-summary {
+  .project-services {
+    font-size: 20px;
+  }
+  .project-summary,
+  .design-project-summary {
     font-style: italic;
     font-size: 18px;
-    margin: 5px auto 25px;
+    margin: 20px auto 25px;
     color: #1c1435;
-    width: 90%;
+    width: 80%;
   }
   .github-icon {
     width: 60px;
   }
   .github-repo-link {
-    padding: 18px;
+    padding: 0 12px 20px;
     font-size: 20px;
   }
   .desktop-only {
     display: initial;
+  }
+  .live-portfolio-par {
+    padding: 15px 0;
+  }
+  /* BRANDING ONLY STYLES */
+  .photo-bank {
+    width: 100%;
   }
 }
 
@@ -154,19 +195,28 @@ MEDIA QUERIES
 @media only screen and (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
   .close-portfolio {
     font-size: 40px;
+    margin-left: 40px;
+  }
+  .portfolio-project {
+    width: 95%;
   }
   .opening-sequence {
     display: inline-flex;
+    padding: 15px 0;
+  }
+  .branding-main-photo {
+    width: 85%;
   }
   .project-title {
-    font-size: 55px;
-    line-height: 65px;
+    font-size: 70px;
+    line-height: 80px;
   }
-  .project-responsive-mock {
-    width: 80%;
+  .project-responsive-mock,
+  .branding-project-responsive-mock {
+    width: 100%;
   }
   .photo-link {
-    width: 80%;
+    width: 100%;
   }
   .description-block {
     width: 30%;
@@ -182,10 +232,14 @@ MEDIA QUERIES
     font-size: 30px;
   }
   .project-summary {
-    font-size: 20px;
+    font-size: 18px;
+    margin: 40px 30px;
+    width: 50%;
+    text-align: left;
   }
   .live-portfolio-par {
     margin-top: 35px;
+    padding: 15px 0 25px;
   }
   .live-portfolio-link {
     font-size: 23px;
@@ -195,5 +249,26 @@ MEDIA QUERIES
   }
   .github-repo-link {
     font-size: 20px;
+    padding: 0 18px 20px;
+  }
+  /* BRANDING ONLY STYLES */
+  .design-project-summary {
+    font-size: 18px;
+    margin: 10px 30px 0;
+    width: 50%;
+    text-align: left;
+  }
+  .photo-bank {
+    display: inline-flex;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .project-photos-row {
+    width: 33%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .project-photos-column {
+    margin-bottom: 25px;
   }
 }

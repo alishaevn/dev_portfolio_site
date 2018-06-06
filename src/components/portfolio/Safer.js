@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Redirect } from 'react-router-dom';
 
-import './dev.css';
+import './projects.css';
 
 
 export default class Safer extends Component {
