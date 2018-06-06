@@ -41,9 +41,6 @@ export default class FoodiePhonetics extends Component {
                 rel='noopener noreferrer' > 
                   Foodie Phonetics 
               </a>
-              <p className='project-tagline'>
-                Learn to say common food items in French!
-              </p>
               </div>
             </div>
             <p className='project-services'> FULL STACK DEVELOPMENT • UI/UX DESIGN </p>

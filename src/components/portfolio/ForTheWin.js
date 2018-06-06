@@ -41,9 +41,6 @@ export default class ForTheWin extends Component {
                   rel='noopener noreferrer'> 
                     For The Win 
                 </a>
-                <p className='project-tagline'>
-                  The basketball enthusiast's preferred fantasy basketball league and stat tracker.
-                </p>
               </div>
             </div>
             <p className='project-services'> FULL STACK DEVELOPMENT • UI/UX DESIGN </p>
