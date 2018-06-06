@@ -20,6 +20,11 @@
   letter-spacing: 2px;
 }
 
+.row-one,
+.row-two {
+  margin: 0;
+}
+
 .project-one,
 .project-two,
 .project-three,
@@ -56,7 +61,7 @@
   text-align: center;
   color: #5E548E;
   margin: 10px 0 auto;
-  padding-top: 5px;
+  /* padding-top: 5px; */
   font-size: 35px;
   font-weight: 600;
   text-decoration: none;
@@ -64,7 +69,7 @@
 }
 
 .portfolio-project-title:hover {
-  /* text-decoration: underline; */
+  text-decoration: underline;
 }
 
 .portfolio-services {
@@ -88,7 +93,7 @@ MEDIA QUERIES
     padding-left: 0;
   }
   .portfolio-project-title {
-    font-size: 47px;
+    font-size: 50px;
   }
   .project-one,
   .project-two,
@@ -96,14 +101,15 @@ MEDIA QUERIES
   .project-four,
   .project-five,
   .project-six {
-    /* margin: 30px auto; */
+    margin: 0 auto;
+    padding: 25px 0;
   }
   .portfolio-services {
     font-size: 25px;
   }
   .portfolio-responsive-mock {
     box-shadow: 5px 5px rgba(94, 84, 142, 0.7);
-    width: 60%;
+    width: 75%;
   }
 }
 
@@ -122,6 +128,8 @@ MEDIA QUERIES
   .project-five,
   .project-six {
     width: 30%;
+    padding: 0;
+    margin: 0 auto;
   }
   .project-one,
   .project-two,
@@ -139,6 +147,9 @@ MEDIA QUERIES
   }
   .portfolio-project-title {
     line-height: 45px;
+  }
+  .portfolio-project-title:hover {
+    text-decoration: underline;
   }
   .portfolio-services {
     font-size: 22px;
