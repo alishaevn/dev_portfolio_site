@@ -6,6 +6,12 @@
   background-color: #ffffff;
 }
 
+.portfolio-project {
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+}
+
 .portfolio-title {
   font-weight: 300;
   text-align: center;
@@ -14,17 +20,29 @@
   letter-spacing: 2px;
 }
 
+.row-one,
+.row-two {
+  margin: 0;
+}
+
 .project-one,
-.project-two {
+.project-two,
+.project-three,
+.project-four,
+.project-five {
   border-bottom: 3px solid #5e548e;
 }
 
 .project-one,
 .project-two,
-.project-three {
+.project-three,
+.project-four,
+.project-five,
+.project-six {
   width: 85%;
+  /* margin: 30px auto; */
   padding: 25px 0;
-  margin: 0 auto;
+  list-style-type: none;
   text-align: center;
 }
 
@@ -43,75 +61,22 @@
   text-align: center;
   color: #5E548E;
   margin: 10px 0 auto;
-  padding-top: 5px;
+  /* padding-top: 5px; */
   font-size: 35px;
   font-weight: 600;
   text-decoration: none;
+  line-height: 35px;
 }
 
 .portfolio-project-title:hover {
-  border-bottom: 3px double #5E548E;
+  text-decoration: underline;
 }
 
 .portfolio-services {
   font-size: 17px;
   letter-spacing: 1px;
-  margin: 0 0 15px 0;
+  margin: 15px 0;
   color: #9F86C0;
-}
-
-.portfolio-project-tagline {
-  font-style: italic;
-  font-size: 18px;
-  margin: 40px auto;
-  color: #1c1435;
-}
-
-.live-portfolio-par {
-  padding: 9px;
-}
-
-.live-portfolio-link {
-  text-decoration: none;
-  background-color: #BE95C4;
-  border-radius: 9px;
-  padding: 10px 15px;
-  color: #FFFFFF;
-  letter-spacing: 1px;
-  font-size: 16px;
-}
-
-.live-portfolio-link:hover {
-  background-color: #5E548E;
-}
-
-.github-repos {
-  margin: 0;
-  padding-top: 15px;
-}
-
-.github-repo-link {
-  text-decoration: none;
-  color: #1c1435;
-  letter-spacing: 0.5px;
-  font-weight: 500;
-  display: inline-block;
-  margin-top: 0px;
-  padding: 10px;
-}
-
-.github-icon {
-  width: 45px;
-  margin: 14px;
-}
-
-.github-repo-link:hover {
-  color: #BE95C4;
-}
-
-.github-icon:hover {
-  background-color: #BE95C4;
-  border-radius: 100%;
 }
 
 /* ============================ 
@@ -121,44 +86,56 @@ MEDIA QUERIES
 /* tablet */
 
 @media only screen and (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
-  .row-one {
-    margin: 0 70px;
+  .row-one,
+  .row-two {
+    margin: 0 auto;
+    width: 90%;
+    padding-left: 0;
   }
   .portfolio-project-title {
     font-size: 50px;
+  }
+  .project-one,
+  .project-two,
+  .project-three,
+  .project-four,
+  .project-five,
+  .project-six {
+    margin: 0 auto;
+    padding: 25px 0;
   }
   .portfolio-services {
     font-size: 25px;
   }
   .portfolio-responsive-mock {
-    box-shadow: 5px 5px rgba(94, 84, 142, 0.7)
-  }
-  .portfolio-project-tagline {
-    font-size: 24px;
-  }
-  .github-icon {
-    width: 60px;
-  }
-  .github-repo-link {
-    padding: 18px;
-    font-size: 20px;
+    box-shadow: 5px 5px rgba(94, 84, 142, 0.7);
+    width: 75%;
   }
 }
 
 /* desktop */
 
 @media only screen and (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-  .row-one {
+  .row-one,
+  .row-two {
     display: flex;
     padding-bottom: 20px;
   }
   .project-one,
   .project-two,
-  .project-three {
+  .project-three,
+  .project-four,
+  .project-five,
+  .project-six {
     width: 30%;
+    padding: 0;
+    margin: 0 auto;
   }
   .project-one,
-  .project-two {
+  .project-two,
+  .project-three,
+  .project-four,
+  .project-five {
     border: none;
   }
   .portfolio-component {
@@ -168,17 +145,16 @@ MEDIA QUERIES
     margin-bottom: 60px;
     font-size: 55px;
   }
+  .portfolio-project-title {
+    line-height: 50px;
+  }
+  .portfolio-project-title:hover {
+    text-decoration: underline;
+  }
   .portfolio-services {
     font-size: 22px;
   }
-  .portfolio-project-tagline {
-    padding: 0 25px;
-    font-size: 20px;
-  }
-  .live-portfolio-link {
-    font-size: 18px;
-  }
-  .github-repo-link {
-    font-size: 20px;
+  .portfolio-responsive-mock {
+    width: 100%;
   }
 }

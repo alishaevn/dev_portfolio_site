@@ -1,83 +1,90 @@
-import React, { Component } from 'react'
-import Contact from '../Contact'
+import React, { Component } from 'react';
+import { Redirect } from 'react-router-dom';
 
-// import './portfolioProjects.css'
+import './projects.css';
+
 
 export default class ForTheWin extends Component {
+  constructor() {
+    super();
+    this.state = {
+      close: false
+    }
+  }
+
   render() {
+    if (this.state.close) {
+      return <Redirect to='/' />
+    }
 
     return (
-      <div className='portfolio-project-component'>
-        <h1 className='portfolio-project-title-div'>For The Win</h1>
+      <div className='project-component'>
+        <p className='close-portfolio'
+          onClick={() => this.setState({ close: true})} > 
+            X
+        </p>
 
-        <div className='portfolio-project-row-one'>
-          <div className='portfolio-project-info-div'>
-            <p className='portfolio-project-tagline'>
-              The basketball enthusiast's preferred way to track stats for their favorite players.
-            </p>
-            
-            <div className='portfolio-project-repo'>
-              <a
+          <div className='portfolio-project'>
+            <a className='project-title'
+              href='https://for-the-win-app.netlify.com/'
+              target='_blank'
+              rel='noopener noreferrer'> 
+                For The Win 
+            </a>
+            <div className='opening-sequence'>
+              <a className='photo-link'
                 href='https://for-the-win-app.netlify.com/'
                 target='_blank'
-                rel='noopener noreferrer'
-                className='portfolio-project-link'
-              >Live Site
-              </a> | <a
-                href='https://github.com/thinkful-ei18/for_the_win_client'
-                target='_blank'
-                rel='noopener noreferrer'
-                className='portfolio-project-link'
-              >Project Repo</a>
+                rel='noopener noreferrer'>
+                  <img className='project-responsive-mock'
+                  src={require('../../images/portfolio/ftw_responsive.png')} 
+                  alt='For The Win Mockup' />
+              </a>
+              <p className='project-summary'>
+              Make or join a fantasy basketball league (up to 5 members) and keep up with the stats of your favorite basketball players. Once you register for a free account simply choose 10 players to be on your team and track their stats on the dashboard. Each occurence of an offensive or defensive stat counts as a single point towards the user's total score. 
+              </p>
             </div>
-            <img
-              src={require('../../images/portfolio/ftw_responsive.png')}
-              alt='for the win responsive versions'
-              className='portfolio-project-responsive-image'
-            />
+            <p className='project-services'> FULL STACK DEVELOPMENT • UI/UX DESIGN </p>
+            <p className='live-portfolio-par'>
+              <a className='live-portfolio-link'
+                href='https://for-the-win-app.netlify.com/'
+                target='_blank'
+                rel='noopener noreferrer' >
+                  View the Live Site
+              </a>
+            </p>
+            <div className='github-repos'>
+              <div>
+                <a href='https://github.com/thinkful-ei18/for_the_win_client'
+                  target='_blank'
+                  rel='noopener noreferrer' >
+                    <img className='github-icon'
+                      src={require('../../images/github_icon.png')} 
+                      alt='link to client repo' />
+                </a>
+                <a href='https://github.com/thinkful-ei18/for_the_win_server'
+                  target='_blank'
+                  rel='noopener noreferrer' >
+                    <img className='github-icon'
+                      src={require('../../images/github_icon.png')} 
+                      alt='link to server repo' />
+                </a>
+              </div>
+              <div>
+                <a className='github-repo-link'
+                  href='https://github.com/thinkful-ei18/for_the_win_client' > 
+                    Client 
+                </a>
+                <a className='github-repo-link'
+                  href='https://github.com/thinkful-ei18/for_the_win_server' > 
+                    Server 
+                </a>
+              </div>
+            </div>
           </div>
-        </div>
 
-        <div className='portfolio-project-row-two'>
-          <h4 className='tech-stack-header'>
-            Tech:
-          </h4>
-          <ul className='portfolio-project-stack'>
-            <li className='tech-stack-li'>Mongo</li>
-            <li className='tech-stack-li'>Express</li>
-            <li className='tech-stack-li'>Passport</li>
-            <li className='tech-stack-li'>Node</li>
-            <li className='tech-stack-li'>REST API</li>
-            <li className='tech-stack-li'>React</li>
-            <li className='tech-stack-li'>Redux</li>
-            <li className='tech-stack-li'>CSS</li>
-            <li className='tech-stack-li'>Responsive</li>
-          </ul>
-        </div>
-
-        <div className='portfolio-project-row-three'>
-        </div>
-
-        <button className='back-to-home-button'>
-          Home
-        </button>
-        <Contact />
       </div>
     )
 
   }
 }
-
-
-/**
- <p className='portfolio-project-description'>
-    The concept of For The Win came about because I'm a sports fan and felt that an app that allowed fans such as myself to track the stats of their favorite players would be something nice to have.
-  </p>
-
-
-<img
-  src={require('../../images/portfolio/ftw_mock.png')}
-  alt='for the win desktop app'
-  className='portfolio-project-main-image'
-/>
- */
