@@ -22,8 +22,10 @@
 }
 
 .navigation {
-  margin: 25px auto;
-  text-align: center;
+  margin: 20px;
+  /* text-align: center; */
+  float: right;
+  display: none;
 }
 
 .menu-button,
@@ -35,16 +37,16 @@
   border: none;
   margin: 15px 10px;
   color: #5E548E;
-  font-size: 15px;
   right: 10px;
   top: 10px;
   text-align: right;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .menu-button-clicked {
-  color: #ffffff;
-  background-color: #1c1435;
+  /* color: #ffffff; */
+  /* background-color: #1c1435; */
+  color: #1c1435;
 }
 
 .dropdown-menu {
@@ -62,8 +64,9 @@
   /* background-color: #1c1435; */
   /* color: #ffffff; */
   color: #5E548E;
-  padding: 5px 25px;
-  font-size: 12px;
+  padding: 5px 5px;
+  margin: 0 5px;
+  font-size: 13px;
   letter-spacing: 0.5px;
 }
 
@@ -71,8 +74,9 @@
   display: flex;
   justify-content: center;
   font-size: 36px;
-  height: 65px;
-  padding-top: 120px;
+  /* height: 85px; */
+  /* padding-top: 120px; */
+  margin-top: 230px;
 }
 
 .first-name {
@@ -88,7 +92,8 @@
 .title {
   margin: 0 auto;
   font-size: 18px;
-  padding-top: 60px;
+  /* padding-top: 60px; */
+  /* height: 80px; */
 }
 
 .job-description {
@@ -96,24 +101,31 @@
   font-size: 16px;
   text-align: center;
   width: 75%;
-  margin: 25px auto;
+  margin: 0px auto;
 }
 
-.to-portfolio-btn {
+.home-social-media-icons {
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+  margin: 30px 5px 20px;
+}
+
+/* .to-portfolio-btn {
   border: 2px solid #5E548E;
   background-color: transparent;
   width: 35%;
   padding: 8px;
   margin: 50px auto 30px;
-}
+} */
 
-.to-portfolio-hashlink {
+/* .to-portfolio-hashlink {
   color: #1c1435;
   text-decoration: none;
   padding: 1em 2em;
   margin: -9em;
   font-size: 14px;
-}
+} */
 
 /* ============================ 
 MEDIA QUERIES
@@ -126,7 +138,7 @@ MEDIA QUERIES
     background-image: url('../images/tablet_bg.png');
   }
   .navigation {
-    margin: 40px auto 10px;
+    margin: 40px auto;
   }
   .menu-button,
   .menu-button-clicked {
@@ -188,6 +200,9 @@ MEDIA QUERIES
   }
   .menu-hashlink {
     font-size: 25px;
+  }
+  .menu-hashlink:hover {
+    text-decoration: underline;
   }
   .name {
     font-size: 120px;
