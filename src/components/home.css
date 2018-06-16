@@ -146,7 +146,7 @@ MEDIA QUERIES
     width: 140px;
     right: 36px;
     top: 25px;
-    font-size: 30px;
+    font-size: 50px;
   }
   .dropdown-menu {
     top: 84px;
@@ -158,15 +158,15 @@ MEDIA QUERIES
   }
   .name {
     font-size: 80px;
-    margin-top: 75px;
+    margin-top: 300px;
   }
   .title {
-    margin: 80px auto 10px;
+    /* margin: 80px auto 10px; */
     font-size: 40px;
   }
   .job-description {
     font-size: 32px;
-    margin: 55px auto;
+    /* margin: 55px auto; */
   }
   .to-portfolio-btn {
     width: 30%;
