@@ -22,9 +22,6 @@
 }
 
 .navigation {
-  margin: 20px;
-  /* text-align: center; */
-  float: right;
   display: none;
 }
 
@@ -182,6 +179,15 @@ MEDIA QUERIES
 /* desktop */
 
 @media only screen and (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .menu-button {
+    display: none;
+  }
+  .navigation {
+    display: inherit;
+    margin: 45px;
+    /* float: right; */
+    text-align: center;
+  }
   .home-component {
     background-image: url('../images/full_size_bg.png');
   }
@@ -199,14 +205,16 @@ MEDIA QUERIES
     width: 140px;
   }
   .menu-hashlink {
-    font-size: 25px;
+    font-size: 20px;
+    padding: 5px 15px;
   }
   .menu-hashlink:hover {
     text-decoration: underline;
   }
   .name {
     font-size: 120px;
-    margin-top: 0;
+    margin-top: 110px;
+    height: 150px;
     /* padding-top: 170px; */
   }
   .first-name {
@@ -216,12 +224,12 @@ MEDIA QUERIES
     margin: 0;
   }
   .title {
-    margin: 20px auto;
+    /* margin: 20px auto; */
     font-size: 65px;
   }
   .job-description {
     font-size: 50px;
-    margin: 65px auto 0;
+    /* margin: 65px auto 0; */
   }
   .to-portfolio-btn {
     width: 20%;
