@@ -22,8 +22,7 @@
 }
 
 .navigation {
-  margin: 25px auto;
-  text-align: center;
+  display: none;
 }
 
 .menu-button,
@@ -35,16 +34,14 @@
   border: none;
   margin: 15px 10px;
   color: #5E548E;
-  font-size: 15px;
   right: 10px;
   top: 10px;
   text-align: right;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .menu-button-clicked {
-  color: #ffffff;
-  background-color: #1c1435;
+  color: #1c1435;
 }
 
 .dropdown-menu {
@@ -59,11 +56,10 @@
 
 .menu-hashlink {
   text-decoration: none;
-  /* background-color: #1c1435; */
-  /* color: #ffffff; */
   color: #5E548E;
-  padding: 5px 25px;
-  font-size: 12px;
+  padding: 5px 5px;
+  margin: 0 5px;
+  font-size: 13px;
   letter-spacing: 0.5px;
 }
 
@@ -71,8 +67,7 @@
   display: flex;
   justify-content: center;
   font-size: 36px;
-  height: 65px;
-  padding-top: 120px;
+  margin-top: 230px;
 }
 
 .first-name {
@@ -88,7 +83,6 @@
 .title {
   margin: 0 auto;
   font-size: 18px;
-  padding-top: 60px;
 }
 
 .job-description {
@@ -96,23 +90,14 @@
   font-size: 16px;
   text-align: center;
   width: 75%;
-  margin: 25px auto;
+  margin: 0px auto;
 }
 
-.to-portfolio-btn {
-  border: 2px solid #5E548E;
-  background-color: transparent;
-  width: 35%;
-  padding: 8px;
-  margin: 50px auto 30px;
-}
-
-.to-portfolio-hashlink {
-  color: #1c1435;
-  text-decoration: none;
-  padding: 1em 2em;
-  margin: -9em;
-  font-size: 14px;
+.home-social-media-icons {
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+  margin: 30px 5px 20px;
 }
 
 /* ============================ 
@@ -126,7 +111,7 @@ MEDIA QUERIES
     background-image: url('../images/tablet_bg.png');
   }
   .navigation {
-    margin: 40px auto 10px;
+    margin: 40px auto;
   }
   .menu-button,
   .menu-button-clicked {
@@ -134,7 +119,7 @@ MEDIA QUERIES
     width: 140px;
     right: 36px;
     top: 25px;
-    font-size: 30px;
+    font-size: 50px;
   }
   .dropdown-menu {
     top: 84px;
@@ -146,15 +131,13 @@ MEDIA QUERIES
   }
   .name {
     font-size: 80px;
-    margin-top: 75px;
+    margin-top: 300px;
   }
   .title {
-    margin: 80px auto 10px;
     font-size: 40px;
   }
   .job-description {
     font-size: 32px;
-    margin: 55px auto;
   }
   .to-portfolio-btn {
     width: 30%;
@@ -170,6 +153,14 @@ MEDIA QUERIES
 /* desktop */
 
 @media only screen and (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .menu-button {
+    display: none;
+  }
+  .navigation {
+    display: inherit;
+    margin: 45px;
+    text-align: center;
+  }
   .home-component {
     background-image: url('../images/full_size_bg.png');
   }
@@ -187,12 +178,16 @@ MEDIA QUERIES
     width: 140px;
   }
   .menu-hashlink {
-    font-size: 25px;
+    font-size: 20px;
+    padding: 5px 15px;
+  }
+  .menu-hashlink:hover {
+    text-decoration: underline;
   }
   .name {
     font-size: 120px;
-    margin-top: 0;
-    /* padding-top: 170px; */
+    margin-top: 110px;
+    height: 150px;
   }
   .first-name {
     margin: 0;
@@ -201,16 +196,13 @@ MEDIA QUERIES
     margin: 0;
   }
   .title {
-    margin: 20px auto;
     font-size: 65px;
   }
   .job-description {
     font-size: 50px;
-    margin: 65px auto 0;
   }
   .to-portfolio-btn {
     width: 20%;
-    /* padding: 20px; */
     margin-top: 30px;
   }
   .to-portfolio-hashlink {

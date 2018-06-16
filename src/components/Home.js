@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
-import { HashLink } from 'react-router-hash-link'
-import smoothscroll from 'smoothscroll-polyfill'
+import React, { Component } from 'react';
+import { HashLink } from 'react-router-hash-link';
+import smoothscroll from 'smoothscroll-polyfill';
 import { SocialIcon } from 'react-social-icons';
 
 import './home.css'
@@ -42,58 +42,75 @@ export default class Home extends Component {
       marginLeft: 5
     }
 
-    let style;
-    this.state.showMenu ? style = 'menu-button-clicked' : style = 'menu-button'
-    
     return (
       <div className='home-component'>
-        {/* <button className={style} onClick={this.showMenu}>
-          &#9776;
-				</button> */}
         <nav>
-          {/* { this.state.showMenu 
+          { this.state.showMenu
+            ? (
+              <button className='menu-button-clicked' onClick={this.showMenu}>
+            X
+          </button>
+            )
+            : (
+              <button className='menu-button' onClick={this.showMenu}>
+            &#9776;
+          </button>
+            )
+          }
+          { this.state.showMenu 
             ? (
 						<div className="dropdown-menu">
 							<HashLink 
                 to="/#portfolio"
                 smooth={true}
                 className='menu-hashlink'> 
-                portfolio 
+                PORTFOLIO 
               </HashLink>
 							<HashLink 
                 to="/#about"
                 smooth={true}
                 className='menu-hashlink'>
-                about
+                ABOUT
               </HashLink>
               <HashLink 
                 to="/#contact"
                 smooth={true}
                 className='menu-hashlink'>
-                contact
+                CONTACT
               </HashLink>
 						</div>
 					) 
-          : null } */}
+          : null }
           <div className="navigation">
 							<HashLink 
                 to="/#portfolio"
                 smooth={true}
                 className='menu-hashlink'> 
-                portfolio 
+                PORTFOLIO 
               </HashLink>
 							<HashLink 
                 to="/#about"
                 smooth={true}
                 className='menu-hashlink'>
-                about
+                ABOUT
               </HashLink>
-              <HashLink 
-                to="/#contact"
-                smooth={true}
-                className='menu-hashlink'>
-                contact
-              </HashLink>
+              <a className='menu-hashlink'
+                href='https://www.linkedin.com/in/alishaevans/'
+                alt='LinkedIn'
+                target='blank' >
+                LINKEDIN
+              </a>
+              <a className='menu-hashlink'
+                href='https://github.com/alishaantoinette'
+                alt='Github'
+                target='blank' >
+                GITHUB
+              </a>
+              <a className='menu-hashlink'
+                href='mailto:alieva.inc@gmail.com'
+                alt='Email' >
+                EMAIL
+              </a>
 						</div>
         </nav>
 
@@ -104,15 +121,7 @@ export default class Home extends Component {
         <div className='title'>
           <p className='job-description'> full stack developer, brand identity designer & photographer</p>
         </div>
-        <button className='to-portfolio-btn'>
-          <HashLink 
-            to='/#portfolio' 
-            smooth={true}
-            className='to-portfolio-hashlink'>
-          portfolio
-          </HashLink>
-        </button>
-        <div className='social-media-icons'>
+        <div className='home-social-media-icons'>
           <SocialIcon url='https://www.linkedin.com/in/alishaevans/' style={socialIconStyles} color='#5E548E' />
           <SocialIcon url='https://github.com/alishaantoinette' style={socialIconStyles} color='#5E548E' />
           <SocialIcon url='mailto:alieva.inc@gmail.com' style={socialIconStyles} color='#5E548E' />
@@ -128,4 +137,5 @@ export default class Home extends Component {
   - https://github.com/rafrex/react-router-hash-link
   - https://unicode-table.com/en/#2261
   - https://www.w3schools.com/charsets/ref_utf_misc_symbols.asp
+  - http://jaketrent.github.io/react-social-icons/
  */
