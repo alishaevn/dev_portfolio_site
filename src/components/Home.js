@@ -42,57 +42,66 @@ export default class Home extends Component {
       marginLeft: 5
     }
 
-    let style;
-    this.state.showMenu ? style = 'menu-button-clicked' : style = 'menu-button'
+    // let style;
+    // this.state.showMenu ? style = 'menu-button-clicked' : style = 'menu-button'
     
     return (
       <div className='home-component'>
-        {/* <button className={style} onClick={this.showMenu}>
-          &#9776;
-				</button> */}
         <nav>
-          {/* { this.state.showMenu 
+          { this.state.showMenu
+            ? (
+              <button className='menu-button-clicked' onClick={this.showMenu}>
+            X
+          </button>
+            )
+            : (
+              <button className='menu-button' onClick={this.showMenu}>
+            &#9776;
+          </button>
+            )
+          }
+          { this.state.showMenu 
             ? (
 						<div className="dropdown-menu">
 							<HashLink 
                 to="/#portfolio"
                 smooth={true}
                 className='menu-hashlink'> 
-                portfolio 
+                PORTFOLIO 
               </HashLink>
 							<HashLink 
                 to="/#about"
                 smooth={true}
                 className='menu-hashlink'>
-                about
+                ABOUT
               </HashLink>
               <HashLink 
                 to="/#contact"
                 smooth={true}
                 className='menu-hashlink'>
-                contact
+                CONTACT
               </HashLink>
 						</div>
 					) 
-          : null } */}
+          : null }
           <div className="navigation">
 							<HashLink 
                 to="/#portfolio"
                 smooth={true}
                 className='menu-hashlink'> 
-                portfolio 
+                PORTFOLIO 
               </HashLink>
 							<HashLink 
                 to="/#about"
                 smooth={true}
                 className='menu-hashlink'>
-                about
+                ABOUT
               </HashLink>
               <HashLink 
                 to="/#contact"
                 smooth={true}
                 className='menu-hashlink'>
-                contact
+                CONTACT
               </HashLink>
 						</div>
         </nav>
@@ -104,15 +113,15 @@ export default class Home extends Component {
         <div className='title'>
           <p className='job-description'> full stack developer, brand identity designer & photographer</p>
         </div>
-        <button className='to-portfolio-btn'>
+        {/* <button className='to-portfolio-btn'>
           <HashLink 
             to='/#portfolio' 
             smooth={true}
             className='to-portfolio-hashlink'>
           portfolio
           </HashLink>
-        </button>
-        <div className='social-media-icons'>
+        </button> */}
+        <div className='home-social-media-icons'>
           <SocialIcon url='https://www.linkedin.com/in/alishaevans/' style={socialIconStyles} color='#5E548E' />
           <SocialIcon url='https://github.com/alishaantoinette' style={socialIconStyles} color='#5E548E' />
           <SocialIcon url='mailto:alieva.inc@gmail.com' style={socialIconStyles} color='#5E548E' />
