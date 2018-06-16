@@ -41,8 +41,6 @@
 }
 
 .menu-button-clicked {
-  /* color: #ffffff; */
-  /* background-color: #1c1435; */
   color: #1c1435;
 }
 
@@ -58,8 +56,6 @@
 
 .menu-hashlink {
   text-decoration: none;
-  /* background-color: #1c1435; */
-  /* color: #ffffff; */
   color: #5E548E;
   padding: 5px 5px;
   margin: 0 5px;
@@ -71,8 +67,6 @@
   display: flex;
   justify-content: center;
   font-size: 36px;
-  /* height: 85px; */
-  /* padding-top: 120px; */
   margin-top: 230px;
 }
 
@@ -89,8 +83,6 @@
 .title {
   margin: 0 auto;
   font-size: 18px;
-  /* padding-top: 60px; */
-  /* height: 80px; */
 }
 
 .job-description {
@@ -107,22 +99,6 @@
   text-align: center;
   margin: 30px 5px 20px;
 }
-
-/* .to-portfolio-btn {
-  border: 2px solid #5E548E;
-  background-color: transparent;
-  width: 35%;
-  padding: 8px;
-  margin: 50px auto 30px;
-} */
-
-/* .to-portfolio-hashlink {
-  color: #1c1435;
-  text-decoration: none;
-  padding: 1em 2em;
-  margin: -9em;
-  font-size: 14px;
-} */
 
 /* ============================ 
 MEDIA QUERIES
@@ -158,12 +134,10 @@ MEDIA QUERIES
     margin-top: 300px;
   }
   .title {
-    /* margin: 80px auto 10px; */
     font-size: 40px;
   }
   .job-description {
     font-size: 32px;
-    /* margin: 55px auto; */
   }
   .to-portfolio-btn {
     width: 30%;
@@ -185,7 +159,6 @@ MEDIA QUERIES
   .navigation {
     display: inherit;
     margin: 45px;
-    /* float: right; */
     text-align: center;
   }
   .home-component {
@@ -215,7 +188,6 @@ MEDIA QUERIES
     font-size: 120px;
     margin-top: 110px;
     height: 150px;
-    /* padding-top: 170px; */
   }
   .first-name {
     margin: 0;
@@ -224,16 +196,13 @@ MEDIA QUERIES
     margin: 0;
   }
   .title {
-    /* margin: 20px auto; */
     font-size: 65px;
   }
   .job-description {
     font-size: 50px;
-    /* margin: 65px auto 0; */
   }
   .to-portfolio-btn {
     width: 20%;
-    /* padding: 20px; */
     margin-top: 30px;
   }
   .to-portfolio-hashlink {
