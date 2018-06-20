@@ -11,58 +11,6 @@
   height: 100vh;
 }
 
-.navbar-flex {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.nav-arrow {
-  text-align: right;
-}
-
-.navigation {
-  display: none;
-}
-
-.menu-button,
-.menu-button-clicked {
-  position: absolute;
-  background-color: transparent;
-  height: 35px;
-  width: 90px;
-  border: none;
-  margin: 15px 10px;
-  color: #5E548E;
-  right: 10px;
-  top: 10px;
-  text-align: right;
-  font-size: 30px;
-}
-
-.menu-button-clicked {
-  color: #1c1435;
-}
-
-.dropdown-menu {
-  position: absolute;
-  top: 60px;
-  right: 20px;
-  display: flex;
-  flex-direction: column;
-  text-align: right;
-  width: 90px;
-}
-
-.menu-hashlink {
-  text-decoration: none;
-  color: #5E548E;
-  padding: 5px 5px;
-  margin: 0 5px;
-  font-size: 13px;
-  letter-spacing: 0.5px;
-}
-
 .name {
   display: flex;
   justify-content: center;
@@ -110,25 +58,6 @@ MEDIA QUERIES
   .home-component {
     background-image: url('../images/tablet_bg.png');
   }
-  .navigation {
-    margin: 40px auto;
-  }
-  .menu-button,
-  .menu-button-clicked {
-    height: 45px;
-    width: 140px;
-    right: 36px;
-    top: 25px;
-    font-size: 50px;
-  }
-  .dropdown-menu {
-    top: 84px;
-    right: 46px;
-    width: 140px;
-  }
-  .menu-hashlink {
-    font-size: 25px;
-  }
   .name {
     font-size: 80px;
     margin-top: 300px;
@@ -153,36 +82,8 @@ MEDIA QUERIES
 /* desktop */
 
 @media only screen and (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-  .menu-button {
-    display: none;
-  }
-  .navigation {
-    display: inherit;
-    margin: 45px;
-    text-align: center;
-  }
   .home-component {
     background-image: url('../images/full_size_bg.png');
-  }
-  .menu-button,
-  .menu-button-clicked {
-    height: 60px;
-    width: 140px;
-    right: 70px;
-    top: 50px;
-    font-size: 40px;
-  }
-  .dropdown-menu {
-    top: 125px;
-    right: 80px;
-    width: 140px;
-  }
-  .menu-hashlink {
-    font-size: 20px;
-    padding: 5px 15px;
-  }
-  .menu-hashlink:hover {
-    text-decoration: underline;
   }
   .name {
     font-size: 120px;
