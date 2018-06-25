@@ -37,11 +37,45 @@ export default class NavBar extends Component {
 
     return( 
       <nav>
+        {/* mobile menu */}
           { this.state.showMenu
             ? (
-              <button className='menu-button-clicked' onClick={this.showMenu}>
-            X
-          </button>
+              <div>
+                <button className='menu-button-clicked' onClick={this.showMenu}>
+                  X
+                </button>
+                <div className="dropdown-menu">
+                  <HashLink 
+                    to="/#portfolio"
+                    smooth={true}
+                    className='menu-hashlink'> 
+                    PORTFOLIO 
+                  </HashLink>
+                  <HashLink 
+                    to="/#about"
+                    smooth={true}
+                    className='menu-hashlink'>
+                    ABOUT
+                  </HashLink>
+                  <a className='menu-hashlink'
+                    href='https://www.linkedin.com/in/alishaevans/'
+                    alt='LinkedIn'
+                    target='blank' >
+                    LINKEDIN
+                  </a>
+                  <a className='menu-hashlink'
+                    href='https://github.com/alishaantoinette'
+                    alt='Github'
+                    target='blank' >
+                    GITHUB
+                  </a>
+                  <a className='menu-hashlink'
+                    href='mailto:alieva.inc@gmail.com'
+                    alt='Email' >
+                    EMAIL
+                  </a>
+                </div>
+              </div>
             )
             : (
               <button className='menu-button' onClick={this.showMenu}>
@@ -49,41 +83,8 @@ export default class NavBar extends Component {
           </button>
             )
           }
-          { this.state.showMenu 
-            ? (
-						<div className="dropdown-menu">
-							<HashLink 
-                to="/#portfolio"
-                smooth={true}
-                className='menu-hashlink'> 
-                PORTFOLIO 
-              </HashLink>
-							<HashLink 
-                to="/#about"
-                smooth={true}
-                className='menu-hashlink'>
-                ABOUT
-              </HashLink>
-              <a className='menu-hashlink'
-                href='https://www.linkedin.com/in/alishaevans/'
-                alt='LinkedIn'
-                target='blank' >
-                LINKEDIN
-              </a>
-              <a className='menu-hashlink'
-                href='https://github.com/alishaantoinette'
-                alt='Github'
-                target='blank' >
-                GITHUB
-              </a>
-              <a className='menu-hashlink'
-                href='mailto:alieva.inc@gmail.com'
-                alt='Email' >
-                EMAIL
-              </a>
-						</div>
-					) 
-          : null }
+          
+          {/* desktop menu */}
           <div className="navigation">
 							<HashLink 
                 to="/#portfolio"
