@@ -46,6 +46,12 @@ export default class NavBar extends Component {
                 </button>
                 <div className="dropdown-menu">
                   <HashLink 
+                    to="/"
+                    smooth={true}
+                    className='menu-hashlink'> 
+                    HOME 
+                  </HashLink>
+                  <HashLink 
                     to="/#portfolio"
                     smooth={true}
                     className='menu-hashlink'> 
@@ -83,9 +89,15 @@ export default class NavBar extends Component {
           </button>
             )
           }
-          
+
           {/* desktop menu */}
           <div className="navigation">
+              <HashLink 
+                to="/"
+                smooth={true}
+                className='menu-hashlink'> 
+                HOME 
+              </HashLink>
 							<HashLink 
                 to="/#portfolio"
                 smooth={true}
