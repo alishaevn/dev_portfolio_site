@@ -2,6 +2,10 @@
  * coolors.co/1c1435-5e548e-9f86c0-be95c4-e0b1cb
  */
 
+nav {
+  height: 70px;
+}
+
 .navbar-flex {
   display: flex;
   justify-content: space-evenly;
