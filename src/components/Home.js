@@ -18,7 +18,7 @@ export default class Home extends Component {
     }
 
     return (
-      <div className='home-component'>
+      <div className='home-component' id='home'>
         <NavBar />
 
         <div className='name'>
