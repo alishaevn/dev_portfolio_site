@@ -6,13 +6,9 @@
   background-color: #ffffff;
 }
 
-.portfolio-project {
-  /* width: 85%; */
-  /* margin: 0 auto; */
+.project-container {
   background-color: #E8C6D9;
   padding: 15px 8% 30px;
-  /* text-align: center; */
-  /* padding-top: 120px; */
 }
 
 .close-portfolio {
@@ -21,8 +17,7 @@
   font-weight: bold;
 }
 
-.project-responsive-mock,
-.branding-project-responsive-mock {
+.project-responsive-mock {
   width: 100%;
   margin: 10px 0;
   border-radius: 5px;
@@ -33,17 +28,13 @@
   opacity: 0.7;
 }
 
-.project-title,
-.branding-project-title {
+.project-title {
   display: block;
   text-align: center;
   color: #5E548E;
-  /* margin: 10px 0 auto; */
-  /* padding-top: 5px; */
   font-size: 45px;
   font-weight: 600;
   text-decoration: none;
-  /* line-height: 35px; */
 }
 
 .project-title:hover {
@@ -100,7 +91,6 @@
 .github-repos {
   margin: 0;
   text-align: center;
-  /* padding-top: 15px; */
 }
 
 .github-repo-link {
@@ -132,8 +122,6 @@
   color: #1C1435;
 }
 
-/* BRANDING ONLY STYLES */
-
 .photo-bank {
   width: 100%;
   margin: 25px auto 0;
@@ -156,29 +144,30 @@ MEDIA QUERIES
 /* tablet */
 
 @media only screen and (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
+  nav {
+    height: 150px;
+  }
   .close-portfolio {
     font-size: 30px;
   }
-  .portfolio-project {
-    width: 90%;
-  }
-  .project-title,
-  .branding-project-title {
+  .project-title {
     font-size: 60px;
-    line-height: 40px;
+    line-height: 80px;
   }
   .opening-sequence {
     padding-top: 20px;
   }
   .photo-link {
     width: 100%;
+    text-align: center;
+    display: block;
   }
-  .project-responsive-mock,
-  .branding-project-responsive-mock {
-    width: 80%;
+  .project-responsive-mock {
+    /* width: 80%; */
   }
   .project-tagline {
-    display: none;
+    /* display: none; */
+    font-size: 18px;
   }
   .project-services {
     font-size: 20px;
@@ -204,7 +193,6 @@ MEDIA QUERIES
   .live-portfolio-par {
     padding: 15px 0;
   }
-  /* BRANDING ONLY STYLES */
   .photo-bank {
     width: 100%;
   }
@@ -217,8 +205,11 @@ MEDIA QUERIES
     font-size: 40px;
     margin-left: 40px;
   }
-  .portfolio-project {
-    width: 95%;
+  .project-container {
+    /* width: 95%; */
+  }
+  .project-intro {
+    display: flex;
   }
   .opening-sequence {
     display: inline-flex;
@@ -227,13 +218,11 @@ MEDIA QUERIES
   .branding-main-photo {
     width: 85%;
   }
-  .project-title,
-  .branding-project-title {
+  .project-title {
     font-size: 70px;
     line-height: 80px;
   }
-  .project-responsive-mock,
-  .branding-project-responsive-mock {
+  .project-responsive-mock {
     width: 100%;
   }
   .photo-link {
@@ -244,13 +233,15 @@ MEDIA QUERIES
     margin-top: 75px;
   }
   .project-tagline {
-    display: inline-block;
+    /* display: inline-block; */
+    width: 30%;
     padding: 0;
     font-size: 20px;
-    margin-top: 30px;
+    margin: 5px 20px;
   }
   .project-services {
-    font-size: 30px;
+    font-size: 25px;
+    text-align: right;
   }
   .project-summary {
     font-size: 18px;
@@ -272,7 +263,13 @@ MEDIA QUERIES
     font-size: 20px;
     padding: 0 18px 20px;
   }
-  /* BRANDING ONLY STYLES */
+  .project-details {
+    display: flex;
+  }
+  .info-box {
+    margin: 0 12px 25px 12px;
+    width: 33%;
+  }
   .design-project-summary {
     font-size: 18px;
     margin: 10px 30px 0;
@@ -280,14 +277,14 @@ MEDIA QUERIES
     text-align: left;
   }
   .photo-bank {
-    display: inline-flex;
+    /* display: inline-flex; */
     width: 100%;
     margin: 0 auto;
   }
   .project-photos-row {
-    width: 33%;
+    width: 49%;
     height: 100%;
-    margin: 0 auto;
+    margin: 5px;
   }
   .project-photos-column {
     margin-bottom: 25px;
