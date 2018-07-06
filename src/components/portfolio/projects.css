@@ -6,6 +6,15 @@
   background-color: #ffffff;
 }
 
+.portfolio-project {
+  /* width: 85%; */
+  /* margin: 0 auto; */
+  background-color: #E8C6D9;
+  padding: 15px 8% 30px;
+  /* text-align: center; */
+  /* padding-top: 120px; */
+}
+
 .close-portfolio {
   margin: 0 0 0 15px;
   font-size: 18px;
@@ -26,14 +35,15 @@
 
 .project-title,
 .branding-project-title {
+  display: block;
   text-align: center;
   color: #5E548E;
-  margin: 10px 0 auto;
-  padding-top: 5px;
+  /* margin: 10px 0 auto; */
+  /* padding-top: 5px; */
   font-size: 45px;
   font-weight: 600;
   text-decoration: none;
-  line-height: 35px;
+  /* line-height: 35px; */
 }
 
 .project-title:hover {
@@ -42,7 +52,7 @@
 
 .project-tagline {
   font-style: italic;
-  font-size: 18px;
+  font-size: 16px;
   margin: 5px auto 25px;
   color: #1c1435;
 }
@@ -51,10 +61,11 @@
   font-size: 17px;
   letter-spacing: 1px;
   margin: 15px 0;
-  color: #9F86C0;
+  color: #5E548E;
+  text-align: center;
 }
 
-.project-summary,
+.project-tagline,
 .design-project-summary {
   font-weight: 300;
   margin-top: 10px;
@@ -69,6 +80,7 @@
 
 .live-portfolio-par {
   padding: 9px;
+  text-align: center;
 }
 
 .live-portfolio-link {
@@ -87,6 +99,7 @@
 
 .github-repos {
   margin: 0;
+  text-align: center;
   /* padding-top: 15px; */
 }
 
@@ -114,11 +127,16 @@
   border-radius: 100%;
 }
 
+.project-heading {
+  margin-top: 25px;
+  color: #1C1435;
+}
+
 /* BRANDING ONLY STYLES */
 
 .photo-bank {
   width: 100%;
-  margin: 0 auto;
+  margin: 25px auto 0;
 }
 
 .project-photos-row {
