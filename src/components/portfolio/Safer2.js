@@ -19,7 +19,7 @@ export default class Safer2 extends Component {
           rel='noopener noreferrer' > 
           safeR 
         </a>
-        <div className='portfolio-project'>
+        <div className='project-container'>
           <p className='project-tagline'>
             SafeReport/safeR aims to keep the community safer by making sure they are up to date on local crimes and incidents in the area.
           </p>
@@ -80,15 +80,15 @@ export default class Safer2 extends Component {
             </div>
           </div>
           <h3 className='project-heading'> Why </h3>
-          <p className='project-why'>
+          <p className='project-details'>
             The initial idea for the app was to allow users to report hit and run's with details that law enforcement would be able to use to investigate cases. It quickly evolved into a larger idea that allows users to report various types of incidents so that local residents as well as local law enforcement may be aware.
           </p>
           <h3 className='project-heading'> How </h3>
-          <p className='project-how'>
+          <p className='project-details'>
             safeR does not require that visitors log in to see incidents, it does however require a visitor to register if they would like to make a report. It uses geolocation in order to show the most relevant incidents, each of which is indicated by 1 of 5 incident type markers. Each report requires a date, time, type and description and each user can view each of their reports on their dashboard. 
           </p>
           <h3 className='project-heading'> My Role </h3>
-          <p className='project-role'>
+          <p className='project-details'>
             I worked on this app with 4 other developers who affectionately called ourselves MAAJAC. My participation was on the front end of the web and mobile apps creating the custom incident markers, working on the map, the dashboard and design.
           </p>
           <div className='photo-bank'>
