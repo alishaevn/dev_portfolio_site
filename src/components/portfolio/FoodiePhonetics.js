@@ -56,16 +56,16 @@ export default class FoodiePhonetics extends Component {
           <div className='photo-bank'>
             <img className='project-photos-row'
               src={require('../../images/portfolio/safeR/safer1.png')} 
-              alt='NCSS Mockup' />
+              alt='Foodie Phonetics Mockup' />
             <img className='project-photos-row'
               src={require('../../images/portfolio/safeR/safer2.png')} 
-              alt='NCSS Mockup' />
+              alt='Foodie Phonetics Mockup' />
             <img className='project-photos-row'
               src={require('../../images/portfolio/safeR/safer3.png')} 
-              alt='NCSS Mockup' />
+              alt='Foodie Phonetics Mockup' />
             <img className='project-photos-row'
               src={require('../../images/portfolio/safeR/safer_native.jpg')} 
-              alt='NCSS Mockup' />
+              alt='Foodie Phonetics Mockup' />
           </div>
           <p className='live-portfolio-par'>
             <a className='live-portfolio-link'

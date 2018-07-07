@@ -55,26 +55,26 @@ export default class Safer extends Component {
             </div>
           </section>
           <div className='photo-bank'>
-              <img className='project-photos-row'
-                src={require('../../images/portfolio/safeR/safer1.png')} 
-                alt='NCSS Mockup' />
-              <img className='project-photos-row'
-                src={require('../../images/portfolio/safeR/safer2.png')} 
-                alt='NCSS Mockup' />
-              <img className='project-photos-row'
-                src={require('../../images/portfolio/safeR/safer3.png')} 
-                alt='NCSS Mockup' />
-              <img className='project-photos-row'
-                src={require('../../images/portfolio/safeR/safer_native.jpg')} 
-                alt='NCSS Mockup' />
-            </div>
-            <p className='live-portfolio-par'>
-              <a className='live-portfolio-link'
-                href='https://safer.netlify.com/'
-                target='_blank'
-                rel='noopener noreferrer' >
-                  View the Live Site
-              </a>
+            <img className='project-photos-row'
+              src={require('../../images/portfolio/safeR/safer1.png')} 
+              alt='safeR Mockup' />
+            <img className='project-photos-row'
+              src={require('../../images/portfolio/safeR/safer2.png')} 
+              alt='safeR Mockup' />
+            <img className='project-photos-row'
+              src={require('../../images/portfolio/safeR/safer3.png')} 
+              alt='safeR Mockup' />
+            <img className='project-photos-row'
+              src={require('../../images/portfolio/safeR/safer_native.jpg')} 
+              alt='safeR Mockup' />
+          </div>
+          <p className='live-portfolio-par'>
+            <a className='live-portfolio-link'
+              href='https://safer.netlify.com/'
+              target='_blank'
+              rel='noopener noreferrer' >
+                View the Live Site
+            </a>
           </p>
           <div className='github-repos'>
             <div>
