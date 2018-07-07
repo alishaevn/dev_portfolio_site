@@ -7,7 +7,7 @@
 }
 
 .project-container {
-  background-color: #E8C6D9;
+  background-color: rgba(224, 177, 203, 0.6);
   padding: 15px 8% 30px;
 }
 
@@ -25,7 +25,7 @@
 }
 
 .project-responsive-mock:hover {
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 .project-title {
@@ -164,11 +164,8 @@ MEDIA QUERIES
     text-align: center;
     display: block;
   }
-  .project-responsive-mock {
-    /* width: 80%; */
-  }
+  .project-responsive-mock {}
   .project-tagline {
-    /* display: none; */
     font-size: 18px;
   }
   .project-services {
