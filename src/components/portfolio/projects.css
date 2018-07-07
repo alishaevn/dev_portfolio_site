@@ -51,7 +51,7 @@
 .project-services {
   font-size: 17px;
   letter-spacing: 1px;
-  margin: 15px 0;
+  margin: 15px 0 50px;
   color: #5E548E;
   text-align: center;
 }
@@ -71,6 +71,7 @@
 
 .live-portfolio-par {
   padding: 9px;
+  margin-top: 20px;
   text-align: center;
 }
 
@@ -118,7 +119,7 @@
 }
 
 .project-heading {
-  margin-top: 25px;
+  margin: 25px 0;
   color: #1C1435;
 }
 
@@ -130,6 +131,7 @@
 .project-photos-row {
   width: 100%;
   border-radius: 5px;
+  margin: 10px 0;
 }
 
 .project-photos-column {
@@ -180,6 +182,10 @@ MEDIA QUERIES
     color: #1c1435;
     width: 80%;
   }
+  .project-info {
+    letter-spacing: 0.3px;
+    font-size: 18px;
+  }
   .github-icon {
     width: 60px;
   }
@@ -201,12 +207,16 @@ MEDIA QUERIES
 /* desktop */
 
 @media only screen and (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  nav {
+    height: initial;
+  }
   .close-portfolio {
     font-size: 40px;
     margin-left: 40px;
   }
   .project-container {
     /* width: 95%; */
+    padding: 75px 8%;
   }
   .project-intro {
     display: flex;
@@ -221,6 +231,7 @@ MEDIA QUERIES
   .project-title {
     font-size: 70px;
     line-height: 80px;
+    padding: 15px 0 30px;
   }
   .project-responsive-mock {
     width: 100%;
@@ -234,13 +245,13 @@ MEDIA QUERIES
   }
   .project-tagline {
     /* display: inline-block; */
-    width: 30%;
+    width: 50%;
     padding: 0;
-    font-size: 20px;
-    margin: 5px 20px;
+    font-size: 17px;
+    margin: 10px 20px;
   }
   .project-services {
-    font-size: 25px;
+    font-size: 22px;
     text-align: right;
   }
   .project-summary {
@@ -267,8 +278,8 @@ MEDIA QUERIES
     display: flex;
   }
   .info-box {
-    margin: 0 12px 25px 12px;
-    width: 33%;
+    margin: 80px 60px 80px 10px;
+    width: 50%;
   }
   .design-project-summary {
     font-size: 18px;
@@ -282,9 +293,9 @@ MEDIA QUERIES
     margin: 0 auto;
   }
   .project-photos-row {
-    width: 49%;
+    width: 48%;
     height: 100%;
-    margin: 5px;
+    margin: 5px 8px;
   }
   .project-photos-column {
     margin-bottom: 25px;
