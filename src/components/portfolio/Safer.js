@@ -42,7 +42,7 @@ export default class Safer extends Component {
           
           <section className='project-details'>
             <div className='info-box'>
-              <h2 className='project-heading'> The Motivation </h2>
+              <h2 className='project-heading'> Why </h2>
               <p className='project-info'>
                 The initial idea for the app was to allow users to report hit and run's with details that law enforcement would be able to use to investigate cases. It quickly evolved into a larger idea that allows users to report various types of incidents so that local residents as well as local law enforcement may be aware.
               </p>
@@ -50,7 +50,7 @@ export default class Safer extends Component {
             <div className='info-box'>
               <h2 className='project-heading'> My Role </h2>
               <p className='project-info'>
-                I worked on this app with 4 other developers who affectionately called ourselves MAAJAC. My participation was on the front end of the web and mobile apps creating the custom incident markers, working on the map, the dashboard and design.
+                I worked on this app with 4 other developers who affectionately called ourselves MAAJAC. My participation was on the front end of the web and mobile apps creating the custom incident markers, implementing our ideas using Google Map (web) and Expo Map (React Native), creating the dashboard and various design features.
               </p>
             </div>
           </section>

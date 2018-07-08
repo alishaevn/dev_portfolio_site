@@ -41,15 +41,15 @@ export default class FoodiePhonetics extends Component {
 
           <section className='project-details'>
             <div className='info-box'>
-              <h2 className='project-heading'> The Motivation </h2>
+              <h2 className='project-heading'> Why </h2>
               <p className='project-info'>
-                The initial idea for the app was to allow users to report hit and run's with details that law enforcement would be able to use to investigate cases. It quickly evolved into a larger idea that allows users to report various types of incidents so that local residents as well as local law enforcement may be aware.
+                The purpose behind this app was to create a spaced repition project that used a data structure algorithm. My pair programmer and I decided that we would use a singly linked list for this purpose.
               </p>
             </div>
             <div className='info-box'>
               <h2 className='project-heading'> My Role </h2>
               <p className='project-info'>
-                I worked on this app with 4 other developers who affectionately called ourselves MAAJAC. My participation was on the front end of the web and mobile apps creating the custom incident markers, working on the map, the dashboard and design.
+                The majority of my role in this project was on the server side dealing with the algorithm, user authentication and routes, although I did some work on the client side as well. The most challenging, and rewarding, part of this project for me was figuring out the logic on how to implement the singly linked list as well as the logic for creating my own version of the "insert at" method. 
               </p>
             </div>
           </section>

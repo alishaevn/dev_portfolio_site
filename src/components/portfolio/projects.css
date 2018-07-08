@@ -28,7 +28,8 @@
   opacity: 0.8;
 }
 
-.project-title {
+.project-title,
+.branding-project-title {
   display: block;
   text-align: center;
   color: #5E548E;
@@ -152,7 +153,8 @@ MEDIA QUERIES
   .close-portfolio {
     font-size: 30px;
   }
-  .project-title {
+  .project-title,
+  .branding-project-title {
     font-size: 60px;
     line-height: 80px;
   }
@@ -164,7 +166,6 @@ MEDIA QUERIES
     text-align: center;
     display: block;
   }
-  .project-responsive-mock {}
   .project-tagline {
     font-size: 18px;
   }
@@ -212,7 +213,6 @@ MEDIA QUERIES
     margin-left: 40px;
   }
   .project-container {
-    /* width: 95%; */
     padding: 75px 8%;
   }
   .project-intro {
@@ -225,7 +225,8 @@ MEDIA QUERIES
   .branding-main-photo {
     width: 85%;
   }
-  .project-title {
+  .project-title,
+  .branding-project-title {
     font-size: 70px;
     line-height: 80px;
     padding: 15px 0 30px;
@@ -241,7 +242,6 @@ MEDIA QUERIES
     margin-top: 75px;
   }
   .project-tagline {
-    /* display: inline-block; */
     width: 50%;
     padding: 0;
     font-size: 17px;
@@ -250,6 +250,7 @@ MEDIA QUERIES
   .project-services {
     font-size: 22px;
     text-align: right;
+    margin-bottom: 0px;
   }
   .project-summary {
     font-size: 18px;
@@ -258,7 +259,7 @@ MEDIA QUERIES
     text-align: left;
   }
   .live-portfolio-par {
-    margin-top: 35px;
+    margin-top: 50px;
     padding: 15px 0 25px;
   }
   .live-portfolio-link {
@@ -285,7 +286,6 @@ MEDIA QUERIES
     text-align: left;
   }
   .photo-bank {
-    /* display: inline-flex; */
     width: 100%;
     margin: 0 auto;
   }
@@ -296,5 +296,7 @@ MEDIA QUERIES
   }
   .project-photos-column {
     margin-bottom: 25px;
+    margin-left: 8px;
+    width: 98%;
   }
 }
