@@ -21,13 +21,6 @@
   margin-top: 25px;
 }
 
-/* .social-media-icons {
-  height: 50px;
-  padding: 10px;
-  text-align: center;
-  margin: 20px 5px;
-} */
-
 .copyright {
   margin: 20px 0px;
 }
@@ -39,6 +32,13 @@
   text-align: center;
   margin: 0;
   color: #1C1435;
+}
+
+.footer-social-media-icons {
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+  margin: 10px 5px 20px;
 }
 
 /* ============================ 

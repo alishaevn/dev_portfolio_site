@@ -37,31 +37,12 @@ export default class Footer extends Component {
           </HashLink>
         </div>
 
-        <div className='home-social-media-icons'>
+        <div className='footer-social-media-icons'>
           <SocialIcon url='https://www.linkedin.com/in/alishaevans/' style={socialIconStyles} color='#5E548E' />
           <SocialIcon url='https://github.com/alishaantoinette' style={socialIconStyles} color='#5E548E' />
           <SocialIcon url='mailto:alieva.inc@gmail.com' style={socialIconStyles} color='#5E548E' />
         </div>
 
-        {/* <div className='bottom-menu'>
-          <a className='menu-hashlink'
-            href='https://www.linkedin.com/in/alishaevans/'
-            alt='LinkedIn'
-            target='blank' >
-            LINKEDIN
-          </a>
-          <a className='menu-hashlink'
-            href='https://github.com/alishaantoinette'
-            alt='Github'
-            target='blank' >
-            GITHUB
-          </a>
-          <a className='menu-hashlink'
-            href='mailto:alieva.inc@gmail.com'
-            alt='Email' >
-            EMAIL
-          </a>
-        </div> */}
         <div className='copyright'>
           <p className='copyright-info'>© Copyright Alisha Antoinette Evans 2018.</p>
           <p className='copyright-info'>All Rights Reserved.</p>
