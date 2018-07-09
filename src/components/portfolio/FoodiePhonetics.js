@@ -33,7 +33,7 @@ export default class FoodiePhonetics extends Component {
               target='_blank'
               rel='noopener noreferrer'>
                 <img className='project-responsive-mock'
-                  src={require('../../images/portfolio/fp_responsive.png')}
+                  src={require('../../images/portfolio/foodie/fp_responsive.png')}
                   alt='Foodie Phonetics Mockup' />
             </a>
           </section>
@@ -55,16 +55,16 @@ export default class FoodiePhonetics extends Component {
           </section>
           <div className='photo-bank'>
             <img className='project-photos-row'
-              src={require('../../images/portfolio/safeR/safer1.png')} 
+              src={require('../../images/portfolio/foodie/fp_01.png')} 
               alt='Foodie Phonetics Mockup' />
             <img className='project-photos-row'
-              src={require('../../images/portfolio/safeR/safer2.png')} 
+              src={require('../../images/portfolio/foodie/fp_02.png')} 
               alt='Foodie Phonetics Mockup' />
             <img className='project-photos-row'
-              src={require('../../images/portfolio/safeR/safer3.png')} 
+              src={require('../../images/portfolio/foodie/fp_03.png')} 
               alt='Foodie Phonetics Mockup' />
             <img className='project-photos-row'
-              src={require('../../images/portfolio/safeR/safer_native.jpg')} 
+              src={require('../../images/portfolio/foodie/fp_04.png')} 
               alt='Foodie Phonetics Mockup' />
           </div>
           <p className='live-portfolio-par'>
