@@ -20,19 +20,19 @@ export default class Footer extends Component {
           <HashLink 
             to='/#home'
             smooth={true}
-            className='menu-hashlink'> 
+            className='menu-hashlink-footer'> 
             HOME 
           </HashLink>
           <HashLink 
             to='/#portfolio'
             smooth={true}
-            className='menu-hashlink'> 
+            className='menu-hashlink-footer'> 
             PORTFOLIO 
           </HashLink>
           <HashLink 
             to='/#about'
             smooth={true}
-            className='menu-hashlink'>
+            className='menu-hashlink-footer'>
             ABOUT
           </HashLink>
         </div>
