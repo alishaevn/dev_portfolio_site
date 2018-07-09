@@ -26,7 +26,7 @@ export default class coc69th extends Component {
             </p>
             <div className='photo-link'>
               <img className='branding-project-responsive-mock'
-              src={require('../../images/portfolio/69th_mockup.png')} 
+              src={require('../../images/portfolio/69th/69th_mockup.png')} 
               alt='69th St. Mockup' />
             </div>
           </section>
