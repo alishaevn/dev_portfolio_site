@@ -34,7 +34,7 @@ export default class Safer extends Component {
               target='_blank'
               rel='noopener noreferrer' >
               <img className='project-responsive-mock'
-                src={require('../../images/portfolio/safer_responsive.png')} 
+                src={require('../../images/portfolio/safeR/safer_responsive.png')} 
                 alt='safeR Mockup' />
             </a>
           </section>
