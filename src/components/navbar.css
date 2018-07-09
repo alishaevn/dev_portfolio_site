@@ -43,18 +43,20 @@ nav {
   background-color: #1C1435;
   width: 100vw;
   right: 0px;
-  /* margin: 0; */
-  height: 50px;
+  margin-top: -10px;
+  height: 60px;
+  font-size: 40px;
+  padding: 15px 30px;
 }
 
 .dropdown-menu {
   position: absolute;
   padding: 20px;
   top: 60px;
-  /* right: 20px; */
+  z-index: 1;
   display: flex;
   flex-direction: column;
-  text-align: right;
+  text-align: center;
   width: 90px;
   background-color: #1C1435;
   width: 100vw;
@@ -66,7 +68,7 @@ nav {
   color: #5E548E;
   padding: 5px 5px;
   margin: 0 5px;
-  font-size: 13px;
+  font-size: 30px;
   letter-spacing: 0.5px;
 }
 
@@ -82,19 +84,15 @@ MEDIA QUERIES
   }
   .menu-button,
   .menu-button-clicked {
-    height: 45px;
-    width: 140px;
-    right: 36px;
-    top: 25px;
+    height: 90px;
     font-size: 50px;
+    padding: 35px 50px;
   }
   .dropdown-menu {
-    top: 84px;
-    right: 46px;
-    width: 140px;
+    top: 90px;
   }
   .menu-hashlink {
-    font-size: 25px;
+    font-size: 55px;
   }
 }
 
@@ -107,7 +105,7 @@ MEDIA QUERIES
   .navigation {
     display: inherit;
     margin: 45px;
-    text-align: center;
+    text-align: right;
   }
   .menu-button,
   .menu-button-clicked {

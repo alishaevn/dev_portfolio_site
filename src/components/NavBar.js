@@ -63,23 +63,6 @@ export default class NavBar extends Component {
                     className='menu-hashlink'>
                     ABOUT
                   </HashLink>
-                  <a className='menu-hashlink'
-                    href='https://www.linkedin.com/in/alishaevans/'
-                    alt='LinkedIn'
-                    target='blank' >
-                    LINKEDIN
-                  </a>
-                  <a className='menu-hashlink'
-                    href='https://github.com/alishaantoinette'
-                    alt='Github'
-                    target='blank' >
-                    GITHUB
-                  </a>
-                  <a className='menu-hashlink'
-                    href='mailto:alieva.inc@gmail.com'
-                    alt='Email' >
-                    EMAIL
-                  </a>
                 </div>
               </div>
             )
@@ -110,23 +93,6 @@ export default class NavBar extends Component {
                 className='menu-hashlink'>
                 ABOUT
               </HashLink>
-              <a className='menu-hashlink'
-                href='https://www.linkedin.com/in/alishaevans/'
-                alt='LinkedIn'
-                target='blank' >
-                LINKEDIN
-              </a>
-              <a className='menu-hashlink'
-                href='https://github.com/alishaantoinette'
-                alt='Github'
-                target='blank' >
-                GITHUB
-              </a>
-              <a className='menu-hashlink'
-                href='mailto:alieva.inc@gmail.com'
-                alt='Email' >
-                EMAIL
-              </a>
 						</div>
         </nav>
     )
