@@ -1,0 +1,79 @@
+/**
+ * coolors.co/1c1435-5e548e-9f86c0-be95c4-e0b1cb
+ */
+
+.contact-component {
+  height: 50px;
+}
+
+.contact-title {
+  font-weight: 300;
+  text-align: center;
+  color: #5E548E;
+  font-size: 35px;
+  margin: 0;
+  padding-top: 20px;
+  letter-spacing: 2px;
+}
+
+.bottom-menu {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.copyright {
+  margin: 20px 0px;
+}
+
+.copyright-info {
+  font-size: 15px;
+  padding: 0px 10px;
+  letter-spacing: 1px;
+  text-align: center;
+  margin: 0;
+  color: #1C1435;
+}
+
+.footer-social-media-icons {
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+  margin: 10px 5px 20px;
+}
+
+.menu-hashlink-footer {
+  text-decoration: none;
+  color: #5E548E;
+  padding: 5px 5px;
+  margin: 0 5px;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+
+/* ============================ 
+MEDIA QUERIES
+============================*/
+
+/* tablet */
+
+@media only screen and (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
+  .about-me-title {
+    font-size: 55px;
+  }
+  .social-media-icons {
+    margin: 15px;
+  }
+  .copyright {
+    margin-bottom: 40px;
+  }
+  .copyright-info {
+    font-size: 18px;
+  }
+  .menu-hashlink-footer {
+    font-size: 25px;
+  }
+}
+
+/* desktop */
+
+@media only screen and (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {}

@@ -1,60 +1,57 @@
 import React, { Component } from 'react';
-import { Redirect } from 'react-router-dom';
+
+import NavBar from '../NavBar';
+import Footer from '../Footer';
 
 import './projects.css';
 
 
 export default class FreshMarket extends Component {
-  constructor() {
-    super();
-    this.state = {
-      close: false
-    }
+
+  componentDidMount() {
+    window.scrollTo(0, 0)
   }
 
   render() {
-    if (this.state.close) {
-      return <Redirect to='/' />
-    } 
 
     return (
-      <div className='project-component'>
-        <p className='close-portfolio'
-          onClick={() => this.setState({ close: true})} > 
-            X
-        </p>
+      <div>
+        <NavBar />
+        <p className='branding-project-title'> Fresh Market </p> 
+        <main className='project-container'>
 
-          <div className='portfolio-project'>
-            <p className='branding-project-title'> Fresh Market </p> 
-            <div className='opening-sequence'>
-              <div className='branding-main-photo'>
-                <img className='branding-project-responsive-mock'
-                src={require('../../images/portfolio/frsh_mkt_mockup.png')} 
-                alt='NCSS Mockup' />
-              </div>
-              <p className='design-project-summary'>
+          <section className='project-intro'>
+            <p className='project-tagline'>
               The following is the culmination of a fictional rebranding effort for The Fresh Market. I chose to rebrand them as a result of its lack of brand recognition outside of the Southeastern markets. The research and development phases led to the assembling of a new logo, style guide [including imagery, brand colors, a tagline, etc.], social media concepts, website design, print ads, apparel, promotional items and a guerilla marketing tactic. The intention was to increase the brand awareness in order to allow for successful expansion into the western markets.
-              </p>
+            </p>
+            <div className='photo-link'>
+              <img className='project-responsive-mock'
+                src={require('../../images/portfolio/TFM/frsh_mkt_mockup.png')} 
+                alt='Fresh Market Mockup' />
             </div>
+          </section>
+          <p className='project-services'> VISUAL BRAND IDENTITY • PRINT DESIGN • PHOTOGRAPHY </p>
 
-            <p className='project-services'> VISUAL BRAND IDENTITY • PRINT DESIGN • PHOTOGRAPHY </p>
-
-            <div className='photo-bank'>
-              <img className='project-photos-row'
-                src={require('../../images/portfolio/design/TFM-02.png')} 
-                alt='NCSS Mockup' />
-              <img className='project-photos-row'
-                src={require('../../images/portfolio/design/TFM-03.png')} 
-                alt='NCSS Mockup' />
-              <img className='project-photos-row'
-                src={require('../../images/portfolio/design/TFM-06.png')} 
-                alt='NCSS Mockup' />
-            </div>
-            <img className='project-photos-column'
-              src={require('../../images/portfolio/design/TFM-07.png')} 
-              alt='NCSS Mockup' />
+          <img className='project-photos-column'
+            src={require('../../images/portfolio/TFM/TFM-07.png')} 
+            alt='Fresh Market Mockup' />
+          <div className='photo-bank'>
+            <img className='project-photos-row'
+              src={require('../../images/portfolio/TFM/TFM-02.png')} 
+              alt='Fresh Market Mockup' />
+            <img className='project-photos-row'
+              src={require('../../images/portfolio/TFM/Book_3.png')} 
+              alt='Fresh Market Mockup' />
+            <img className='project-photos-row'
+              src={require('../../images/portfolio/TFM/TFM-03.png')} 
+              alt='Fresh Market Mockup' />
+            <img className='project-photos-row'
+              src={require('../../images/portfolio/TFM/TFM-04.png')} 
+              alt='Fresh Market Mockup' />
           </div>
 
+        </main>
+        <Footer />
       </div>
     )
 
