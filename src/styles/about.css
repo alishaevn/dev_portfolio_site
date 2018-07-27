@@ -2,6 +2,61 @@
 
 /* Extra small (mobile phone - portrait) */
 
+.about {
+  padding: 25px;
+  color: #543C27;
+}
+
+.headshot {
+  width: 120px;
+  height: 120px;
+  border-radius: 100px;
+  float: right;
+}
+
+.hi {
+  padding-top: 35px;
+  font-size: 60px;
+}
+
+.about-welcome,
+.heading {
+  font-weight: 500;
+  font-size: 23px;
+}
+
+.about-me {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.heading {
+  margin: 10px 0;
+}
+
+.skillset {
+  display: flex;
+  margin-top: 15px;
+}
+
+.skills-icon {
+  width: 10%;
+  height: 10%;
+  margin-right: 10px;
+}
+
+.skill-type {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.skill-description {
+  font-weight: 100;
+  padding-top: 5px;
+  font-size: 14px;
+}
+
 /* ============================ 
 MEDIA QUERIES
 ============================*/
