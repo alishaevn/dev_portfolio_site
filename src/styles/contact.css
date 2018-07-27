@@ -2,6 +2,26 @@
 
 /* Extra small (mobile phone - portrait) */
 
+.contact {
+  padding: 9%;
+  color: #543C27;
+}
+
+.resume,
+.contact-info {
+  padding-top: 15px;
+  font-weight: 300;
+}
+
+.contact-link {
+  color: #2C8199;
+}
+
+.social-media-icons,
+.copyright-info {
+  text-align: center;
+}
+
 /* ============================ 
 MEDIA QUERIES
 ============================*/
