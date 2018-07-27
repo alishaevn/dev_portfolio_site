@@ -2,6 +2,32 @@
 
 /* Extra small (mobile phone - portrait) */
 
+.case-studies {
+  background-color: #2C8199;
+  padding: 25px;
+}
+
+.cs-title {
+  font-size: 36px;
+  color: #FCFCF7;
+  font-weight: 500;
+}
+
+.cs-mockup {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.cs-mockup-title {
+  color: #FCFCF7;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.link {
+  text-decoration: none;
+}
+
 /* ============================ 
 MEDIA QUERIES
 ============================*/
