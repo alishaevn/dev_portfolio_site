@@ -1,20 +1,21 @@
 import React, { Component } from 'react';
 
+import Intro from './Intro';
+import About from './About';
+import CaseStudies from './CaseStudies';
+import Contact from './Contact';
+
 export default class Home extends Component {
   
   render() {
 
     return (
       <section className='home' id='home'>
-        
+        <Intro />
+        <About />
+        <CaseStudies />
+        <Contact />
       </section>
     )
-
   }
 }
-
-/*
-  Resources:
-  - https://github.com/rafrex/react-router-hash-link
-  - http://jaketrent.github.io/react-social-icons/
- */
