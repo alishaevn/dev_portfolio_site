@@ -2,6 +2,36 @@
 
 /* Extra small (mobile phone - portrait) */
 
+.branding,
+.brand-project {
+  padding: 9%;
+  color: #543C27;
+}
+
+.branding {
+  font-weight: 300;
+}
+
+.brand-project {
+  border-bottom: 5px double #2C8199;
+  border-bottom-width: thick;
+}
+
+.brand-block-photo,
+.brand-rectangle-photo {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.brand-name {
+  font-weight: 500;
+}
+
+.brand-summary {
+  font-weight: 300;
+  margin: 10px 0 25px;
+}
+
 /* ============================ 
 MEDIA QUERIES
 ============================*/
