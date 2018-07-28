@@ -3,6 +3,8 @@ import React, { Component } from 'react';
 import Header from './Header';
 import Contact from './Contact';
 
+import '../styles/caseStudies.css';
+
 export default class Safer extends Component {
 
   render() {
@@ -13,14 +15,6 @@ export default class Safer extends Component {
     if (this.props.match.path === '/safer') {
       title='SAFER';
       tagline='FULL STACK DEVELOPMENT • UI/UX DESIGN • MOBILE APP'
-    }
-    else if (this.props.match.path === '/foodiephonetics') {
-      title='FOODIE PHONETICS';
-      tagline='FULL STACK DEVELOPMENT • UI/UX DESIGN'
-    }
-    else if (this.props.match.path === '/forthewin') {
-      title='FOR THE WIN';
-      tagline='FULL STACK DEVELOPMENT • UI/UX DESIGN'
     }
 
     return(
@@ -112,7 +106,7 @@ export default class Safer extends Component {
                 Custom incident markers</li>
               </ul>
             <h2 className='standout-title'>
-              Key Features </h2>
+              Tech Stack </h2>
             <ul className='standout-details'>
               <li>
                 React</li>
