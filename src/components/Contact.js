@@ -19,10 +19,16 @@ export default class Contact extends Component {
 
     return (
       <footer className='contact' id='contact'>
-        <h3 className=''>
+        <h3 className='opportunities'>
           I’d love to hear from you about employment, networking or mentorship opportunities! </h3>
         <p className='resume'>
-          Feel free to view my <Link to='resume' className='link contact-link'>resume</Link>.</p>
+            <a className='link contact-link'
+              href='https://dl.dropboxusercontent.com/s/3e9siawvxqc9pdt/AlishaEvansDevResume.pdf?dl=0' 
+              download='Alisha Evans Resume'>
+              Download </a>
+              or <Link to='resume' className='link contact-link'> view </Link>
+              my resume.
+          </p>
         <p className='contact-info'>
           Send me an <a href='mailto:alieva.inc@gmail.com' className='link contact-link'>email</a>, 
           chat with me on <a href='https://twitter.com/thatgirlt0nii' className='link contact-link'>Twitter</a>,
@@ -47,4 +53,7 @@ export default class Contact extends Component {
 /*
   Resources:
   - http://jaketrent.github.io/react-social-icons/
+  - https://www.sitepoint.com/new-html5-attributes-hyperlinks-download-media-ping/
+  - https://zapier.com/learn/how-to/generate-direct-dropbox-link/
+
  */
