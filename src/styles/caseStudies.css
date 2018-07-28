@@ -2,6 +2,8 @@
 
 /* Extra small (mobile phone - portrait) */
 
+/* home page */
+
 .case-studies {
   background-color: #2C8199;
   padding: 9%;
@@ -26,6 +28,71 @@
 
 .link {
   text-decoration: none;
+}
+
+/* individual pages */
+
+.safer {
+  color: #543C27;
+}
+
+.project-info,
+.standouts,
+.photo-bank {
+  padding: 9%;
+}
+
+.dev-mockup,
+.project-photo {
+  width: 100%;
+}
+
+.project-summary {
+  margin-top: 15px;
+  font-weight: 200;
+}
+
+.project-details {
+  padding: 13% 9% 0;
+  text-align: center;
+}
+
+.live-portfolio-link,
+.github-repo-link {
+  color: #543C27;
+}
+
+.view-website {
+  font-weight: 400;
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+.github-icon {
+  width: 20%;
+  margin: 0 4%;
+}
+
+.github-repo-link {
+  margin: 0 4%;
+}
+
+.standout-title {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.standout-details {
+  margin-bottom: 35px;
+  font-weight: 200;
+}
+
+.photo-bank {
+  background-color: #2C8199;
+}
+
+.project-photo {
+  padding: 3% 0;
 }
 
 /* ============================ 
