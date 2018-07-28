@@ -7,6 +7,11 @@
   color: #543C27;
 }
 
+.opportunities,
+.copyright-info {
+  font-weight: 500;
+}
+
 .resume,
 .contact-info {
   padding-top: 15px;
