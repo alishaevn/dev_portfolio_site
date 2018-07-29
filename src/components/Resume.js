@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import Header from './Header';
 import Contact from './Contact';
 
-import '../styles/caseStudies.css';
+import '../styles/resume.css';
 
 export default class Resume extends Component {
 
@@ -13,10 +13,12 @@ export default class Resume extends Component {
       : ''
 
     return(
-      <section className='resume'>
+      <section>
         <Header 
           title={title} />
-        
+        <img className='resume'
+          src={require('../images/AlishaEvansDevResume.jpg')}
+          alt='Alisha Evans Resume' />
         <Contact />
         
       </section>
