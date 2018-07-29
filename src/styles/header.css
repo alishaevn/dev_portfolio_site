@@ -2,17 +2,25 @@
 
 /* Extra small (mobile phone - portrait) */
 
-.header {
+.header,
+.header-large {
   padding: 9%;
   background-image: url('../images/header-bokeh.png');
   background-position: bottom;
   background-size: cover;
+}
+
+.header {
   height: 37vh;
+}
+
+.header-large {
+  height: 42vh;
 }
 
 .header-title {
   color: #FCFCF7;
-  font-size: 40px;
+  font-size: 34px;
   line-height: 40px;
   text-align: center;
   padding-top: 65px;

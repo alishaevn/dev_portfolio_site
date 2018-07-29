@@ -11,17 +11,20 @@ export default class FoodiePhonetics extends Component {
   render() {
     let title;
     let tagline;
+    let size;
 
     if (this.props.match.path === '/foodiephonetics') {
       title='FOODIE PHONETICS';
-      tagline='FULL STACK DEVELOPMENT • UI/UX DESIGN'
+      tagline='FULL STACK DEVELOPMENT • UI/UX DESIGN';
+      size = 'header-large'
     }
 
     return (
       <section className='foodie-phonetics'>
         <Header 
           title={title}
-          tagline={tagline} />
+          tagline={tagline}
+          size={size} />
           <aside className='project-info'>
             <img className='dev-mockup'
               src={require('../images/studies/fp_mockup.png')} 

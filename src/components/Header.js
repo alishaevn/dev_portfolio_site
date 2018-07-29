@@ -8,9 +8,10 @@ import '../styles/header.css';
 export default class Header extends Component {
 
   render() {
-
+    let size = this.props.size ? this.props.size : 'header'
+    
     return(
-      <section className='header'>
+      <section className={size}>
         <Navigation />
         <h1 className='header-title'>
           {this.props.title} </h1>
