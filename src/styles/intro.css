@@ -58,4 +58,11 @@ MEDIA QUERIES
 
 /* Extra large (desktop) */
 
-@media only screen and (min-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1) {}
+@media only screen and (min-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1) {
+  .extra-large {
+    background-image: url('../images/extra-large.jpg');
+    height: 100vh;
+    background-size: cover;
+    padding: 9%;
+  }
+}
