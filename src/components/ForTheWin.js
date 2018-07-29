@@ -27,7 +27,10 @@ export default class ForTheWin extends Component {
               alt='For The Win Mockup'/>
             <section>
               <p className='project-summary'>
-                Make or join a fantasy basketball league (up to 5 members) and keep up with the stats of your favorite basketball players! Once you register for a free account simply choose 10 players to be on your team and track their stats on the dashboard. Each occurence of an offensive or defensive stat counts as a single point towards the user's total score. </p>
+                Make or join a fantasy basketball league (up to 5 members) and keep up with the stats of your favorite basketball players! Once you register for a free account simply choose 10 players to be on your team and track their stats on the dashboard. Each occurence of an offensive or defensive stat counts as a single point towards the user's total score. 
+                <br /><br />
+                Username: demo@gmail.com <br />
+                Password: demo12345</p>
               <div className='project-details'>
                 <h3 className='view-website'>
                   <a className='link live-portfolio-link'
@@ -99,8 +102,6 @@ export default class ForTheWin extends Component {
               <li>
                 React</li>
               <li>
-                React Native</li>
-              <li>
                 Redux</li>
               <li>
                 Javascript</li>
@@ -119,9 +120,9 @@ export default class ForTheWin extends Component {
               <li>
                 Chai</li>
               <li>
-                Jest</li>
+                Netlify</li>
               <li>
-                Enzyme</li>
+                Heroku</li>
               </ul>
           </div>
 
