@@ -7,7 +7,7 @@
   background-image: url('../images/header-bokeh.png');
   background-position: bottom;
   background-size: cover;
-  height: 36vh;
+  height: 37vh;
 }
 
 .header-title {
@@ -15,7 +15,7 @@
   font-size: 40px;
   line-height: 40px;
   text-align: center;
-  padding-top: 55px;
+  padding-top: 65px;
 }
 
 .header-tagline {
