@@ -28,7 +28,10 @@ export default class FoodiePhonetics extends Component {
               alt='Foodie Phonetics Mockup'/>
             <section>
               <p className='project-summary'>
-                Using a spaced repetition algorithm, Foodie Phonetics teaches the user how to say the most common food items in their language of choice. Each time the user gets a question correct, that question is moved farther back in a singly linked list. If the user gets a question incorrect, it will be moved to the top of the list instead. </p>
+                Using a spaced repetition algorithm, Foodie Phonetics teaches the user how to say the most common food items in their language of choice. Each time the user gets a question correct, that question is moved farther back in a singly linked list. If the user gets a question incorrect, it will be moved to the top of the list instead.
+                <br /><br />
+                Username: demo <br />
+                Password: demouser123 </p>
               <div className='project-details'>
                 <h3 className='view-website'>
                   <a className='link live-portfolio-link'
@@ -100,8 +103,6 @@ export default class FoodiePhonetics extends Component {
               <li>
                 React</li>
               <li>
-                React Native</li>
-              <li>
                 Redux</li>
               <li>
                 Javascript</li>
@@ -119,10 +120,6 @@ export default class FoodiePhonetics extends Component {
                 Mocha</li>
               <li>
                 Chai</li>
-              <li>
-                Jest</li>
-              <li>
-                Enzyme</li>
               </ul>
           </div>
 
