@@ -21,7 +21,7 @@ export default class Contact extends Component {
       <footer className='contact' id='contact'>
         <h3 className='opportunities'>
           I’d love to hear from you about employment, networking or mentorship opportunities! </h3>
-        <p className='resume'>
+        <p className='contact-resume-info'>
             <a className='link contact-link'
               href='https://dl.dropboxusercontent.com/s/3e9siawvxqc9pdt/AlishaEvansDevResume.pdf?dl=0' 
               download='Alisha Evans Resume'>
