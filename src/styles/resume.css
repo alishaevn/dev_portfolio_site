@@ -2,6 +2,11 @@
 
 /* Extra small (mobile phone - portrait) */
 
+.resume {
+  padding: 9%;
+  width: 100%;
+}
+
 /* ============================ 
 MEDIA QUERIES
 ============================*/
