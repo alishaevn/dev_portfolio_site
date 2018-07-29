@@ -28,7 +28,10 @@ export default class Safer extends Component {
                 alt='Safer Mockup'/>
             <section>
               <p className='project-summary'>
-                SafeReport/safeR aims to keep the community safer by making sure they are up to date on local crimes and incidents in the area. </p>
+                SafeReport/safeR aims to keep the community safer by making sure they are up to date on local crimes and incidents in the area. 
+                <br /><br />
+                username: demo <br />
+                password: demouser123</p>
               <div className='project-details'>
                 <h3 className='view-website'>
                   <a className='link live-portfolio-link'
