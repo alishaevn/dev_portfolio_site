@@ -16,13 +16,13 @@ export default class IdentityDesign extends Component {
       <section className='identity-design'>
         <Header 
           title={title} />
-        <div className='branding'>
+        <header className='branding'>
           <p className='why-brands'>
             I used to love making collages, which is what led me to pursue a career in graphic design. After earning my M.F.A. I shifted almost exclusively into brand identity design because I enjoyed & appreciated the process. </p>
             <br />
-          <p className='why-i-love-brands'>
+          <p className='why-brands'>
             Below are a few examples of my work.</p>
-        </div>
+        </header>
 
         <aside className='brand-project'>
           <div className='brand-flex-1'>
