@@ -2,6 +2,73 @@
 
 /* Extra small (mobile phone - portrait) */
 
+.logo {
+  float: left;
+}
+
+.menu-button,
+.menu-button-clicked {
+  float: right;
+}
+
+.logo,
+.menu-button,
+.menu-button-clicked {
+  color: #fcfcf7;
+  font-size: 30px;
+}
+
+.menu-link {
+  color: #fcfcf7;
+  padding-bottom: 10px;
+}
+
+/* Position and sizing of burger button */
+
+.bm-burger-button {
+  position: absolute;
+  width: 30px;
+  height: 26px;
+  right: 9%;
+  top: 7%;
+}
+
+/* Color/shape of burger icon bars */
+
+.bm-burger-bars {
+  background: #FCFCF7;
+}
+
+/* Position and sizing of clickable cross button */
+
+.cross-button {
+  right: 10%;
+  top: 2%;
+  height: 29px;
+  width: 29px;
+}
+
+/* Color/shape of close button cross */
+
+.bm-cross {
+  background: #FCFCF7;
+}
+
+/* General sidebar styles */
+
+.bm-menu {
+  background: #727272;
+  padding: 4.5em 1.5em 0;
+  font-size: 1.35em;
+}
+
+/* Wrapper for item list */
+
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
 /* ============================ 
 MEDIA QUERIES
 ============================*/
