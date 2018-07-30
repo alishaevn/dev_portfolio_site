@@ -26,11 +26,12 @@ export default class ForTheWin extends Component {
               src={require('../images/studies/ftw_mockup.png')} 
               alt='For The Win Mockup'/>
             <section>
-              <p className='project-summary'>
-                Make or join a fantasy basketball league (up to 5 members) and keep up with the stats of your favorite basketball players! Once you register for a free account simply choose 10 players to be on your team and track their stats on the dashboard. Each occurence of an offensive or defensive stat counts as a single point towards the user's total score. 
-                <br /><br />
+              <p className='project-summary ftw-about'>
+                Make or join a fantasy basketball league (up to 5 members) and keep up with the stats of your favorite basketball players!  
+                {/* <br /><br />
                 Username: demo@gmail.com <br />
-                Password: demo12345</p>
+                Password: demo12345 */}
+                </p>
               <div className='project-details'>
                 <h3 className='view-website'>
                   <a className='link live-portfolio-link'
@@ -72,58 +73,56 @@ export default class ForTheWin extends Component {
           </aside>
 
           <div className='standouts'>
-            <h2 className='standout-title'>
-              Key Features </h2>
-            <ul className='standout-details'>
-              <li>
-                </li>
-              <li>
-                </li>
-              <li>
-                </li>
-              <li>
-                </li>
-              </ul>
-            <h2 className='standout-title'>
-              My Role </h2>
-            <ul className='standout-details'>
-              <li>
-                </li>
-              <li>
-                </li>
-              <li>
-                </li>
-              <li>
-                </li>
-              </ul>
-            <h2 className='standout-title'>
-              Tech Stack </h2>
-            <ul className='standout-details'>
-              <li>
-                React</li>
-              <li>
-                Redux</li>
-              <li>
-                Javascript</li>
-              <li>
-                HTML</li>
-              <li>
-                CSS</li>
-              <li>
-                Node</li>
-              <li>
-                Express</li>
-              <li>
-                MongoDB</li>
-              <li>
-                Mocha</li>
-              <li>
-                Chai</li>
-              <li>
-                Netlify</li>
-              <li>
-                Heroku</li>
-              </ul>
+            <div className='standout-block'>
+              <h2 className='standout-title'>
+                Key Features </h2>
+              <ul className='standout-details'>
+                <li>
+                  Track offensive & defensive stats of your players</li>
+                <li>
+                  League leaderboard</li>
+                <li>
+                  Daily game schedule</li>
+                </ul>
+              </div>
+            <div className='standout-block'>
+              <h2 className='standout-title'>
+                My Role </h2>
+              <ul className='standout-details'>
+                <li>
+                  This app was a solo project; all client & server work was completed by myself.</li>
+                </ul>
+              </div>
+            <div className='standout-block'>
+              <h2 className='standout-title'>
+                Tech Stack </h2>
+              <ul className='standout-details'>
+                <li>
+                  React</li>
+                <li>
+                  Redux</li>
+                <li>
+                  Javascript</li>
+                <li>
+                  HTML</li>
+                <li>
+                  CSS</li>
+                <li>
+                  Node</li>
+                <li>
+                  Express</li>
+                <li>
+                  MongoDB</li>
+                <li>
+                  Mocha</li>
+                <li>
+                  Chai</li>
+                <li>
+                  Netlify</li>
+                <li>
+                  Heroku</li>
+                </ul>
+              </div>
           </div>
 
           <div className='photo-bank'>
