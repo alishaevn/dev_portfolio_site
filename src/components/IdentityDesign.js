@@ -40,10 +40,10 @@ export default class IdentityDesign extends Component {
             src={require('../images/identity/69th_02.png')} 
             alt='69th St. CoC Brand Identity' />
           <div className='brand-flex-2'>
-            <img className='brand-block-photo'
+            <img className='brand-block-photo-2'
               src={require('../images/identity/69th_03.png')} 
               alt='69th St. CoC Brand Identity' />
-            <img className='brand-block-photo'
+            <img className='brand-block-photo-2'
               src={require('../images/identity/69th_04.png')} 
               alt='69th St. CoC Brand Identity' />
           </div>
@@ -65,10 +65,10 @@ export default class IdentityDesign extends Component {
             src={require('../images/identity/ncss_02.png')} 
             alt='NCSS Brand Identity' />
           <div className='brand-flex-2'>
-            <img className='brand-block-photo'
+            <img className='brand-block-photo-2'
               src={require('../images/identity/ncss_03.png')} 
               alt='NCSS Brand Identity' />
-            <img className='brand-block-photo'
+            <img className='brand-block-photo-2'
               src={require('../images/identity/ncss_04.png')} 
               alt='NCSS Brand Identity' />
           </div>
@@ -90,10 +90,10 @@ export default class IdentityDesign extends Component {
             src={require('../images/identity/TFM_02.png')} 
             alt='Fresh Market Brand Identity' />
           <div className='brand-flex-2'>
-            <img className='brand-block-photo'
+            <img className='brand-block-photo-2'
               src={require('../images/identity/TFM_03.png')} 
               alt='Fresh Market Brand Identity' />
-            <img className='brand-block-photo'
+            <img className='brand-block-photo-2'
               src={require('../images/identity/TFM_04.png')} 
               alt='Fresh Market Brand Identity' />
           </div>
