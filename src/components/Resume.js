@@ -6,7 +6,10 @@ import Contact from './Contact';
 import '../styles/resume.css';
 
 export default class Resume extends Component {
-
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
+  
   render() {
     let title = this.props.match.path === '/resume'
       ? 'RESUME'

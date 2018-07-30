@@ -6,7 +6,10 @@ import Contact from './Contact';
 import '../styles/identities.css';
 
 export default class IdentityDesign extends Component {
-
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
+  
   render() {
     let title = this.props.match.path === '/identity'
       ? 'IDENTITY DESIGN'

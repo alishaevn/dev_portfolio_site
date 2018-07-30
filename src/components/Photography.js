@@ -9,6 +9,10 @@ import '../styles/photos.css';
 
 
 export default class Photography extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
+  
   constructor() {
     super();
     this.state = { currentImage: 0 };

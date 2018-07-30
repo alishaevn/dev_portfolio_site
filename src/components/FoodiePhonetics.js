@@ -7,7 +7,10 @@ import '../styles/caseStudies.css';
 
 
 export default class FoodiePhonetics extends Component {
-
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
+  
   render() {
     let title;
     let tagline;
