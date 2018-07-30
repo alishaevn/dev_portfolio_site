@@ -30,7 +30,7 @@ export default class Contact extends Component {
             my resume.
           </p>
         <p className='contact-info'>
-          Send me an <a href='mailto:alieva.inc@gmail.com' className='link contact-link'>email</a>, 
+          Call me at 619.535.8245, send me an <a href='mailto:alieva.inc@gmail.com' className='link contact-link'>email</a>, 
           chat with me on <a href='https://twitter.com/thatgirlt0nii' className='link contact-link'>Twitter</a>,
           connect with me on <a href='https://www.linkedin.com/in/alishaevans/' className='link contact-link'>LinkedIn </a> 
           or view my <a href='https://github.com/alishaantoinette' className='link contact-link'>Github</a>.
