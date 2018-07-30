@@ -12,6 +12,9 @@ import Resume from './components/Resume';
 
 
 export default class Routes extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
 
   render() {
 
