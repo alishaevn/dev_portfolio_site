@@ -1,0 +1,186 @@
+/* https: //coolors.co/543c27-d7cab6-2c8199-fcfcf7-727272 */
+
+/* Extra small (mobile phone - portrait) */
+
+/* home page */
+
+.case-studies {
+  background-color: #2C8199;
+  padding: 9%;
+}
+
+.cs-title {
+  font-size: 36px;
+  color: #FCFCF7;
+  font-weight: 500;
+}
+
+.cs-mockup {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.cs-mockup-title {
+  color: #FCFCF7;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* individual pages */
+
+.safer,
+.foodie-phonetics,
+.for-the-win {
+  color: #543C27;
+}
+
+.project-info,
+.standouts,
+.photo-bank {
+  padding: 9%;
+}
+
+.dev-mockup,
+.project-photo {
+  width: 100%;
+}
+
+.project-summary {
+  margin-top: 15px;
+  font-weight: 200;
+}
+
+.project-details {
+  padding: 13% 9% 0;
+  text-align: center;
+}
+
+.live-portfolio-link,
+.github-repo-link {
+  color: #543C27;
+}
+
+.view-website {
+  font-weight: 400;
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+.github-icon {
+  width: 20%;
+  margin: 0 4%;
+}
+
+.github-repo-link {
+  margin: 0 4%;
+}
+
+.standout-title {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.standout-details {
+  margin-bottom: 35px;
+  font-weight: 200;
+}
+
+.photo-bank {
+  background-color: #2C8199;
+}
+
+.project-photo {
+  padding: 3% 0;
+}
+
+/* ============================ 
+MEDIA QUERIES
+============================*/
+
+/* Small (mobile phone - landscape) */
+
+@media only screen and (min-device-width: 576px) and (-webkit-min-device-pixel-ratio: 1) {}
+
+/* Medium (tablet) */
+
+@media only screen and (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {}
+
+/* Large (laptop) */
+
+@media only screen and (min-device-width: 992px) and (-webkit-min-device-pixel-ratio: 1) {}
+
+/* Extra large (desktop) */
+
+@media only screen and (min-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1) {
+  /* home page */
+  .case-studies {
+    padding: 7%;
+  }
+  .cs-2x2 {
+    display: flex;
+  }
+  .cs-mockup,
+  .cs-mockup-title {
+    padding: 0 7%;
+  }
+  .cs-title {
+    font-size: 48px;
+  }
+  .cs-mockup-title {
+    font-size: 45px;
+  }
+  .project-three {
+    margin-top: 9px;
+    height: 81%;
+  }
+  .title-two {
+    margin-top: 15px;
+  }
+  /* individual pages */
+  .project-info,
+  .standouts,
+  .photo-bank {
+    padding: 7%;
+  }
+  .project-info {
+    display: flex;
+  }
+  .dev-mockup {
+    width: 60%;
+    height: 1%;
+  }
+  .project-details,
+  .project-summary {
+    margin-left: 30px;
+  }
+  .project-summary {
+    font-size: 20px;
+  }
+  .fp-about {
+    margin-top: 35px;
+  }
+  .ftw-about {
+    margin-top: 55px;
+  }
+  .project-details {
+    padding: 5% 10% 0;
+  }
+  .standouts {
+    display: flex;
+  }
+  .standout-block {
+    width: 32%;
+    margin-right: 20px;
+  }
+  .standout-title {
+    font-size: 32px;
+  }
+  .standout-details {
+    /* margin-right: 60px; */
+    font-size: 20px;
+  }
+}

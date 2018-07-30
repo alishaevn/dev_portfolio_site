@@ -10,4 +10,9 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+.link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,300i,400,500,700');
