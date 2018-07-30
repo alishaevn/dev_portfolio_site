@@ -30,11 +30,12 @@ export default class FoodiePhonetics extends Component {
               src={require('../images/studies/fp_mockup.png')} 
               alt='Foodie Phonetics Mockup'/>
             <section>
-              <p className='project-summary'>
-                Using a spaced repetition algorithm, Foodie Phonetics teaches the user how to say the most common food items in their language of choice. Each time the user gets a question correct, that question is moved farther back in a singly linked list. If the user gets a question incorrect, it will be moved to the top of the list instead.
-                <br /><br />
+              <p className='project-summary fp-about'>
+                Foodie Phonetics teaches the user how to say the most common food items in their language of choice! 
+                {/* <br /><br />
                 Username: demo <br />
-                Password: demouser123 </p>
+                Password: demouser123  */}
+                </p>
               <div className='project-details'>
                 <h3 className='view-website'>
                   <a className='link live-portfolio-link'
@@ -76,54 +77,60 @@ export default class FoodiePhonetics extends Component {
           </aside>
 
           <div className='standouts'>
-            <h2 className='standout-title'>
-              Key Features </h2>
-            <ul className='standout-details'>
-              <li>
-                </li>
-              <li>
-                </li>
-              <li>
-                </li>
-              <li>
-                </li>
-              </ul>
-            <h2 className='standout-title'>
-              My Role </h2>
-            <ul className='standout-details'>
-              <li>
-                </li>
-              <li>
-                </li>
-              <li>
-                </li>
-              <li>
-                </li>
-              </ul>
-            <h2 className='standout-title'>
-              Tech Stack </h2>
-            <ul className='standout-details'>
-              <li>
-                React</li>
-              <li>
-                Redux</li>
-              <li>
-                Javascript</li>
-              <li>
-                HTML</li>
-              <li>
-                CSS</li>
-              <li>
-                Node</li>
-              <li>
-                Express</li>
-              <li>
-                MongoDB</li>
-              <li>
-                Mocha</li>
-              <li>
-                Chai</li>
-              </ul>
+            <div className='standout-block'>
+              <h2 className='standout-title'>
+                Key Features </h2>
+              <ul className='standout-details'>
+                <li>
+                  Spaced repitition algorithm</li>
+                <li>
+                  Keeps track of user score</li>
+                <li>
+                  Correct answers get moved further down the list</li>
+                <li>
+                  Incorrect answers get moved to the front of the list</li>
+                </ul>
+              </div>
+            <div className='standout-block'>
+              <h2 className='standout-title'>
+                My Role </h2>
+              <ul className='standout-details'>
+                <li>
+                  Implemented algorithm on the server</li>
+                <li>
+                  Created all schema's & models</li>
+                <li>
+                  RESTful API endpoints</li>
+                <li>
+                  CSS media queries</li>
+                </ul>
+              </div>
+            <div className='standout-block'>
+              <h2 className='standout-title'>
+                Tech Stack </h2>
+              <ul className='standout-details'>
+                <li>
+                  React</li>
+                <li>
+                  Redux</li>
+                <li>
+                  Javascript</li>
+                <li>
+                  HTML</li>
+                <li>
+                  CSS</li>
+                <li>
+                  Node</li>
+                <li>
+                  Express</li>
+                <li>
+                  MongoDB</li>
+                <li>
+                  Mocha</li>
+                <li>
+                  Chai</li>
+                </ul>
+              </div>
           </div>
 
           <div className='photo-bank'>
