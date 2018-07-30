@@ -115,4 +115,28 @@ MEDIA QUERIES
 
 /* Extra large (desktop) */
 
-@media only screen and (min-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1) {}
+@media only screen and (min-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1) {
+  .case-studies {
+    padding: 7%;
+  }
+  .cs-2x2 {
+    display: flex;
+  }
+  .cs-mockup,
+  .cs-mockup-title {
+    padding: 0 7%;
+  }
+  .cs-title {
+    font-size: 48px;
+  }
+  .cs-mockup-title {
+    font-size: 45px;
+  }
+  .project-three {
+    margin-top: 9px;
+    height: 81%;
+  }
+  .title-two {
+    margin-top: 15px;
+  }
+}
