@@ -50,4 +50,18 @@ MEDIA QUERIES
 
 /* Extra large (desktop) */
 
-@media only screen and (min-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1) {}
+@media only screen and (min-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1) {
+  .header,
+  .header-large {
+    padding: 2% 7% 7%;
+    height: 35vh;
+  }
+  .header-title {
+    font-size: 80px;
+    padding-top: 85px;
+  }
+  .header-tagline {
+    font-size: 30px;
+    padding-top: 25px;
+  }
+}
