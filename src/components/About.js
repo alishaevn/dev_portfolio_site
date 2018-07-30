@@ -17,7 +17,7 @@ export default class About extends Component {
         <h2 className='about-welcome'>
           My name is Alisha, thanks for stopping by.</h2>
         <p className='about-me'> 
-          As someone educated in Graphic Design & Full Stack Development, I can "speak the language" of Web Designers & Back End Developers; thus bridging the gap across the web development process. I’m continually striving to be better so I welcome feedback & respond accordingly. Furthermore, my personal & professional experiences with leadership, education & communication would prove valuable on a team of fellow motivated creatives. </p>
+          As someone educated in Graphic Design & Full Stack Development, I can "speak the language" of Web Designers & Back End Developers; thus bridging the gap across the web development process. My personal & professional experiences with leadership, education & communication would prove valuable on a team of fellow motivated creatives. Furthermore, I’m continually striving to be better so I welcome feedback & respond accordingly.</p>
 
         <p className='about-me'> 
           Apart from development & design I enjoy photography
