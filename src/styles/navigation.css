@@ -75,11 +75,11 @@ MEDIA QUERIES
 
 /* Small (mobile phone - landscape) */
 
-@media only screen and (min-device-width: 576px) and (-webkit-min-device-pixel-ratio: 1) {}
+@media screen and (min-width: 576px) {}
 
 /* Medium (tablet) */
 
-@media only screen and (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
+@media screen and (min-width: 768px) {
   .bm-overlay {
     /* width: 0; */
     /* background: 0%; */
@@ -99,11 +99,11 @@ MEDIA QUERIES
 
 /* Large (laptop) */
 
-@media only screen and (min-device-width: 992px) and (-webkit-min-device-pixel-ratio: 1) {}
+@media screen and (min-width: 992px) {}
 
 /* Extra large (desktop) */
 
-@media only screen and (min-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1) {
+@media screen and (min-width: 1200px) {
   .menu-link {
     padding-left: 24px;
     /* padding-bottom: 10px;
