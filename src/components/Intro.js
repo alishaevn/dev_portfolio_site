@@ -14,16 +14,16 @@ export default class Intro extends Component {
     if (size < 576) {
       query='extra-small';
     }
-    else if (size > 576 && size < 768) {
+    else if (size >= 576 && size < 768) {
       query='small';
     }
-    else if (size > 768 && size < 992) {
+    else if (size >= 768 && size < 992) {
       query='medium';
     }
-    else if (size > 992 && size < 1200) {
+    else if (size >= 992 && size < 1200) {
       query='large';
     }
-    else if (size > 1200) {
+    else if (size >= 1200) {
       query='extra-large';
     }
 
