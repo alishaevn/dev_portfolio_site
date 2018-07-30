@@ -45,4 +45,17 @@ MEDIA QUERIES
 
 /* Extra large (desktop) */
 
-@media only screen and (min-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1) {}
+@media only screen and (min-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1) {
+  .contact {
+    padding: 7%;
+  }
+  .opportunities {
+    font-size: 48px;
+  }
+  .contact-resume-info,
+  .contact-info,
+  .copyright-info {
+    font-size: 36px;
+    margin-top: 20px;
+  }
+}
