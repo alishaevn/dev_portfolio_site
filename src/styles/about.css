@@ -10,7 +10,7 @@
 .headshot {
   width: 120px;
   height: 120px;
-  border-radius: 100px;
+  border-radius: 100%;
   float: right;
 }
 
@@ -79,4 +79,47 @@ MEDIA QUERIES
 
 /* Extra large (desktop) */
 
-@media only screen and (min-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1) {}
+@media only screen and (min-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1) {
+  .about {
+    padding: 7%;
+  }
+  .headshot {
+    float: left;
+    width: 220px;
+    height: 220px;
+  }
+  .hi {
+    margin-left: 250px;
+    padding-top: 0;
+    font-size: 75px;
+    height: 90px;
+  }
+  .about-welcome {
+    font-size: 45px;
+    margin-left: 250px;
+  }
+  .about-me {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  .heading {
+    margin: 25px 0 15px;
+    font-size: 36px;
+  }
+  .skillset-section {
+    display: inline-flex;
+  }
+  .skillset {
+    margin: 15px 15px 0 0;
+  }
+  .skills-icon {
+    width: 15%;
+    height: 30%;
+  }
+  .skill-type {
+    font-size: 24px;
+  }
+  .skill-description {
+    font-size: 18px;
+  }
+}
