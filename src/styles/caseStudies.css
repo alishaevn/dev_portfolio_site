@@ -116,6 +116,7 @@ MEDIA QUERIES
 /* Extra large (desktop) */
 
 @media only screen and (min-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1) {
+  /* home page */
   .case-studies {
     padding: 7%;
   }
@@ -138,5 +139,48 @@ MEDIA QUERIES
   }
   .title-two {
     margin-top: 15px;
+  }
+  /* individual pages */
+  .project-info,
+  .standouts,
+  .photo-bank {
+    padding: 7%;
+  }
+  .project-info {
+    display: flex;
+  }
+  .dev-mockup {
+    width: 60%;
+    height: 1%;
+  }
+  .project-details,
+  .project-summary {
+    margin-left: 30px;
+  }
+  .project-summary {
+    font-size: 20px;
+  }
+  .fp-about {
+    margin-top: 35px;
+  }
+  .ftw-about {
+    margin-top: 55px;
+  }
+  .project-details {
+    padding: 5% 10% 0;
+  }
+  .standouts {
+    display: flex;
+  }
+  .standout-block {
+    width: 32%;
+    margin-right: 20px;
+  }
+  .standout-title {
+    font-size: 32px;
+  }
+  .standout-details {
+    /* margin-right: 60px; */
+    font-size: 20px;
   }
 }
