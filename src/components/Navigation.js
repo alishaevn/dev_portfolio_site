@@ -19,7 +19,7 @@ export default class Navigation extends Component {
         {/* mobile menu */}
 				{ size < 992
             ? (<div>
-                <Menu right>
+                <Menu right noOverlay width={size > 575 && size <992 ? 700 : 300}>
                   <a className='link menu-link' href='/'>home</a>
                   <a className='link menu-link' href='/safer'>safer</a>
                   <a className='link menu-link' href='foodiephonetics'>foodie phonetics</a>
@@ -31,47 +31,47 @@ export default class Navigation extends Component {
                 </div>)
 
           /* desktop menu */
-            : (<div className="dropdown-menu">
+            : (<div className="fullscreen-menu">
                 <HashLink 
-                  to='#intro'
+                  to='/'
                   smooth={true}
-                  className='menu-link'> 
+                  className='link menu-link'> 
                   home 
                 </HashLink>
                 <HashLink 
-                  to='#about'
+                  to='/safer'
                   smooth={true}
-                  className='menu-link'> 
-                  about 
+                  className='link menu-link'> 
+                  safer 
                 </HashLink>
                 <HashLink 
-                  to='#case-studies'
+                  to='/foodiephonetics'
                   smooth={true}
-                  className='menu-link'>
-                  case studies
+                  className='link menu-link'>
+                  foodie phonetics
                 </HashLink>
                 <HashLink
-                  to='#contact'
+                  to='/forthewin'
                   smooth={true}
-                  className='menu-link'>
-                  contact
-                </HashLink>
-                <HashLink
-                  to='/photos'
-                  smooth={true}
-                  className='menu-link'>
-                  photography
+                  className='link menu-link'>
+                  for the win
                 </HashLink>
                 <HashLink
                   to='/identity'
                   smooth={true}
-                  className='menu-link'>
+                  className='link menu-link'>
                   identity design
+                </HashLink>
+                <HashLink
+                  to='/photos'
+                  smooth={true}
+                  className='link menu-link'>
+                  photography
                 </HashLink>
                 <HashLink
                   to='/resume'
                   smooth={true}
-                  className='menu-link'>
+                  className='link menu-link'>
                   resume
                 </HashLink>
               </div>) }
