@@ -26,43 +26,45 @@ export default class About extends Component {
 
         <h2 className='heading'>
           Applicable skills:</h2>
-        <aside className='skillset'>
-          <img 
-            src={require('../images/icon-FED.png')} 
-          alt='Front End Development' 
-          className='skills-icon' />
-          <div>
-            <h5 className='skill-type'>
-              Front End Development</h5>
-            <p className='skill-description'>
-              My love for the aesthetics & challenges presented in Front End Development drive me to code efficient & beautiful websites using semantic HTML, CSS, Javascript and front end technologies such as React & Redux as necessary.</p>
-          </div>
-        </aside>
-        <aside className='skillset'>
-          <img 
-            src={require('../images/icon-UID.png')} 
-          alt='User Interface Design' 
-          className='skills-icon' />
-          <div>
-            <h5 className='skill-type'>
-              User Interface Design</h5>
-            <p className='skill-description'>
-              Details matter. I’m experienced with designing wireframes, performing market research & creating user personas in order to provide engaging, yet simplistic client interactions.</p>
-          </div>
-        </aside>
-        <aside className='skillset'>
-          <img 
-            src={require('../images/icon-ID.png')} 
-          alt='Identity Design' 
-          className='skills-icon' />
-          <div>
-            <h5 className='skill-type'>
-              Identity Design</h5>
-            <p className='skill-description'>
-              I develop identities for brands & individuals which involves logos, style guides ( imagery, brand colors, tagline, etc.), social media concepts, print collateral & apparel. 
-              (<Link to='/identity' className='link about-link'>See here</Link>) </p>
-          </div>
-        </aside>
+        <section className='skillset-section'>
+          <aside className='skillset'>
+            <img 
+              src={require('../images/icon-FED.png')} 
+            alt='Front End Development' 
+            className='skills-icon' />
+            <div>
+              <h5 className='skill-type'>
+                Front End Development</h5>
+              <p className='skill-description'>
+                My love for the aesthetics & challenges presented in Front End Development drive me to code efficient & beautiful websites using semantic HTML, CSS, Javascript and front end technologies such as React & Redux as necessary.</p>
+            </div>
+          </aside>
+          <aside className='skillset'>
+            <img 
+              src={require('../images/icon-UID.png')} 
+            alt='User Interface Design' 
+            className='skills-icon' />
+            <div>
+              <h5 className='skill-type'>
+                User Interface Design</h5>
+              <p className='skill-description'>
+                Details matter. I’m experienced with designing wireframes, performing market research & creating user personas in order to provide engaging, yet simplistic client interactions.</p>
+            </div>
+          </aside>
+          <aside className='skillset'>
+            <img 
+              src={require('../images/icon-ID.png')} 
+            alt='Identity Design' 
+            className='skills-icon' />
+            <div>
+              <h5 className='skill-type'>
+                Identity Design</h5>
+              <p className='skill-description'>
+                I develop identities for brands & individuals which involves logos, style guides ( imagery, brand colors, tagline, etc.), social media concepts, print collateral & apparel. 
+                (<Link to='/identity' className='link about-link'>See here</Link>) </p>
+            </div>
+          </aside>
+        </section>
       </section>
     )
   }
