@@ -9,7 +9,7 @@ export default class About extends Component {
     return (
       <section className='about' id='about'>
         <img 
-          src={require('../images/headshot.jpg')} 
+          src={require('../images/headshot.png')} 
           alt='headshot' 
           className='headshot' />
         <h1 className='hi'>
