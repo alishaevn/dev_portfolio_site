@@ -51,9 +51,11 @@ MEDIA QUERIES
 /* Extra large (desktop) */
 
 @media only screen and (min-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1) {
-  .branding,
+  .branding {
+    padding: 7% 7% 0;
+  }
   .brand-project {
-    padding: 7%;
+    padding: 9% 7%;
   }
   .why-brands,
   .brand-summary {
