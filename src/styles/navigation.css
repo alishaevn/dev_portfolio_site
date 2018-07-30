@@ -6,6 +6,10 @@
   float: left;
 }
 
+.desktop-menu {
+  display: none;
+}
+
 .menu-button,
 .menu-button-clicked {
   float: right;
@@ -41,17 +45,22 @@
 
 /* Position and sizing of clickable cross button */
 
-.cross-button {
+.bm-cross-button {
   right: 10%;
   top: 2%;
   height: 29px;
   width: 29px;
+  position: absolute;
 }
 
 /* Color/shape of close button cross */
 
 .bm-cross {
   background: #FCFCF7;
+  /* width: 24px;
+  height: 24px;
+  right: 8px;
+  top: 8px; */
 }
 
 /* General sidebar styles */
@@ -75,11 +84,11 @@ MEDIA QUERIES
 
 /* Small (mobile phone - landscape) */
 
-@media only screen and (min-device-width: 576px) and (-webkit-min-device-pixel-ratio: 1) {}
+@media screen and (min-width: 576px) {}
 
 /* Medium (tablet) */
 
-@media only screen and (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
+@media screen and (min-width: 768px) {
   .bm-overlay {
     /* width: 0; */
     /* background: 0%; */
@@ -99,11 +108,24 @@ MEDIA QUERIES
 
 /* Large (laptop) */
 
-@media only screen and (min-device-width: 992px) and (-webkit-min-device-pixel-ratio: 1) {}
+@media screen and (min-width: 992px) {
+  .mobile-menu {
+    display: none;
+  }
+  .desktop-menu {
+    display: initial;
+    float: right;
+    padding-top: 15px;
+  }
+  .menu-link {
+    padding-left: 24px;
+    font-size: 20px;
+  }
+}
 
 /* Extra large (desktop) */
 
-@media only screen and (min-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1) {
+@media screen and (min-width: 1200px) {
   .menu-link {
     padding-left: 24px;
     /* padding-bottom: 10px;
@@ -111,8 +133,8 @@ MEDIA QUERIES
     padding-top: 15px; */
     font-size: 20px;
   }
-  .fullscreen-menu {
-    text-align: right;
-    padding-top: 15px;
+  .desktop-menu {
+    /* text-align: center;
+    padding-top: 15px; */
   }
 }

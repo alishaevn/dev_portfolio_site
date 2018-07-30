@@ -8,27 +8,8 @@ export default class Intro extends Component {
   
   render() {
 
-    let size = window.innerWidth;
-    let query;
-
-    if (size < 576) {
-      query='extra-small';
-    }
-    else if (size >= 576 && size < 768) {
-      query='small';
-    }
-    else if (size >= 768 && size < 992) {
-      query='medium';
-    }
-    else if (size >= 992 && size < 1200) {
-      query='large';
-    }
-    else if (size >= 1200) {
-      query='extra-large';
-    }
-
     return (
-      <section className={query} id='intro'>
+      <section className='landing-page-pic' id='intro'>
         <Navigation />
 
         <p className='intro-tagline'>Detail oriented, problem solving, <br />
