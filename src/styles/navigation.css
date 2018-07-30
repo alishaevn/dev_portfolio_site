@@ -79,7 +79,23 @@ MEDIA QUERIES
 
 /* Medium (tablet) */
 
-@media only screen and (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {}
+@media only screen and (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
+  .bm-overlay {
+    /* width: 0; */
+    /* background: 0%; */
+  }
+  .bm-menu-wrap {
+    /* width: 700px; */
+  }
+  .bm-cross-button,
+  .bm-cross {
+    /* width: 32px; */
+    /* height: 32px; */
+  }
+  .menu-link {
+    font-size: 30px;
+  }
+}
 
 /* Large (laptop) */
 
@@ -87,4 +103,16 @@ MEDIA QUERIES
 
 /* Extra large (desktop) */
 
-@media only screen and (min-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1) {}
+@media only screen and (min-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1) {
+  .menu-link {
+    padding-left: 24px;
+    /* padding-bottom: 10px;
+    padding-left: 24px;
+    padding-top: 15px; */
+    font-size: 20px;
+  }
+  .fullscreen-menu {
+    text-align: right;
+    padding-top: 15px;
+  }
+}
