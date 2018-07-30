@@ -29,9 +29,10 @@ export default class Safer extends Component {
             <section>
               <p className='project-summary'>
                 SafeReport/safeR aims to keep the community safer by making sure they are up to date on local crimes and incidents in the area. 
-                <br /><br />
+                {/* <br /><br />
                 username: demo <br />
-                password: demouser123</p>
+                password: demouser123 */}
+                </p>
               <div className='project-details'>
                 <h3 className='view-website'>
                   <a className='link live-portfolio-link'
@@ -84,60 +85,66 @@ export default class Safer extends Component {
           </aside>
 
           <div className='standouts'>
-            <h2 className='standout-title'>
-              Key Features </h2>
-            <ul className='standout-details'>
-              <li>
-                No log in required</li>
-              <li>
-                Uses geolocation</li>
-              <li>
-                Anonymous reporting</li>
-              <li>
-                Search capabilities</li>
-              </ul>
-            <h2 className='standout-title'>
-              My Role </h2>
-            <ul className='standout-details'>
-              <li>
-                React Native conditional navigation</li>
-              <li>
-                Google/React Map functionality</li>
-              <li>
-                Dashboard component</li>
-              <li>
-                Custom incident markers</li>
-              </ul>
-            <h2 className='standout-title'>
-              Tech Stack </h2>
-            <ul className='standout-details'>
-              <li>
-                React</li>
-              <li>
-                React Native</li>
-              <li>
-                Redux</li>
-              <li>
-                Javascript</li>
-              <li>
-                HTML</li>
-              <li>
-                CSS</li>
-              <li>
-                Node</li>
-              <li>
-                Express</li>
-              <li>
-                MongoDB</li>
-              <li>
-                Mocha</li>
-              <li>
-                Chai</li>
-              <li>
-                Jest</li>
-              <li>
-                Enzyme</li>
-              </ul>
+            <div className='standout-block'>
+              <h2 className='standout-title'>
+                Key Features </h2>
+              <ul className='standout-details'>
+                <li>
+                  No log in required</li>
+                <li>
+                  Uses geolocation</li>
+                <li>
+                  Anonymous reporting</li>
+                <li>
+                  Search capabilities</li>
+                </ul>
+              </div>
+            <div className='standout-block'>
+              <h2 className='standout-title'>
+                My Role </h2>
+              <ul className='standout-details'>
+                <li>
+                  React Native conditional navigation</li>
+                <li>
+                  Google/React Map functionality</li>
+                <li>
+                  Dashboard component</li>
+                <li>
+                  Custom incident markers</li>
+                </ul>
+              </div>
+            <div className='standout-block'>
+              <h2 className='standout-title'>
+                Tech Stack </h2>
+              <ul className='standout-details'>
+                <li>
+                  React</li>
+                <li>
+                  React Native</li>
+                <li>
+                  Redux</li>
+                <li>
+                  Javascript</li>
+                <li>
+                  HTML</li>
+                <li>
+                  CSS</li>
+                <li>
+                  Node</li>
+                <li>
+                  Express</li>
+                <li>
+                  MongoDB</li>
+                <li>
+                  Mocha</li>
+                <li>
+                  Chai</li>
+                <li>
+                  Jest</li>
+                <li>
+                  Enzyme</li>
+                </ul>
+              </div>
           </div>
 
           <div className='photo-bank'>
