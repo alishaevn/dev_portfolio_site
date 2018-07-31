@@ -20,6 +20,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy": "npm run build && netlify deploy"
+    "deploy": "npm run build && netlify deploy",
+    "sass": "sass --watch src/styles/scss:src/styles/css"
   }
 }
