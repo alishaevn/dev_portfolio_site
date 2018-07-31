@@ -109,7 +109,7 @@ MEDIA QUERIES
   .menu-link {
     padding-left: 18px;
     font-size: 18px;
-    text-shadow: 1px 2px 2px #000;
+    text-shadow: 1px 1px 0px #000;
   }
 }
 /* Extra large (desktop) */

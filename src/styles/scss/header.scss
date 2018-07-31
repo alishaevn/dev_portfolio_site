@@ -46,7 +46,21 @@ MEDIA QUERIES
 
 /* Large (laptop) */
 
-@media screen and (min-width: 992px) {}
+@media screen and (min-width: 992px) {
+  .header,
+  .header-large {
+    padding: 2% 7% 7%;
+    height: 35vh;
+  }
+  .header-title {
+    font-size: 60px;
+    padding-top: 100px;
+  }
+  .header-tagline {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+}
 
 /* Extra large (desktop) */
 
