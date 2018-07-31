@@ -1,0 +1,79 @@
+/* https: //coolors.co/543c27-d7cab6-2c8199-fcfcf7-727272 */
+/* Extra small (mobile phone - portrait) */
+.branding,
+.brand-project {
+  padding: 9%;
+  color: #543C27;
+}
+
+.branding {
+  font-weight: 300;
+}
+
+.brand-project {
+  border-bottom: 5px double #2C8199;
+  border-bottom-width: thick;
+}
+
+.brand-block-photo,
+.brand-rectangle-photo {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.brand-name {
+  font-weight: 500;
+}
+
+.brand-summary {
+  font-weight: 300;
+  margin: 10px 0 25px;
+}
+
+/* ============================ 
+MEDIA QUERIES
+============================*/
+/* Small (mobile phone - landscape) */
+/* Medium (tablet) */
+/* Large (laptop) */
+/* Extra large (desktop) */
+@media screen and (min-width: 1200px) {
+  .branding {
+    padding: 7% 7% 0;
+  }
+
+  .brand-project {
+    padding: 9% 7%;
+  }
+
+  .why-brands,
+.brand-summary {
+    font-size: 20px;
+  }
+
+  .brand-name {
+    font-size: 36px;
+  }
+
+  .brand-flex-1 {
+    display: flex;
+  }
+
+  .brand-block-photo {
+    width: 55%;
+    height: 1%;
+    margin-left: 10px;
+  }
+
+  .brand-flex-2 {
+    display: flex;
+  }
+
+  .brand-block-photo-2 {
+    height: 1%;
+    width: 50.5%;
+    padding-right: 10px;
+  }
+}
+
+/*# sourceMappingURL=identities.css.map */
