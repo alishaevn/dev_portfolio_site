@@ -119,46 +119,48 @@ MEDIA QUERIES
 /* Extra large (desktop) */
 
 @media screen and (min-width: 1200px) {
-  .about {
-    padding: 7%;
-  }
   .headshot {
-    float: left;
-    width: 220px;
-    height: 220px;
+    width: 250px;
+    height: 250px;
   }
   .hi {
-    margin-left: 250px;
-    padding-top: 0;
-    font-size: 75px;
-    height: 90px;
+    margin-left: 280px;
   }
   .about-welcome {
-    font-size: 45px;
-    margin-left: 250px;
+    margin-left: 280px;
   }
   .about-me {
-    font-size: 20px;
     margin-top: 15px;
   }
   .heading {
-    margin: 25px 0 15px;
-    font-size: 36px;
+    font-size: 44px;
   }
   .skillset-section {
     display: inline-flex;
   }
   .skillset {
-    margin: 15px 15px 0 0;
+    width: 33.3%;
   }
-  .skills-icon {
+  .fed-icon {
+    width: 50px;
+    height: 55px;
+    margin-right: 15px;
+  }
+  .uid-icon {
     width: 45px;
-    height: 45px;
+    height: 50px;
+    margin-right: 15px;
+  }
+  .id-icon {
+    width: 45px;
+    height: 50px;
+    margin-right: 15px;
   }
   .skill-type {
-    font-size: 24px;
+    padding-right: 10px;
+    line-height: 32px;
   }
   .skill-description {
-    font-size: 18px;
+    padding-right: 10px;
   }
 }

@@ -57,17 +57,4 @@ MEDIA QUERIES
 
 /* Extra large (desktop) */
 
-@media screen and (min-width: 1200px) {
-  .contact {
-    padding: 7%;
-  }
-  .opportunities {
-    font-size: 48px;
-  }
-  .contact-resume-info,
-  .contact-info,
-  .copyright-info {
-    font-size: 36px;
-    margin-top: 20px;
-  }
-}
+@media screen and (min-width: 1200px) {}

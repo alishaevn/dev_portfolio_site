@@ -33,7 +33,7 @@ export default class About extends Component {
             <img 
               src={require('../images/icon-FED.png')} 
             alt='Front End Development' 
-            className='skills-icon' />
+            className='skills-icon fed-icon' />
             <div>
               <h5 className='skill-type'>
                 Front End Development</h5>
@@ -45,7 +45,7 @@ export default class About extends Component {
             <img 
               src={require('../images/icon-UID.png')} 
             alt='User Interface Design' 
-            className='skills-icon' />
+            className='skills-icon uid-icon' />
             <div>
               <h5 className='skill-type'>
                 User Interface Design</h5>
@@ -57,7 +57,7 @@ export default class About extends Component {
             <img 
               src={require('../images/icon-ID.png')} 
             alt='Identity Design' 
-            className='skills-icon' />
+            className='skills-icon id-icon' />
             <div>
               <h5 className='skill-type'>
                 Identity Design</h5>

@@ -57,18 +57,17 @@ MEDIA QUERIES
 @media screen and (min-width: 1200px) {
   .header,
 .header-large {
-    padding: 2% 7% 7%;
-    height: 35vh;
+    height: 40vh;
   }
 
   .header-title {
-    font-size: 80px;
-    padding-top: 85px;
+    font-size: 70px;
+    padding-top: 120px;
   }
 
   .header-tagline {
-    font-size: 30px;
-    padding-top: 25px;
+    font-size: 25px;
+    margin-top: 25px;
   }
 }
 

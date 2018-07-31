@@ -36,7 +36,8 @@ MEDIA QUERIES
 /* Medium (tablet) */
 /* Large (laptop) */
 @media screen and (min-width: 992px) {
-  .why-brands {
+  .why-brands,
+.brand-summary {
     font-size: 20px;
   }
 
@@ -46,41 +47,6 @@ MEDIA QUERIES
 
   .brand-project {
     padding: 7%;
-  }
-
-  .brand-name {
-    font-size: 35px;
-  }
-
-  .brand-summary {
-    font-size: 20px;
-  }
-
-  .brand-flex-1 {
-    display: flex;
-  }
-
-  .brand-block-photo {
-    width: 55%;
-    height: 1%;
-    margin-left: 10px;
-  }
-
-  .brand-flex-2 {
-    display: flex;
-  }
-
-  .brand-block-photo-2 {
-    height: 1%;
-    width: 50.5%;
-    padding-right: 10px;
-  }
-}
-/* Extra large (desktop) */
-@media screen and (min-width: 1200px) {
-  .why-brands,
-.brand-summary {
-    font-size: 20px;
   }
 
   .brand-name {
@@ -107,5 +73,6 @@ MEDIA QUERIES
     padding-right: 10px;
   }
 }
+/* Extra large (desktop) */
 
 /*# sourceMappingURL=identities.css.map */
