@@ -19,12 +19,12 @@
 .logo,
 .menu-button,
 .menu-button-clicked {
-  color: #fcfcf7;
+  color: $creme;
   font-size: 30px;
 }
 
 .menu-link {
-  color: #fcfcf7;
+  color: $creme;
   padding-bottom: 10px;
 }
 
@@ -41,7 +41,7 @@
 /* Color/shape of burger icon bars */
 
 .bm-burger-bars {
-  background: #FCFCF7;
+  background: $creme;
 }
 
 /* Position and sizing of clickable cross button */
@@ -57,7 +57,7 @@
 /* Color/shape of close button cross */
 
 .bm-cross {
-  background: #FCFCF7;
+  background: $creme;
   /* width: 24px;
   height: 24px;
   right: 8px;
@@ -67,7 +67,7 @@
 /* General sidebar styles */
 
 .bm-menu {
-  background: #727272;
+  background: $nickel;
   padding: 4.5em 1.5em 0;
   font-size: 1.35em;
 }

@@ -6,13 +6,13 @@
 /* home page */
 
 .case-studies {
-  background-color: #2C8199;
+  background-color: $seaBlue;
   padding: 9%;
 }
 
 .cs-title {
   font-size: 36px;
-  color: #FCFCF7;
+  color: $creme;
   font-weight: 500;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .cs-mockup-title {
-  color: #FCFCF7;
+  color: $creme;
   font-size: 18px;
   font-weight: 300;
 }
@@ -36,7 +36,7 @@
 .safer,
 .foodie-phonetics,
 .for-the-win {
-  color: #543C27;
+  color: $brown;
 }
 
 .project-info,
@@ -62,7 +62,7 @@
 
 .live-portfolio-link,
 .github-repo-link {
-  color: #543C27;
+  color: $brown;
 }
 
 .view-website {
@@ -91,7 +91,7 @@
 }
 
 .photo-bank {
-  background-color: #2C8199;
+  background-color: $seaBlue;
 }
 
 .project-photo {
