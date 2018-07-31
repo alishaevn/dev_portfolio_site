@@ -40,7 +40,20 @@ MEDIA QUERIES
 
 /* Large (laptop) */
 
-@media screen and (min-width: 992px) {}
+@media screen and (min-width: 992px) {
+  .contact {
+    padding: 7%;
+  }
+  .opportunities,
+  .copyright-info {
+    font-size: 36px;
+  }
+  .contact-info,
+    {
+    font-size: 28px;
+    margin-top: 20px;
+  }
+}
 
 /* Extra large (desktop) */
 

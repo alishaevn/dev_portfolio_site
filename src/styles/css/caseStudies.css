@@ -98,15 +98,96 @@ MEDIA QUERIES
 /* Small (mobile phone - landscape) */
 /* Medium (tablet) */
 /* Large (laptop) */
-/* Extra large (desktop) */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 992px) {
   /* home page */
   .case-studies {
     padding: 7%;
   }
 
-  .cs-2x2 {
+  .cs-3x1 {
     display: flex;
+    flex-wrap: wrap;
+  }
+
+  .cs-mockup,
+.cs-mockup-title {
+    padding: 0 7%;
+  }
+
+  .project-one,
+.project-two,
+.project-three {
+    width: 50%;
+  }
+
+  .cs-title {
+    font-size: 48px;
+  }
+
+  .cs-mockup-title {
+    font-size: 40px;
+  }
+
+  /* individual pages */
+  .project-info,
+.standouts,
+.photo-bank {
+    padding: 7%;
+  }
+
+  .project-info {
+    display: flex;
+  }
+
+  .dev-mockup {
+    width: 60%;
+    height: 1%;
+  }
+
+  .project-details,
+.project-summary {
+    margin-left: 30px;
+  }
+
+  .project-summary {
+    font-size: 20px;
+  }
+
+  .fp-about {
+    margin-top: 35px;
+  }
+
+  .ftw-about {
+    margin-top: 55px;
+  }
+
+  .project-details {
+    padding: 5% 10% 0;
+  }
+
+  .standouts {
+    display: flex;
+  }
+
+  .standout-block {
+    width: 32%;
+    margin-right: 20px;
+  }
+
+  .standout-title {
+    font-size: 32px;
+  }
+
+  .standout-details {
+    /* margin-right: 60px; */
+    font-size: 20px;
+  }
+}
+/* Extra large (desktop) */
+@media screen and (min-width: 1200px) {
+  /* home page */
+  .case-studies {
+    padding: 7%;
   }
 
   .cs-mockup,
@@ -120,15 +201,6 @@ MEDIA QUERIES
 
   .cs-mockup-title {
     font-size: 45px;
-  }
-
-  .project-three {
-    margin-top: 9px;
-    height: 81%;
-  }
-
-  .title-two {
-    margin-top: 15px;
   }
 
   /* individual pages */

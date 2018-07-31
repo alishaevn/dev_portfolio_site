@@ -45,11 +45,11 @@ MEDIA QUERIES
     font-size: 27px;
     font-weight: $light;
     margin-top: 27%;
-    text-shadow: 3px 2px 2px $nickel;
+    text-shadow: 3px 3px 5px #000;
   }
   .intro-title {
     font-size: 6em;
-    text-shadow: 3px 2px 2px $nickel;
+    text-shadow: 3px 3px 5px #000;
   }
 }
 
@@ -57,11 +57,20 @@ MEDIA QUERIES
 
 @media screen and (min-width: 992px) {
   .landing-page-pic {
-    background-image: $introDesktopBg;
+    background-image: $introTabletBg;
+    background-position: left;
     height: 100vh;
-    background-size: cover;
     padding: 2% 7% 7%;
-    opacity: 0.9;
+    opacity: 0.95;
+  }
+  .intro-tagline {
+    font-size: 25px;
+    margin-top: 25%;
+    text-align: center;
+  }
+  .intro-title {
+    font-size: 72px;
+    text-align: center;
   }
 }
 

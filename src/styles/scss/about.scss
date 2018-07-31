@@ -74,7 +74,44 @@ MEDIA QUERIES
 
 /* Large (laptop) */
 
-@media screen and (min-width: 992px) {}
+@media screen and (min-width: 992px) {
+  .headshot {
+    width: 220px;
+    height: 220px;
+    float: left;
+  }
+  .hi {
+    margin-left: 250px;
+    padding-top: 0;
+    font-size: 75px;
+    height: 90px;
+  }
+  .about-welcome {
+    font-size: 45px;
+    margin-left: 250px;
+  }
+  .about-me {
+    font-size: 20px;
+    margin-top: 25px;
+  }
+  .heading {
+    margin: 25px 0 15px;
+    font-size: 36px;
+  }
+  .skillset {
+    margin-top: 30px;
+  }
+  .skills-icon {
+    width: 7%;
+    margin-right: 30px;
+  }
+  .skill-type {
+    font-size: 30px;
+  }
+  .skill-description {
+    font-size: 20px;
+  }
+}
 
 /* Extra large (desktop) */
 
