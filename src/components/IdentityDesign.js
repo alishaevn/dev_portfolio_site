@@ -58,7 +58,7 @@ export default class IdentityDesign extends Component {
               <h2 className='brand-name'>
                 NCSS</h2>
               <p className='brand-summary'>
-                The committee for the 41st Annual National Christian Singles seminar asked that I design a logo for print and apparel uses during the 2017 weekend event in addition to a souvenir booklet. The inspiration behind the pictorial mark came from 1 Corinthians 7:32-35 and it represent’s one’s heart being on fire for the Lord. </p>
+                The committee for the 41st Annual National Christian Singles seminar asked that I design a logo for print and apparel uses during the 2017 weekend event in addition to a souvenir booklet. The inspiration behind the pictorial mark came from 1 Corinthians 7:32-35 and it represents one’s heart being on fire for the Lord. </p>
             </div>
             <img className='brand-block-photo'
               src={require('../images/identity/ncss_01.png')} 
