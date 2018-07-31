@@ -25,13 +25,13 @@
 .intro-tagline {
   color: $creme;
   margin-top: 30%;
-  font-weight: 200;
+  font-weight: $light;
   font-size: 15px;
 }
 
 .intro-title {
   color: $creme;
-  font-weight: 500;
+  font-weight: $medium;
   font-size: 3em;
   margin-top: 10px;
   line-height: 1;
@@ -57,7 +57,7 @@ MEDIA QUERIES
   }
   .intro-tagline {
     font-size: 27px;
-    font-weight: 300;
+    font-weight: $light;
     margin-top: 27%;
     text-shadow: 3px 2px 2px $nickel;
   }

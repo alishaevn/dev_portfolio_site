@@ -10,7 +10,7 @@
 }
 
 .branding {
-  font-weight: 300;
+  font-weight: $light;
 }
 
 .brand-project {
@@ -25,11 +25,11 @@
 }
 
 .brand-name {
-  font-weight: 500;
+  font-weight: $medium;
 }
 
 .brand-summary {
-  font-weight: 300;
+  font-weight: $light;
   margin: 10px 0 25px;
 }
 

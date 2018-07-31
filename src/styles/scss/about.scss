@@ -22,14 +22,14 @@
 
 .about-welcome,
 .heading {
-  font-weight: 500;
+  font-weight: $medium;
   font-size: 23px;
 }
 
 .about-me {
   margin-top: 10px;
   font-size: 14px;
-  font-weight: 100;
+  font-weight: $light;
 }
 
 .about-link {
@@ -53,11 +53,11 @@
 
 .skill-type {
   font-size: 18px;
-  font-weight: 500;
+  font-weight: $medium;
 }
 
 .skill-description {
-  font-weight: 100;
+  font-weight: $light;
   padding-top: 5px;
   font-size: 14px;
 }
