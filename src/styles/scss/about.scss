@@ -75,6 +75,9 @@ MEDIA QUERIES
 /* Large (laptop) */
 
 @media screen and (min-width: 992px) {
+  .about {
+    padding: 7%;
+  }
   .headshot {
     width: 220px;
     height: 220px;
