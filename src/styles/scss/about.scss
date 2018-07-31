@@ -1,0 +1,126 @@
+/* https: //coolors.co/543c27-d7cab6-2c8199-fcfcf7-727272 */
+
+@import 'variables';
+/* Extra small (mobile phone - portrait) */
+
+.about {
+  padding: 9%;
+  color: $brown;
+}
+
+.headshot {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  float: right;
+}
+
+.hi {
+  padding-top: 35px;
+  font-size: 60px;
+}
+
+.about-welcome,
+.heading {
+  font-weight: 500;
+  font-size: 23px;
+}
+
+.about-me {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.about-link {
+  color: $seaBlue;
+}
+
+.heading {
+  margin: 10px 0;
+}
+
+.skillset {
+  display: flex;
+  margin-top: 15px;
+}
+
+.skills-icon {
+  width: 10%;
+  height: 10%;
+  margin-right: 10px;
+}
+
+.skill-type {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.skill-description {
+  font-weight: 100;
+  padding-top: 5px;
+  font-size: 14px;
+}
+
+/* ============================ 
+MEDIA QUERIES
+============================*/
+
+/* Small (mobile phone - landscape) */
+
+@media screen and (min-width: 576px) {}
+
+/* Medium (tablet) */
+
+@media screen and (min-width: 768px) {}
+
+/* Large (laptop) */
+
+@media screen and (min-width: 992px) {}
+
+/* Extra large (desktop) */
+
+@media screen and (min-width: 1200px) {
+  .about {
+    padding: 7%;
+  }
+  .headshot {
+    float: left;
+    width: 220px;
+    height: 220px;
+  }
+  .hi {
+    margin-left: 250px;
+    padding-top: 0;
+    font-size: 75px;
+    height: 90px;
+  }
+  .about-welcome {
+    font-size: 45px;
+    margin-left: 250px;
+  }
+  .about-me {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  .heading {
+    margin: 25px 0 15px;
+    font-size: 36px;
+  }
+  .skillset-section {
+    display: inline-flex;
+  }
+  .skillset {
+    margin: 15px 15px 0 0;
+  }
+  .skills-icon {
+    width: 45px;
+    height: 45px;
+  }
+  .skill-type {
+    font-size: 24px;
+  }
+  .skill-description {
+    font-size: 18px;
+  }
+}
