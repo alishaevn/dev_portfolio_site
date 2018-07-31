@@ -26,7 +26,19 @@ MEDIA QUERIES
 
 /* Large (laptop) */
 
-@media screen and (min-width: 992px) {}
+@media screen and (min-width: 992px) {
+  .photo-header {
+    padding: 7%;
+  }
+  .gallery {
+    padding: 0 7% 3%;
+    border-bottom: 5px double #2C8199;
+    border-bottom-width: thick;
+  }
+  .why-photography {
+    font-size: 20px;
+  }
+}
 
 /* Extra large (desktop) */
 
