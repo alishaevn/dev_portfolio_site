@@ -1,0 +1,60 @@
+@import 'variables';
+/* Extra small (mobile phone - portrait) */
+
+.contact {
+  padding: 9%;
+  color: $brown;
+}
+
+.opportunities,
+.copyright-info {
+  font-weight: $medium;
+}
+
+.contact-resume-info,
+.contact-info {
+  padding-top: 15px;
+  font-weight: $light;
+}
+
+.contact-link {
+  color: $seaBlue;
+}
+
+.social-media-icons,
+.copyright-info {
+  text-align: center;
+}
+
+/* ============================ 
+MEDIA QUERIES
+============================*/
+
+/* Small (mobile phone - landscape) */
+
+@media screen and (min-width: 576px) {}
+
+/* Medium (tablet) */
+
+@media screen and (min-width: 768px) {}
+
+/* Large (laptop) */
+
+@media screen and (min-width: 992px) {}
+
+/* Extra large (desktop) */
+
+@media screen and (min-width: 1200px) {
+  .contact {
+    padding: 7%;
+  }
+  .opportunities {
+    font-size: 48px;
+  }
+  .contact-resume-info,
+  .contact-info,
+  .copyright-info {
+    font-size: 36px;
+    margin-top: 20px;
+  }
+}

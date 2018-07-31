@@ -1,19 +1,18 @@
-/* https: //coolors.co/543c27-d7cab6-2c8199-fcfcf7-727272 */
-
+@import 'variables';
 /* Extra small (mobile phone - portrait) */
 
 .branding,
 .brand-project {
   padding: 9%;
-  color: #543C27;
+  color: $brown;
 }
 
 .branding {
-  font-weight: 300;
+  font-weight: $light;
 }
 
 .brand-project {
-  border-bottom: 5px double #2C8199;
+  border-bottom: 5px double $seaBlue;
   border-bottom-width: thick;
 }
 
@@ -24,11 +23,11 @@
 }
 
 .brand-name {
-  font-weight: 500;
+  font-weight: $medium;
 }
 
 .brand-summary {
-  font-weight: 300;
+  font-weight: $light;
   margin: 10px 0 25px;
 }
 

@@ -1,18 +1,17 @@
-/* https: //coolors.co/543c27-d7cab6-2c8199-fcfcf7-727272 */
-
+@import 'variables';
 /* Extra small (mobile phone - portrait) */
 
 /* home page */
 
 .case-studies {
-  background-color: #2C8199;
+  background-color: $seaBlue;
   padding: 9%;
 }
 
 .cs-title {
   font-size: 36px;
-  color: #FCFCF7;
-  font-weight: 500;
+  color: $creme;
+  font-weight: $medium;
 }
 
 .cs-mockup {
@@ -21,9 +20,9 @@
 }
 
 .cs-mockup-title {
-  color: #FCFCF7;
+  color: $creme;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: $light;
 }
 
 .link {
@@ -35,7 +34,7 @@
 .safer,
 .foodie-phonetics,
 .for-the-win {
-  color: #543C27;
+  color: $brown;
 }
 
 .project-info,
@@ -51,7 +50,7 @@
 
 .project-summary {
   margin-top: 15px;
-  font-weight: 200;
+  font-weight: $light;
 }
 
 .project-details {
@@ -61,11 +60,11 @@
 
 .live-portfolio-link,
 .github-repo-link {
-  color: #543C27;
+  color: $brown;
 }
 
 .view-website {
-  font-weight: 400;
+  font-weight: $medium;
   margin-bottom: 15px;
   font-size: 22px;
 }
@@ -80,17 +79,17 @@
 }
 
 .standout-title {
-  font-weight: 500;
+  font-weight: $medium;
   margin-bottom: 5px;
 }
 
 .standout-details {
   margin-bottom: 35px;
-  font-weight: 200;
+  font-weight: $light;
 }
 
 .photo-bank {
-  background-color: #2C8199;
+  background-color: $seaBlue;
 }
 
 .project-photo {

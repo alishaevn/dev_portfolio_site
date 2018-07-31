@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import Navigation from './Navigation';
 
-import '../styles/header.css';
+import '../styles/css/header.css';
 
 
 export default class Header extends Component {

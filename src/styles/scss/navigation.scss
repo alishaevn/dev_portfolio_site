@@ -1,0 +1,139 @@
+@import 'variables';
+/* Extra small (mobile phone - portrait) */
+
+.logo {
+  float: left;
+}
+
+.desktop-menu {
+  display: none;
+}
+
+.menu-button,
+.menu-button-clicked {
+  float: right;
+}
+
+.logo,
+.menu-button,
+.menu-button-clicked {
+  color: $creme;
+  font-size: 30px;
+}
+
+.menu-link {
+  color: $creme;
+  padding-bottom: 10px;
+}
+
+/* Position and sizing of burger button */
+
+.bm-burger-button {
+  position: absolute;
+  width: 30px;
+  height: 26px;
+  right: 9%;
+  top: 7%;
+}
+
+/* Color/shape of burger icon bars */
+
+.bm-burger-bars {
+  background: $creme;
+}
+
+/* Position and sizing of clickable cross button */
+
+.bm-cross-button {
+  right: 10%;
+  top: 2%;
+  height: 29px;
+  width: 29px;
+  position: absolute;
+}
+
+/* Color/shape of close button cross */
+
+.bm-cross {
+  background: $creme;
+  /* width: 24px;
+  height: 24px;
+  right: 8px;
+  top: 8px; */
+}
+
+/* General sidebar styles */
+
+.bm-menu {
+  background: $nickel;
+  padding: 4.5em 1.5em 0;
+  font-size: 1.35em;
+}
+
+/* Wrapper for item list */
+
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+/* ============================ 
+MEDIA QUERIES
+============================*/
+
+/* Small (mobile phone - landscape) */
+
+@media screen and (min-width: 576px) {}
+
+/* Medium (tablet) */
+
+@media screen and (min-width: 768px) {
+  .bm-overlay {
+    /* width: 0; */
+    /* background: 0%; */
+  }
+  .bm-menu-wrap {
+    /* width: 700px; */
+  }
+  .bm-cross-button,
+  .bm-cross {
+    /* width: 32px; */
+    /* height: 32px; */
+  }
+  .menu-link {
+    font-size: 30px;
+  }
+}
+
+/* Large (laptop) */
+
+@media screen and (min-width: 992px) {
+  .mobile-menu {
+    display: none;
+  }
+  .desktop-menu {
+    display: initial;
+    float: right;
+    padding-top: 15px;
+  }
+  .menu-link {
+    padding-left: 24px;
+    font-size: 20px;
+  }
+}
+
+/* Extra large (desktop) */
+
+@media screen and (min-width: 1200px) {
+  .menu-link {
+    padding-left: 24px;
+    /* padding-bottom: 10px;
+    padding-left: 24px;
+    padding-top: 15px; */
+    font-size: 20px;
+  }
+  .desktop-menu {
+    /* text-align: center;
+    padding-top: 15px; */
+  }
+}

@@ -1,16 +1,9 @@
-/* https: //coolors.co/543c27-d7cab6-2c8199-fcfcf7-727272 */
-
+@import 'variables';
 /* Extra small (mobile phone - portrait) */
 
-.gallery {
-  padding: 0 9%;
-  margin: 0 auto;
-}
-
-.photo-header {
+.resume {
   padding: 9%;
-  color: #543C27;
-  font-weight: 300;
+  width: 100%;
 }
 
 /* ============================ 
@@ -31,14 +24,4 @@ MEDIA QUERIES
 
 /* Extra large (desktop) */
 
-@media screen and (min-width: 1200px) {
-  .gallery {
-    padding: 0 7%;
-  }
-  .photo-header {
-    padding: 7%;
-  }
-  .why-photography {
-    font-size: 20px;
-  }
-}
+@media screen and (min-width: 1200px) {}

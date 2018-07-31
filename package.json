@@ -17,9 +17,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "sass:build && react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy": "npm run build && netlify deploy"
+    "deploy": "npm run build && netlify deploy",
+    "sass:watch": "sass --watch src/styles/scss:src/styles/css",
+    "sass:build": "sass —  update src / styles / scss: src / styles / css"
   }
 }

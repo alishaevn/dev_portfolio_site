@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import Navigation from './Navigation';
 
-import '../styles/intro.css';
+import '../styles/css/intro.css';
 
 export default class Intro extends Component {
   

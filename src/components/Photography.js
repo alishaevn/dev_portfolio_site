@@ -5,7 +5,7 @@ import Lightbox from 'react-images';
 import Header from './Header';
 import Contact from './Contact';
 
-import '../styles/photos.css';
+import '../styles/css/photos.css';
 
 
 export default class Photography extends Component {

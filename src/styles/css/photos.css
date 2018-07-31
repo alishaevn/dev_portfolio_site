@@ -1,0 +1,34 @@
+/* Extra small (mobile phone - portrait) */
+.gallery {
+  padding: 0 9%;
+  margin: 0 auto;
+}
+
+.photo-header {
+  padding: 9%;
+  color: #543C27;
+  font-weight: 300;
+}
+
+/* ============================ 
+MEDIA QUERIES
+============================*/
+/* Small (mobile phone - landscape) */
+/* Medium (tablet) */
+/* Large (laptop) */
+/* Extra large (desktop) */
+@media screen and (min-width: 1200px) {
+  .gallery {
+    padding: 0 7%;
+  }
+
+  .photo-header {
+    padding: 7%;
+  }
+
+  .why-photography {
+    font-size: 20px;
+  }
+}
+
+/*# sourceMappingURL=photos.css.map */

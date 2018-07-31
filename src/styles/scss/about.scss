@@ -1,10 +1,9 @@
-/* https: //coolors.co/543c27-d7cab6-2c8199-fcfcf7-727272 */
-
+@import 'variables';
 /* Extra small (mobile phone - portrait) */
 
 .about {
   padding: 9%;
-  color: #543C27;
+  color: $brown;
 }
 
 .headshot {
@@ -21,18 +20,18 @@
 
 .about-welcome,
 .heading {
-  font-weight: 500;
+  font-weight: $medium;
   font-size: 23px;
 }
 
 .about-me {
   margin-top: 10px;
   font-size: 14px;
-  font-weight: 100;
+  font-weight: $light;
 }
 
 .about-link {
-  color: #2C8199;
+  color: $seaBlue;
 }
 
 .heading {
@@ -52,11 +51,11 @@
 
 .skill-type {
   font-size: 18px;
-  font-weight: 500;
+  font-weight: $medium;
 }
 
 .skill-description {
-  font-weight: 100;
+  font-weight: $light;
   padding-top: 5px;
   font-size: 14px;
 }

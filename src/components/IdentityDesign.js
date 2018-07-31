@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import Header from './Header';
 import Contact from './Contact';
 
-import '../styles/identities.css';
+import '../styles/css/identities.css';
 
 export default class IdentityDesign extends Component {
   componentDidMount() {

@@ -1,11 +1,10 @@
-/* https: //coolors.co/543c27-d7cab6-2c8199-fcfcf7-727272 */
-
+@import 'variables';
 /* Extra small (mobile phone - portrait) */
 
 .header,
 .header-large {
   padding: 9%;
-  background-image: url('../images/header-bokeh.png');
+  background-image: $headerBg;
   background-position: bottom;
   background-size: cover;
 }
@@ -19,8 +18,9 @@
 }
 
 .header-title {
-  color: #FCFCF7;
+  color: $creme;
   font-size: 34px;
+  font-weight: $bold;
   line-height: 40px;
   text-align: center;
   padding-top: 65px;
@@ -28,7 +28,7 @@
 
 .header-tagline {
   font-size: 17px;
-  color: #FCFCF7;
+  color: $creme;
   text-align: center;
 }
 

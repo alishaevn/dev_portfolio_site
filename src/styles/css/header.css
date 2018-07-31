@@ -1,0 +1,58 @@
+/* Extra small (mobile phone - portrait) */
+.header,
+.header-large {
+  padding: 9%;
+  background-image: url("../../images/header-bokeh.png");
+  background-position: bottom;
+  background-size: cover;
+}
+
+.header {
+  height: 37vh;
+}
+
+.header-large {
+  height: 42vh;
+}
+
+.header-title {
+  color: #FCFCF7;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: center;
+  padding-top: 65px;
+}
+
+.header-tagline {
+  font-size: 17px;
+  color: #FCFCF7;
+  text-align: center;
+}
+
+/* ============================ 
+MEDIA QUERIES
+============================*/
+/* Small (mobile phone - landscape) */
+/* Medium (tablet) */
+/* Large (laptop) */
+/* Extra large (desktop) */
+@media screen and (min-width: 1200px) {
+  .header,
+.header-large {
+    padding: 2% 7% 7%;
+    height: 35vh;
+  }
+
+  .header-title {
+    font-size: 80px;
+    padding-top: 85px;
+  }
+
+  .header-tagline {
+    font-size: 30px;
+    padding-top: 25px;
+  }
+}
+
+/*# sourceMappingURL=header.css.map */
