@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import Routes from './Routes';
 import registerServiceWorker from './registerServiceWorker';
 
-import './index.css';
+import './styles/css/index.css';
 
 
 ReactDOM.render(
