@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { SocialIcon } from 'react-social-icons';
 import { Link } from 'react-router-dom';
 
-import '../styles/contact.css';
+import '../styles/css/contact.css';
 
 
 export default class Contact extends Component {

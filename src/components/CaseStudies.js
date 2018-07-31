@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-import '../styles/caseStudies.css';
+import '../styles/css/caseStudies.css';
 
 
 export default class CaseStudies extends Component {

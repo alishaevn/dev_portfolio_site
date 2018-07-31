@@ -3,7 +3,7 @@ import { slide as Menu } from 'react-burger-menu';
 import { HashLink } from 'react-router-hash-link';
 import smoothscroll from 'smoothscroll-polyfill';
 
-import '../styles/navigation.css';
+import '../styles/css/navigation.css';
 
 smoothscroll.polyfill();
 

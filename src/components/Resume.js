@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import Header from './Header';
 import Contact from './Contact';
 
-import '../styles/resume.css';
+import '../styles/css/resume.css';
 
 export default class Resume extends Component {
   componentDidMount() {

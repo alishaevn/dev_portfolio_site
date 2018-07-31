@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import Header from './Header';
 import Contact from './Contact';
 
-import '../styles/caseStudies.css';
+import '../styles/css/caseStudies.css';
 
 export default class Safer extends Component {
   componentDidMount() {
