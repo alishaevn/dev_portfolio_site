@@ -1,22 +1,10 @@
 /* https: //coolors.co/543c27-d7cab6-2c8199-fcfcf7-727272 */
 /* Extra small (mobile phone - portrait) */
 .landing-page-pic {
-  background-image: url("../../images/extra-small.jpg");
+  background-image: url("../../images/header-bokeh.png");
   height: 100vh;
   background-size: cover;
   padding: 9%;
-}
-
-.small {
-  background-image: url();
-}
-
-.medium {
-  background-image: url();
-}
-
-.large {
-  background-image: url();
 }
 
 .intro-tagline {
@@ -41,7 +29,7 @@ MEDIA QUERIES
 /* Medium (tablet) */
 @media screen and (min-width: 768px) {
   .landing-page-pic {
-    background-image: url("../../images/medium.jpg");
+    background-image: url("../../images/header-bokeh.png");
     height: 100vh;
     background-size: cover;
     padding: 2% 7% 7%;
@@ -63,7 +51,7 @@ MEDIA QUERIES
 /* Large (laptop) */
 @media screen and (min-width: 992px) {
   .landing-page-pic {
-    background-image: url("../../images/extra-large.jpg");
+    background-image: url("../../images/header-bokeh.png");
     height: 100vh;
     background-size: cover;
     padding: 2% 7% 7%;
@@ -73,7 +61,7 @@ MEDIA QUERIES
 /* Extra large (desktop) */
 @media screen and (min-width: 1200px) {
   .landing-page-pic {
-    background-image: url("../../images/extra-large.jpg");
+    background-image: url("../../images/header-bokeh.png");
     height: 100vh;
     background-size: cover;
     padding: 2% 7% 7%;
