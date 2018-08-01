@@ -12,8 +12,7 @@ export default class Intro extends Component {
       <section className='landing-page-pic' id='intro'>
         <Navigation />
 
-        <p className='intro-tagline'>Detail oriented, problem solving, <br />
-        creative thinking</p>
+        <p className='intro-tagline'>Detail oriented, problem solving, creative thinking</p>
         <h1 className='intro-title'>Front-End Developer</h1>
       </section>
     )

@@ -1,8 +1,8 @@
 /* Extra small (mobile phone - portrait) */
 .landing-page-pic {
   background-image: url("../../images/mobile_bg.jpg");
-  height: 100vh;
   background-size: cover;
+  height: 100vh;
   padding: 9%;
 }
 
@@ -10,13 +10,12 @@
   color: #FCFCF7;
   margin-top: 30%;
   font-weight: 300;
-  font-size: 15px;
 }
 
 .intro-title {
   color: #FCFCF7;
   font-weight: 500;
-  font-size: 3em;
+  font-size: 53px;
   margin-top: 10px;
   line-height: 1;
 }
@@ -25,6 +24,21 @@
 MEDIA QUERIES
 ============================*/
 /* Small (mobile phone - landscape) */
+@media screen and (min-width: 576px) {
+  .landing-page-pic {
+    background-position: center;
+    background-position: left;
+  }
+
+  .intro-tagline {
+    margin-top: 10%;
+    font-size: 18px;
+  }
+
+  .intro-title {
+    font-size: 52px;
+  }
+}
 /* Medium (tablet) */
 @media screen and (min-width: 768px) {
   .landing-page-pic {
@@ -36,45 +50,53 @@ MEDIA QUERIES
   }
 
   .intro-tagline {
-    font-size: 27px;
+    font-size: 36px;
     font-weight: 300;
-    margin-top: 27%;
-    text-shadow: 3px 2px 2px #727272;
+    margin-top: 35%;
+    text-shadow: 3px 3px 5px #000;
   }
 
   .intro-title {
-    font-size: 6em;
-    text-shadow: 3px 2px 2px #727272;
+    font-size: 115px;
+    text-shadow: 3px 3px 5px #000;
   }
 }
 /* Large (laptop) */
 @media screen and (min-width: 992px) {
   .landing-page-pic {
-    background-image: url("../../images/desktop_bg.jpg");
+    background-image: url("../../images/tablet_bg.jpg");
+    background-position: left;
     height: 100vh;
-    background-size: cover;
     padding: 2% 7% 7%;
-    opacity: 0.9;
+    opacity: 0.95;
+  }
+
+  .intro-tagline {
+    font-size: 25px;
+    margin-top: 25%;
+    text-align: center;
+  }
+
+  .intro-title {
+    font-size: 72px;
+    text-align: center;
   }
 }
 /* Extra large (desktop) */
 @media screen and (min-width: 1200px) {
   .landing-page-pic {
     background-image: url("../../images/desktop_bg.jpg");
-    height: 100vh;
-    background-size: cover;
     padding: 2% 7% 7%;
     opacity: 0.9;
   }
 
   .intro-tagline {
-    margin-top: 10%;
-    font-size: 30px;
-    text-shadow: 1px 2px 2px #727272;
+    margin-top: 32%;
+    font-size: 40px;
   }
 
   .intro-title {
-    text-shadow: 1px 2px 2px #727272;
+    font-size: 90px;
   }
 }
 /* 

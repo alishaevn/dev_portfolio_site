@@ -4,6 +4,8 @@
 .gallery {
   padding: 0 9%;
   margin: 0 auto;
+  border-bottom: 5px double #2C8199;
+  border-bottom-width: thick;
 }
 
 .photo-header {
@@ -18,26 +20,34 @@ MEDIA QUERIES
 
 /* Small (mobile phone - landscape) */
 
-@media screen and (min-width: 576px) {}
+@media screen and (min-width: 576px) {
+  .gallery {
+    padding: 0 9% 3%;
+  }
+}
 
 /* Medium (tablet) */
 
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+  .why-photography {
+    font-size: 18px;
+  }
+}
 
 /* Large (laptop) */
 
-@media screen and (min-width: 992px) {}
-
-/* Extra large (desktop) */
-
-@media screen and (min-width: 1200px) {
-  .gallery {
-    padding: 0 7%;
-  }
+@media screen and (min-width: 992px) {
   .photo-header {
     padding: 7%;
+  }
+  .gallery {
+    padding: 0 7% 3%;
   }
   .why-photography {
     font-size: 20px;
   }
 }
+
+/* Extra large (desktop) */
+
+@media screen and (min-width: 1200px) {}

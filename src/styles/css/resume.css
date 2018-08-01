@@ -2,6 +2,8 @@
 .resume {
   padding: 9%;
   width: 100%;
+  border-bottom: 5px double #2C8199;
+  border-bottom-width: thick;
 }
 
 /* ============================ 

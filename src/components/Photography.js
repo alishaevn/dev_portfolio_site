@@ -56,7 +56,7 @@ export default class Photography extends Component {
 
         <header className='photo-header'>
           <p className='why-photography'>
-            Photography is something I’ve enjoyed since I was in high school.  I’ve tried my hand at various genre’s including portraits & weddings, but my favorite is a mix of travel & documentary. <br />
+            Photography is something I’ve enjoyed since I was in high school.  I’ve tried my hand at various genres including portraits & weddings, but my favorite is a mix of travel & documentary. <br />
             My photos are taken with my iPhone or Canon 60D. </p>
             <br />
           <p className='why-photography'>

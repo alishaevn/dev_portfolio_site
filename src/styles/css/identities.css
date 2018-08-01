@@ -15,6 +15,7 @@
 }
 
 .brand-block-photo,
+.brand-block-photo-2,
 .brand-rectangle-photo {
   width: 100%;
   margin-bottom: 10px;
@@ -34,20 +35,33 @@ MEDIA QUERIES
 ============================*/
 /* Small (mobile phone - landscape) */
 /* Medium (tablet) */
-/* Large (laptop) */
-/* Extra large (desktop) */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .branding {
-    padding: 7% 7% 0;
+    padding: 9% 9% 0;
   }
 
-  .brand-project {
-    padding: 9% 7%;
+  .why-brands,
+.brand-summary {
+    font-size: 18px;
+  }
+
+  .brand-name {
+    font-size: 28px;
+  }
+}
+/* Large (laptop) */
+@media screen and (min-width: 992px) {
+  .branding {
+    padding: 7% 7% 0;
   }
 
   .why-brands,
 .brand-summary {
     font-size: 20px;
+  }
+
+  .brand-project {
+    padding: 7%;
   }
 
   .brand-name {
@@ -74,5 +88,6 @@ MEDIA QUERIES
     padding-right: 10px;
   }
 }
+/* Extra large (desktop) */
 
 /*# sourceMappingURL=identities.css.map */

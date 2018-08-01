@@ -14,13 +14,12 @@
   float: right;
 }
 
-.logo,
-.menu-button,
-.menu-button-clicked {
-  color: $creme;
-  font-size: 30px;
-}
-
+// .logo,
+// .menu-button,
+// .menu-button-clicked {
+//   color: $creme;
+//   font-size: 30px;
+// }
 .menu-link {
   color: $creme;
   padding-bottom: 10px;
@@ -83,7 +82,19 @@ MEDIA QUERIES
 
 /* Small (mobile phone - landscape) */
 
-@media screen and (min-width: 576px) {}
+@media screen and (min-width: 576px) {
+  .bm-burger-button {
+    width: 25px;
+    height: 20px;
+  }
+  .menu-link {
+    padding-bottom: 5px;
+  }
+  .bm-menu {
+    padding: 25px 1.5em 0;
+    font-size: 20px;
+  }
+}
 
 /* Medium (tablet) */
 
@@ -114,11 +125,12 @@ MEDIA QUERIES
   .desktop-menu {
     display: initial;
     float: right;
-    padding-top: 15px;
+    padding-top: 30px;
   }
   .menu-link {
-    padding-left: 24px;
-    font-size: 20px;
+    padding-left: 18px;
+    font-size: 18px;
+    text-shadow: 1px 1px 0px #000;
   }
 }
 
@@ -127,13 +139,6 @@ MEDIA QUERIES
 @media screen and (min-width: 1200px) {
   .menu-link {
     padding-left: 24px;
-    /* padding-bottom: 10px;
-    padding-left: 24px;
-    padding-top: 15px; */
     font-size: 20px;
-  }
-  .desktop-menu {
-    /* text-align: center;
-    padding-top: 15px; */
   }
 }

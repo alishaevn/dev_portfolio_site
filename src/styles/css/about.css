@@ -8,23 +8,22 @@
   width: 120px;
   height: 120px;
   border-radius: 100%;
-  float: right;
+  float: left;
 }
 
 .hi {
-  padding-top: 35px;
-  font-size: 60px;
+  margin-left: 140px;
+  font-size: 90px;
 }
 
 .about-welcome,
 .heading {
   font-weight: 500;
-  font-size: 23px;
+  font-size: 24px;
 }
 
 .about-me {
   margin-top: 10px;
-  font-size: 14px;
   font-weight: 300;
 }
 
@@ -38,7 +37,7 @@
 
 .skillset {
   display: flex;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 
 .skills-icon {
@@ -48,32 +47,70 @@
 }
 
 .skill-type {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
+  line-height: 21px;
 }
 
 .skill-description {
   font-weight: 300;
   padding-top: 5px;
-  font-size: 14px;
 }
 
 /* ============================ 
 MEDIA QUERIES
 ============================*/
 /* Small (mobile phone - landscape) */
+@media screen and (min-width: 576px) {
+  .headshot {
+    width: 130px;
+    height: 130px;
+  }
+}
 /* Medium (tablet) */
+@media screen and (min-width: 768px) {
+  .headshot {
+    width: 190px;
+    height: 190px;
+  }
+
+  .hi {
+    margin-left: 215px;
+    height: 100px;
+  }
+
+  .about-welcome {
+    font-size: 32px;
+    margin-left: 215px;
+  }
+
+  .about-me {
+    font-size: 18px;
+  }
+
+  .heading {
+    margin: 25px 0 15px;
+    font-size: 32px;
+  }
+
+  .skill-type {
+    font-size: 26px;
+  }
+
+  .skill-description {
+    font-size: 18px;
+  }
+}
 /* Large (laptop) */
-/* Extra large (desktop) */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 992px) {
   .about {
     padding: 7%;
   }
 
   .headshot {
-    float: left;
     width: 220px;
     height: 220px;
+    float: left;
   }
 
   .hi {
@@ -90,7 +127,7 @@ MEDIA QUERIES
 
   .about-me {
     font-size: 20px;
-    margin-top: 15px;
+    margin-top: 25px;
   }
 
   .heading {
@@ -98,25 +135,79 @@ MEDIA QUERIES
     font-size: 36px;
   }
 
+  .skillset {
+    margin-top: 30px;
+  }
+
+  .skills-icon {
+    width: 7%;
+    margin-right: 30px;
+  }
+
+  .skill-type {
+    font-size: 30px;
+  }
+
+  .skill-description {
+    font-size: 20px;
+  }
+}
+/* Extra large (desktop) */
+@media screen and (min-width: 1200px) {
+  .headshot {
+    width: 250px;
+    height: 250px;
+  }
+
+  .hi {
+    margin-left: 280px;
+  }
+
+  .about-welcome {
+    margin-left: 280px;
+  }
+
+  .about-me {
+    margin-top: 15px;
+  }
+
+  .heading {
+    font-size: 44px;
+  }
+
   .skillset-section {
     display: inline-flex;
   }
 
   .skillset {
-    margin: 15px 15px 0 0;
+    width: 33.3%;
   }
 
-  .skills-icon {
+  .fed-icon {
+    width: 50px;
+    height: 55px;
+    margin-right: 15px;
+  }
+
+  .uid-icon {
     width: 45px;
-    height: 45px;
+    height: 50px;
+    margin-right: 15px;
+  }
+
+  .id-icon {
+    width: 45px;
+    height: 50px;
+    margin-right: 15px;
   }
 
   .skill-type {
-    font-size: 24px;
+    padding-right: 10px;
+    line-height: 32px;
   }
 
   .skill-description {
-    font-size: 18px;
+    padding-right: 10px;
   }
 }
 
