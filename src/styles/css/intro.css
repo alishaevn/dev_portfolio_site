@@ -1,8 +1,8 @@
 /* Extra small (mobile phone - portrait) */
 .landing-page-pic {
   background-image: url("../../images/mobile_bg.jpg");
-  height: 100vh;
   background-size: cover;
+  height: 100vh;
   padding: 9%;
 }
 
@@ -10,13 +10,12 @@
   color: #FCFCF7;
   margin-top: 30%;
   font-weight: 300;
-  font-size: 15px;
 }
 
 .intro-title {
   color: #FCFCF7;
   font-weight: 500;
-  font-size: 3em;
+  font-size: 53px;
   margin-top: 10px;
   line-height: 1;
 }
@@ -25,6 +24,21 @@
 MEDIA QUERIES
 ============================*/
 /* Small (mobile phone - landscape) */
+@media screen and (min-width: 576px) {
+  .landing-page-pic {
+    background-position: center;
+    background-position: left;
+  }
+
+  .intro-tagline {
+    margin-top: 10%;
+    font-size: 18px;
+  }
+
+  .intro-title {
+    font-size: 52px;
+  }
+}
 /* Medium (tablet) */
 @media screen and (min-width: 768px) {
   .landing-page-pic {

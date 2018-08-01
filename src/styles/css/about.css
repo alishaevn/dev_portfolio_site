@@ -8,23 +8,22 @@
   width: 120px;
   height: 120px;
   border-radius: 100%;
-  float: right;
+  float: left;
 }
 
 .hi {
-  padding-top: 35px;
-  font-size: 60px;
+  margin-left: 140px;
+  font-size: 90px;
 }
 
 .about-welcome,
 .heading {
   font-weight: 500;
-  font-size: 23px;
+  font-size: 24px;
 }
 
 .about-me {
   margin-top: 10px;
-  font-size: 14px;
   font-weight: 300;
 }
 
@@ -38,7 +37,7 @@
 
 .skillset {
   display: flex;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 
 .skills-icon {
@@ -48,20 +47,26 @@
 }
 
 .skill-type {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
+  line-height: 21px;
 }
 
 .skill-description {
   font-weight: 300;
   padding-top: 5px;
-  font-size: 14px;
 }
 
 /* ============================ 
 MEDIA QUERIES
 ============================*/
 /* Small (mobile phone - landscape) */
+@media screen and (min-width: 576px) {
+  .headshot {
+    width: 130px;
+    height: 130px;
+  }
+}
 /* Medium (tablet) */
 /* Large (laptop) */
 @media screen and (min-width: 992px) {

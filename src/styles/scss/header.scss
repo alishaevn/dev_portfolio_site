@@ -38,7 +38,11 @@ MEDIA QUERIES
 
 /* Small (mobile phone - landscape) */
 
-@media screen and (min-width: 576px) {}
+@media screen and (min-width: 576px) {
+  .header-title {
+    padding-top: 0px;
+  }
+}
 
 /* Medium (tablet) */
 

@@ -2,6 +2,8 @@
 .gallery {
   padding: 0 9%;
   margin: 0 auto;
+  border-bottom: 5px double #2C8199;
+  border-bottom-width: thick;
 }
 
 .photo-header {
@@ -14,6 +16,11 @@
 MEDIA QUERIES
 ============================*/
 /* Small (mobile phone - landscape) */
+@media screen and (min-width: 576px) {
+  .gallery {
+    padding: 0 9% 3%;
+  }
+}
 /* Medium (tablet) */
 /* Large (laptop) */
 @media screen and (min-width: 992px) {
@@ -23,8 +30,6 @@ MEDIA QUERIES
 
   .gallery {
     padding: 0 7% 3%;
-    border-bottom: 5px double #2C8199;
-    border-bottom-width: thick;
   }
 
   .why-photography {

@@ -96,7 +96,23 @@
 MEDIA QUERIES
 ============================*/
 /* Small (mobile phone - landscape) */
+@media screen and (min-width: 576px) {
+  /* home page */
+  .cs-mockup-title {
+    font-size: 35px;
+  }
+
+  /* individual pages */
+  .github-repo-link {
+    margin: 0 6%;
+    font-size: 21px;
+  }
+}
 /* Medium (tablet) */
+@media screen and (min-width: 768px) {
+  /* home page */
+  /* individual pages */
+}
 /* Large (laptop) */
 @media screen and (min-width: 992px) {
   /* home page */
@@ -179,7 +195,6 @@ MEDIA QUERIES
   }
 
   .standout-details {
-    /* margin-right: 60px; */
     font-size: 20px;
   }
 }
@@ -254,7 +269,6 @@ MEDIA QUERIES
   }
 
   .standout-details {
-    /* margin-right: 60px; */
     font-size: 20px;
   }
 }

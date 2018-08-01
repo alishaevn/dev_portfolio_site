@@ -3,8 +3,8 @@
 
 .landing-page-pic {
   background-image: $introMobileBg;
-  height: 100vh;
   background-size: cover;
+  height: 100vh;
   padding: 9%;
 }
 
@@ -12,13 +12,12 @@
   color: $creme;
   margin-top: 30%;
   font-weight: $light;
-  font-size: 15px;
 }
 
 .intro-title {
   color: $creme;
   font-weight: $medium;
-  font-size: 3em;
+  font-size: 53px;
   margin-top: 10px;
   line-height: 1;
 }
@@ -29,7 +28,19 @@ MEDIA QUERIES
 
 /* Small (mobile phone - landscape) */
 
-@media screen and (min-width: 576px) {}
+@media screen and (min-width: 576px) {
+  .landing-page-pic {
+    background-position: center;
+    background-position: left;
+  }
+  .intro-tagline {
+    margin-top: 10%;
+    font-size: 18px;
+  }
+  .intro-title {
+    font-size: 52px;
+  }
+}
 
 /* Medium (tablet) */
 
@@ -78,8 +89,7 @@ MEDIA QUERIES
 
 @media screen and (min-width: 1200px) {
   .landing-page-pic {
-    background-image: $introDesktopBg; // height: 100vh;
-    // background-size: cover;
+    background-image: $introDesktopBg;
     padding: 2% 7% 7%;
     opacity: 0.9;
   }
