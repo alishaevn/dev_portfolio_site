@@ -40,6 +40,22 @@ MEDIA QUERIES
   }
 }
 /* Medium (tablet) */
+@media screen and (min-width: 768px) {
+  .header,
+.header-large {
+    height: 25vh;
+  }
+
+  .header-title {
+    padding-top: 55px;
+    font-size: 45px;
+  }
+
+  .header-tagline {
+    font-size: 25px;
+    margin-top: 10px;
+  }
+}
 /* Large (laptop) */
 @media screen and (min-width: 992px) {
   .header,

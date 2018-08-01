@@ -68,6 +68,39 @@ MEDIA QUERIES
   }
 }
 /* Medium (tablet) */
+@media screen and (min-width: 768px) {
+  .headshot {
+    width: 190px;
+    height: 190px;
+  }
+
+  .hi {
+    margin-left: 215px;
+    height: 100px;
+  }
+
+  .about-welcome {
+    font-size: 32px;
+    margin-left: 215px;
+  }
+
+  .about-me {
+    font-size: 18px;
+  }
+
+  .heading {
+    margin: 25px 0 15px;
+    font-size: 32px;
+  }
+
+  .skill-type {
+    font-size: 26px;
+  }
+
+  .skill-description {
+    font-size: 18px;
+  }
+}
 /* Large (laptop) */
 @media screen and (min-width: 992px) {
   .about {

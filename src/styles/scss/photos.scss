@@ -28,7 +28,11 @@ MEDIA QUERIES
 
 /* Medium (tablet) */
 
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+  .why-photography {
+    font-size: 18px;
+  }
+}
 
 /* Large (laptop) */
 

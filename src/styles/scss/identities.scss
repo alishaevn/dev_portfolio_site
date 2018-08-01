@@ -17,6 +17,7 @@
 }
 
 .brand-block-photo,
+.brand-block-photo-2,
 .brand-rectangle-photo {
   width: 100%;
   margin-bottom: 10px;
@@ -41,17 +42,28 @@ MEDIA QUERIES
 
 /* Medium (tablet) */
 
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+  .branding {
+    padding: 9% 9% 0;
+  }
+  .why-brands,
+  .brand-summary {
+    font-size: 18px;
+  }
+  .brand-name {
+    font-size: 28px;
+  }
+}
 
 /* Large (laptop) */
 
 @media screen and (min-width: 992px) {
+  .branding {
+    padding: 7% 7% 0;
+  }
   .why-brands,
   .brand-summary {
     font-size: 20px;
-  }
-  .branding {
-    padding: 7% 7% 0;
   }
   .brand-project {
     padding: 7%;

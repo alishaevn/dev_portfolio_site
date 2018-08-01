@@ -36,7 +36,16 @@ MEDIA QUERIES
 
 /* Medium (tablet) */
 
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+  .opportunities,
+  .copyright-info {
+    font-size: 28px;
+  }
+  .contact-info {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+}
 
 /* Large (laptop) */
 
@@ -48,8 +57,7 @@ MEDIA QUERIES
   .copyright-info {
     font-size: 36px;
   }
-  .contact-info,
-    {
+  .contact-info {
     font-size: 28px;
     margin-top: 20px;
   }

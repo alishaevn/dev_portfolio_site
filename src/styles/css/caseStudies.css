@@ -111,7 +111,19 @@ MEDIA QUERIES
 /* Medium (tablet) */
 @media screen and (min-width: 768px) {
   /* home page */
+  .cs-title {
+    font-size: 50px;
+  }
+
+  .cs-mockup-title {
+    font-size: 45px;
+  }
+
   /* individual pages */
+  .project-summary,
+.standout-details {
+    font-size: 18px;
+  }
 }
 /* Large (laptop) */
 @media screen and (min-width: 992px) {
