@@ -14,13 +14,12 @@
   float: right;
 }
 
-.logo,
-.menu-button,
-.menu-button-clicked {
-  color: $creme;
-  font-size: 30px;
-}
-
+// .logo,
+// .menu-button,
+// .menu-button-clicked {
+//   color: $creme;
+//   font-size: 30px;
+// }
 .menu-link {
   color: $creme;
   padding-bottom: 10px;
@@ -83,7 +82,19 @@ MEDIA QUERIES
 
 /* Small (mobile phone - landscape) */
 
-@media screen and (min-width: 576px) {}
+@media screen and (min-width: 576px) {
+  .bm-burger-button {
+    width: 25px;
+    height: 20px;
+  }
+  .menu-link {
+    padding-bottom: 5px;
+  }
+  .bm-menu {
+    padding: 25px 1.5em 0;
+    font-size: 20px;
+  }
+}
 
 /* Medium (tablet) */
 
