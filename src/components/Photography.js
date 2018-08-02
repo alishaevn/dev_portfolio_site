@@ -81,18 +81,18 @@ export default class Photography extends Component {
 }
 
 const photos = [
-  { src: 'https://drive.google.com/uc?export=view&id=1_rjFZJaKtOygHPCTRDGVbEj10ZJf-pnc', width: 3, height: 4 },
-  { src: 'https://drive.google.com/uc?export=view&id=1nJ_tpgJXiZmwktePVBZrxsH-xZmdnmH7', width: 4, height: 3 },
-  { src: 'https://drive.google.com/uc?export=view&id=1mBCXFMdDofzqG4KYYbSn8imN1euegqGg', width: 3, height: 4 },
-  { src: 'https://drive.google.com/uc?export=view&id=18177VwChEFDh5si4BMMTvLlCIySsOh7w', width: 3, height: 4 },
-  { src: 'https://drive.google.com/uc?export=view&id=1jk_MzhVrn695ksAgV3MmL9pvnsS4suwe', width: 3, height: 4 },
-  { src: 'https://drive.google.com/uc?export=view&id=1vJr8bdlqFkwLNAs_BPErsxAb1zFe3RVk', width: 4, height: 3 },
-  { src: 'https://drive.google.com/uc?export=view&id=1P7pNlsDGkVD4BkFUABPjTzDMHHgOZp3U', width: 3, height: 2 },
-  { src: 'https://drive.google.com/uc?export=view&id=1VlhfC0o3bPhvT8I9zVE38lvGAV615QBr', width: 3, height: 4 },
-  { src: 'https://drive.google.com/uc?export=view&id=1_vcS2kF3wCJd9_4rsJ9BTUvBdcAk1vL0', width: 3, height: 4 },
-  { src: 'https://drive.google.com/uc?export=view&id=17C9OM-eXG3JZ2f_1pSipWkBWhAARGSxP', width: 3, height: 4 },
-  { src: 'https://drive.google.com/uc?export=view&id=187eIIGrT9fjES1ARWoM9aRaESzLgbRjQ', width: 3, height: 4 },
-  { src: 'https://drive.google.com/uc?export=view&id=1NdH3gn_E7Qha_Du5dzK5QtEsfRh0AwiS', width: 3, height: 2 }
+  { src: 'https://drive.google.com/uc?export=view&id=1x3VrOcrZUTMMf_oJBiz_84r_y2p6MdKH', width: 3, height: 4 },
+  { src: 'https://drive.google.com/uc?export=view&id=1ERflNG0_w47Fegl9prhLYlihfbwAPdkd', width: 4, height: 3 },
+  { src: 'https://drive.google.com/uc?export=view&id=19-loyC2WNwf8amf6JJAoL04ZzjLA4rB0', width: 3, height: 4 },
+  { src: 'https://drive.google.com/uc?export=view&id=1squxP900G4fUc7JwokJJYPrCxmzISQXh', width: 3, height: 4 },
+  { src: 'https://drive.google.com/uc?export=view&id=1X7D4ZkVfs7kufT4j56FtNJJ7uFdjZEfg', width: 3, height: 4 },
+  { src: 'https://drive.google.com/uc?export=view&id=1jfwLpoLAYNDPvih-8XpoURaaY9nE77pR', width: 4, height: 3 },
+  { src: 'https://drive.google.com/uc?export=view&id=1yII8VKBKMZhfk_ZBYxJNlLzrL-wHBOKJ', width: 3, height: 2 },
+  { src: 'https://drive.google.com/uc?export=view&id=1hO5nLvaHQQW0Jj_W4vTr7U38fHz3NRPL', width: 3, height: 4 },
+  { src: 'https://drive.google.com/uc?export=view&id=1J989TIbj4M7ikvw_yKTzoWqznk0vYrWT', width: 3, height: 4 },
+  { src: 'https://drive.google.com/uc?export=view&id=1k7xj8ilH1YqmpUhuJApLHwG8YD4fUwQr', width: 3, height: 4 },
+  { src: 'https://drive.google.com/uc?export=view&id=1857drIa4LkuZcmDrZA552N4QeuRvizl2', width: 3, height: 4 },
+  { src: 'https://drive.google.com/uc?export=view&id=1TBQ7o0iu0eTHvu7pe3qO_kPKkfhsFcZh', width: 3, height: 2 }
 ];
 
 /*
