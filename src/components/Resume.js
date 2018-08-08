@@ -19,8 +19,7 @@ export default class Resume extends Component {
       <section>
         <Header 
           title={title} />
-        {/* <section className='resume'> */}
-          {/* <div> */}
+          <div className='resume-topper'>
             <section className='resume-one'>
               <h1 className='h1'>Alisha Evans</h1>
               <h2 className='h2'>M.F.A.</h2>
@@ -69,18 +68,16 @@ export default class Resume extends Component {
                 <p className='resume-text'>Thinkful, Brooklyn, NY</p>
                 <p className='resume-text'>January 2018 - June 2018</p>
                 <h4 className='bold-title'>MASTER OF ARTS: MEDIA DESIGN</h4>
-                <p className='resume-text'>3.92 GPA. | Salutatorian. </p>
+                <p className=''>3.92 GPA. | Salutatorian. </p>
                 <p className='resume-text'>Full Sail University, Winter Park, FL. <br />
                   November 2013 - November 2014</p>
                 <h4 className='bold-title'>BACHELOR OF ARTS: GRAPHIC DESIGN; MINOR: MARKETING</h4>
-                <p className='resume-text'>3.67 GPA. | Full academic scholarship.</p>
+                <p className=''>3.67 GPA. | Full academic scholarship.</p>
                 <p className='resume-text'>Jackson State University, Jackson, MS. <br />
                   August 2005 – May 2010</p>
               </div>
-            </section>
-          {/* </div> */}
           <article className='resume-three'>
-            <h3 className='resume-header-blue'>TECHNOLOGIES:</h3>
+            <h3 className='resume-header-white'>TECHNOLOGIES:</h3>
             <li className='resume-text'>HTML5</li>
             <li className='resume-text'>JavaScript</li>
             <li className='resume-text'>React</li>
@@ -96,7 +93,8 @@ export default class Resume extends Component {
             <li className='resume-text'>Node</li>
             <li className='resume-text'>RESTful API</li>
           </article>
-        {/* </section> */}
+            </section>
+          </div>
         <Contact />
         
       </section>
