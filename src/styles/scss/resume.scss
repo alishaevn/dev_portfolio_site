@@ -59,6 +59,10 @@
   text-decoration: underline;
 }
 
+.bold-title {
+  margin-top: 10px;
+}
+
 li>span {
   font-weight: $medium;
 }
@@ -77,30 +81,12 @@ MEDIA QUERIES
 
 /* Medium (tablet) */
 
-@media screen and (min-width: 768px) {}
-
-/* Large (laptop) */
-
-@media screen and (min-width: 992px) {
-  .resume-topper {
-    border-bottom: none;
-  }
-  .resume-one,
-  .resume-two {
-    padding: 4%;
-  }
+@media screen and (min-width: 768px) {
   .resume-one {
-    width: 30%;
-    height: 1500px;
-  }
-  .resume-two {
-    width: 65%;
-  }
-  .resume-three {
-    width: 100%;
-  }
-  .resume-topper {
     display: flex;
+  }
+  .resume-one-details {
+    margin-left: 30px;
   }
   .h1 {
     font-size: 48px;
@@ -111,11 +97,87 @@ MEDIA QUERIES
     padding-top: 15px;
   }
   .h3 {
-    padding: 10px 0 25px;
-    font-size: 21px;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 20px;
   }
+  .resume-header-white {
+    font-size: 25px;
+  }
+}
+
+/* Large (laptop) */
+
+@media screen and (min-width: 992px) {
+  .resume-one {
+    display: initial;
+  }
+  .resume-topper {
+    border-bottom: none; // display: flex;
+    display: table-row;
+  }
+  .resume-one,
+  .resume-two {
+    padding: 4%;
+    display: table-cell; // flex: 1;
+    // height: 100%;
+    // padding-bottom: 100%;
+    // margin-bottom: -100%;
+  }
+  .resume-one {
+    width: 30%;
+    height: 1500px;
+  }
+  .resume-one-details {
+    margin-left: 0px;
+  }
+  .resume-two {
+    width: 65%;
+  }
+  .resume-three {
+    width: 100%;
+  }
+  .resume-header-blue {
+    margin-top: 30px;
+  }
+  .h1 {
+    font-size: 70px;
+    line-height: 70px;
+  }
+  .h2 {
+    font-size: 50px;
+  }
+  .h3 {
+    font-size: 30px;
+  } // .h1 {
+  //   font-size: 48px;
+  //   line-height: 48px;
+  // }
+  // .h2 {
+  //   font-size: 40px;
+  // }
+  // .h3 {
+  //   padding: 10px 0 25px;
+  //   font-size: 21px;
+  // }
 }
 
 /* Extra large (desktop) */
 
-@media screen and (min-width: 1200px) {}
+@media screen and (min-width: 1200px) {
+  .h1 {
+    font-size: 70px;
+    line-height: 70px;
+  }
+  .h2 {
+    font-size: 50px;
+  }
+  .h3 {
+    font-size: 30px;
+  }
+  .resume-header-white {
+    font-size: 25px;
+  }
+}
+
+// Resource: https://stackoverflow.com/questions/2997767/how-do-i-keep-two-side-by-side-divs-the-same-height
