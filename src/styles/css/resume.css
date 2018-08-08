@@ -1,18 +1,16 @@
 /* Extra small (mobile phone - portrait) */
-.resume {
-  padding: 9%;
-  width: 100%;
+.resume-topper {
+  border-bottom: 5px double #2C8199;
+  border-bottom-width: thick;
 }
 
 .resume-one,
-.resume-two,
-.resume-three {
+.resume-two {
   padding: 4% 9%;
   width: 100%;
 }
 
-.resume-one,
-.resume-three {
+.resume-one {
   background-color: #2C8199;
   color: #FCFCF7;
 }
@@ -33,7 +31,8 @@
 }
 
 .h3 {
-  font-weight: 500;
+  font-weight: 300;
+  color: #D7CAB6;
 }
 
 .resume-header {
@@ -68,6 +67,48 @@ MEDIA QUERIES
 /* Small (mobile phone - landscape) */
 /* Medium (tablet) */
 /* Large (laptop) */
+@media screen and (min-width: 992px) {
+  .resume-topper {
+    border-bottom: none;
+  }
+
+  .resume-one,
+.resume-two {
+    padding: 4%;
+  }
+
+  .resume-one {
+    width: 30%;
+    height: 1500px;
+  }
+
+  .resume-two {
+    width: 65%;
+  }
+
+  .resume-three {
+    width: 100%;
+  }
+
+  .resume-topper {
+    display: flex;
+  }
+
+  .h1 {
+    font-size: 48px;
+    line-height: 48px;
+  }
+
+  .h2 {
+    font-size: 40px;
+    padding-top: 15px;
+  }
+
+  .h3 {
+    padding: 10px 0 25px;
+    font-size: 21px;
+  }
+}
 /* Extra large (desktop) */
 
 /*# sourceMappingURL=resume.css.map */
