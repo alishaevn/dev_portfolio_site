@@ -21,15 +21,21 @@ export default class Resume extends Component {
           title={title} />
           <div className='resume-topper'>
             <section className='resume-one'>
-              <h1 className='h1'>Alisha Evans</h1>
-              <h2 className='h2'>M.F.A.</h2>
-              <h3 className='h3'>Front-End Developer</h3>
-              <h3 className='resume-header-blue'>CONTACT:</h3>
-              <p className='resume-text'> alishaantoinette.com <br />
-                619-535-8245 <br />
-                alieva.inc@gmail.com</p>
-              <h3 className='resume-header-blue'>WHY ME?</h3>
-              <p className='resume-text'>As someone educated in Graphic Design & Full Stack Development, I understand the jargon & methodologies of Web Designers & Back End Developers; thus bridging the gap across the web development process.</p>
+              <div className='resume-one-about'>
+                <h1 className='h1'>Alisha Evans</h1>
+                <h2 className='h2'>M.F.A.</h2>
+                <h3 className='h3'>Front-End Developer</h3>
+
+              </div>
+              <div className='resume-one-details'>
+                <h3 className='resume-header-blue'>CONTACT:</h3>
+                <p className='resume-text'> alishaantoinette.com <br />
+                  619-535-8245 <br />
+                  alieva.inc@gmail.com</p>
+                <h3 className='resume-header-blue'>WHY ME?</h3>
+                <p className='resume-text'>As someone educated in Graphic Design & Full Stack Development, I understand the jargon & methodologies of Web Designers & Back End Developers; thus bridging the gap across the web development process.</p>
+
+              </div>
             </section>
             <section className='resume-two'>
               <div>
