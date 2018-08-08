@@ -2,8 +2,64 @@
 .resume {
   padding: 9%;
   width: 100%;
-  border-bottom: 5px double #2C8199;
-  border-bottom-width: thick;
+}
+
+.resume-one,
+.resume-two,
+.resume-three {
+  padding: 4% 9%;
+  width: 100%;
+}
+
+.resume-one,
+.resume-three {
+  background-color: #2C8199;
+  color: #FCFCF7;
+}
+
+.resume-two {
+  color: #543C27;
+}
+
+.h1 {
+  font-size: 36px;
+}
+
+.h2 {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 30px;
+  padding: 0 0 10px;
+}
+
+.h3 {
+  font-weight: 500;
+}
+
+.resume-header {
+  color: #2C8199;
+  margin-bottom: 8px;
+}
+
+.resume-header-blue {
+  color: #D7CAB6;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.resume-header-white {
+  color: #2C8199;
+  font-weight: 600;
+  margin-top: 15px;
+  text-decoration: underline;
+}
+
+li > span {
+  font-weight: 500;
+}
+
+.resume-text {
+  font-weight: 300;
 }
 
 /* ============================ 
