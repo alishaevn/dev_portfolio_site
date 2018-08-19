@@ -91,17 +91,22 @@ export default class Resume extends Component {
             <li className='resume-text'>HTML5</li>
             <li className='resume-text'>JavaScript</li>
             <li className='resume-text'>React</li>
+            <li className='resume-text'>Redux</li>
             <li className='resume-text'>jQuery</li>
             <li className='resume-text'>CSS3</li>
             <li className='resume-text'>SASS</li>
-            <li className='resume-text'>Adobe Creative Suite</li>
+            <li className='resume-text'>Photoshop</li>
+            <li className='resume-text'>Illustrator</li>
+            <li className='resume-text'>InDesign</li>
             <li className='resume-text'>Sketch</li>
+            <li className='resume-text'>Git</li>
             <li className='resume-text'>Github</li>
-            <li className='resume-text'>Redux</li>
             <li className='resume-text'>MongoDB</li>
             <li className='resume-text'>Express</li>
             <li className='resume-text'>Node</li>
             <li className='resume-text'>RESTful API</li>
+            <li className='resume-text'>Mocha</li>
+            <li className='resume-text'>Chai</li>
           </article>
             </section>
           </div>
