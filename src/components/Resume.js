@@ -33,7 +33,7 @@ export default class Resume extends Component {
                   619-535-8245 <br />
                   alieva.inc@gmail.com</p>
                 <h3 className='resume-header-blue'>WHY ME?</h3>
-                <p className='resume-text'>As someone educated in Graphic Design & Full Stack Development, I understand the jargon & methodologies of Web Designers & Back End Developers; thus bridging the gap across the web development process.</p>
+                <p className='resume-text'>As someone educated in Graphic Design & Full Stack Development, I understand the jargon & methodologies of Web Designers & Back End Developers; thus bridging the gap across the web development process. Furthermore, my personal & professional experiences with leadership, education & communication would prove valuable on a team of fellow motivated professionals.</p>
 
               </div>
             </section>
@@ -43,29 +43,33 @@ export default class Resume extends Component {
                 <h4 className='bold-title'>FULL STACK DEVELOPER - FREELANCE</h4>
                 <p className=''>January 2018 - Present | San Diego, CA</p>
                 <ul className=''>
-                  <li className='resume-text'><span className=''>safeR</span> - Keep the community safer by staying up to date on local crimes and incidents in the area.</li>
-                  <li className='resume-text'><span>Foodie Phonetics</span> - Learn how to say the most common food items in French! </li>
-                  <li className='resume-text'><span>For The Win</span> - Make or join a fantasy basketball league and keep up with the stats of your favorite basketball players! </li>
+                  <li className='resume-text'><span className=''>safeR</span> - React app with a React Native companion, complete with geolocation, that allows users to anonymously report local incidents. </li>
+                  <li className='resume-text'><span>Foodie Phonetics</span> - Implemented a spaced repetition algorithm using a singly linked list within a REST API that allows users to learn common French food items in English. </li>
+                  <li className='resume-text'><span>For The Win</span> - Single page app that uses multiple NBA feeds from a 3rd party API as users track team stats and schedules in a fantasy basketball league. </li>
                 </ul>
                 <h4 className='bold-title'>DESIGNER & PHOTOGRAPHER - ALIEVA AGENCY</h4>
                 <p className=''>May 2010 – Present | San Diego, CA</p>
                 <ul className=''>
-                  <li className='resume-text'>Conceptualize, design and execute visual brand identities.</li>
-                  <li className='resume-text'>Designed employee apparel for the grand opening of a new business.</li>
-                  <li className='resume-text'>Photographed headshots used in professional publications.</li>
+                  <li className='resume-text'>Design and execute visual brand identities, including logos, print collateral, style guides and user interfaces.</li>
+                  <li className='resume-text'>Perform market research and develop user personas to plan a better user experience.</li>
+                  <li className='resume-text'>Apparel designer for businesses and non-profit organizations.</li>
+                  <li className='resume-text'>Capture, cull and edit digital and mobile photography.</li>
                 </ul>
-                <h4 className='bold-title'>INTERN - JOEL PAYNEL & CO.</h4>
+                {/* <h4 className='bold-title'>INTERN - JOEL PAYNEL & CO.</h4>
                 <p className=''>February - June 2017 | San Diego, CA</p>
                 <ul className=''>
                   <li className='resume-text'>Collaborated on the naming of, logo design, and web design of an upcoming agricultural company.</li>
                   <li className='resume-text'>Developed a style guide, stationary specs and digital assets for Voila Montessori.</li>
-                </ul>
+                </ul> */}
                 <h4 className='bold-title'> TECHNICAL SUPPORT TECHNICIAN - C SPIRE WIRELESS</h4>
                 <p className=''>August 2010 - March 2016 | Jackson, MS</p>
                 <ul className=''>
-                  <li className='resume-text'>Trained new employees and assisted in cross training with other departments. </li>
                   <li className='resume-text'>Wrote and edited documentation that Customer Care & Retail employees used for troubleshooting.</li>
-                  <li className='resume-text'>Managed customer and remote employee relationships. </li>
+                  <li className='resume-text'>Managed client and employee relationships remotely.</li>
+                  <li className='resume-text'>Tracked and resolved client issues through JIRA tickets.</li>
+                  <li className='resume-text'>Trained new departmental employees and assisted in cross training with other departments.</li>
+                  <li className='resume-text'>Responsible and respectful Tier II team member.</li>
+                  <li className='resume-text'>Provided weekly feedback to Tier I management on how agents could improve their client resolution process.</li>
                 </ul>
               </div>
               <div>
