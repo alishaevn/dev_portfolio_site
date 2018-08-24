@@ -74,9 +74,6 @@ export default class Resume extends Component {
               </div>
               <div>
                 <h3 className='resume-header-white'>EDUCATION:</h3>
-                <h4 className='bold-title'>ENGINEERING IMMERSION GRADUATE</h4>
-                <p className='resume-text'>Thinkful, Brooklyn, NY</p>
-                <p className='resume-text'>January 2018 - June 2018</p>
                 <h4 className='bold-title'>MASTER OF ARTS: MEDIA DESIGN</h4>
                 <p className=''>3.92 GPA. | Salutatorian. </p>
                 <p className='resume-text'>Full Sail University, Winter Park, FL. <br />
