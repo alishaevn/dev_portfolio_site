@@ -23,7 +23,7 @@ export default class Contact extends Component {
           I’d love to hear from you about employment, networking or mentorship opportunities! </h3>
         <p className='contact-info'>
           <a className='link contact-link'
-            href='https://dl.dropboxusercontent.com/s/uljbs9a277iunyx/AlishaEvansDevResume.pdf?dl=0' 
+            href='https://dl.dropboxusercontent.com/s/nh1y29mdxmd4m25/AlishaEvansStandardDevResume.pdf?dl=0' 
             download='Alisha Evans Resume'>
             Download </a>
             or <Link to='/resume' className='link contact-link'> view </Link>
