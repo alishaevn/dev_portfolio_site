@@ -13,7 +13,7 @@ export default class Intro extends Component {
         <Navigation />
 
         <p className='intro-tagline'>Detail oriented, problem solving, creative thinking</p>
-        <h1 className='intro-title'>Front-End Developer</h1>
+        <h1 className='intro-title'>Full-Stack Developer</h1>
       </section>
     )
 
