@@ -34,7 +34,7 @@ export default class FoodiePhonetics extends Component {
               alt='Foodie Phonetics Mockup'/>
             <section>
               <p className='project-summary fp-about'>
-                Foodie Phonetics teaches the user how to say the most common food items in their language of choice! 
+                Implemented a spaced repetition algorithm using a singly linked list within a REST API that allows users to learn common French food items in English. 
                 {/* <br /><br />
                 Username: demo <br />
                 Password: demouser123  */}

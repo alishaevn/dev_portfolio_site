@@ -30,7 +30,7 @@ export default class ForTheWin extends Component {
               alt='For The Win Mockup'/>
             <section>
               <p className='project-summary ftw-about'>
-                Make or join a fantasy basketball league (up to 5 members) and keep up with the stats of your favorite basketball players!  
+                Single page app that uses multiple NBA feeds from a 3rd party API as users track team stats and schedules in a fantasy basketball league. 
                 {/* <br /><br />
                 Username: demo@gmail.com <br />
                 Password: demo12345 */}
