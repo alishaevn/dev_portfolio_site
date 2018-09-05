@@ -10,7 +10,8 @@
   width: 100%;
 }
 
-.resume-one {
+.resume-one,
+.resume-text > a {
   background-color: #2C8199;
   color: #FCFCF7;
 }
@@ -77,6 +78,8 @@ MEDIA QUERIES
 
   .resume-one-details {
     margin-left: 30px;
+    margin-top: 30px;
+    border-top: 4px solid #543C27;
   }
 
   .h1 {
