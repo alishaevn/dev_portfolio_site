@@ -31,7 +31,7 @@ export default class Safer extends Component {
                 alt='Safer Mockup'/>
             <section>
               <p className='project-summary'>
-                SafeReport/safeR aims to keep the community safer by making sure they are up to date on local crimes and incidents in the area. 
+                React app with a React Native companion, complete with geolocation, that allows users to anonymously report local incidents. 
                 {/* <br /><br />
                 username: demo <br />
                 password: demouser123 */}
