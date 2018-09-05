@@ -24,23 +24,26 @@ export default class Resume extends Component {
               <div className='resume-one-about'>
                 <h1 className='h1'>Alisha Evans</h1>
                 <h2 className='h2'>M.F.A.</h2>
-                <h3 className='h3'>Full-Stack Developer</h3>
+                <h3 className='h3'>Web Developer</h3>
 
               </div>
               <div className='resume-one-details'>
                 <h3 className='resume-header-blue'>CONTACT:</h3>
-                <p className='resume-text'> alishaantoinette.com <br />
+                <p className='resume-text'> 
                   619-535-8245 <br />
-                  alieva.inc@gmail.com</p>
-                {/* <h3 className='resume-header-blue'>WHY ME?</h3>
-                <p className='resume-text'>As someone educated in Graphic Design & Full Stack Development, I understand the jargon & methodologies of Web Designers & Back End Developers; thus bridging the gap across the web development process. Furthermore, my personal & professional experiences with leadership, education & communication would prove valuable on a team of fellow motivated professionals.</p> */}
+                  alieva.inc@gmail.com <br />
+                  <a href='https://github.com/alishaantoinette' className='link'>Github</a> <br />
+                  <a href='https://www.linkedin.com/in/alishaevans/' className='link'>LinkedIn </a>
+                </p>
+                <h3 className='resume-header-blue'>WHY ME?</h3>
+                <p className='resume-text'>I’m a proven quick learner with several years experience in problem solving. A leader, effective communicator and team player on the court and in the office.  I’m steadily working on improving my skillset and am eager to make positive contributions as a web developer.</p>
 
               </div>
             </section>
             <section className='resume-two'>
               <div>
                 <h3 className='resume-header-white'>EXPERIENCE:</h3>
-                <h4 className='bold-title'>FULL STACK DEVELOPER - FREELANCE</h4>
+                <h4 className='bold-title'>WEB DEVELOPER - FREELANCE</h4>
                 <p className=''>January 2018 - Present | San Diego, CA</p>
                 <ul className=''>
                   <li className='resume-text'><span className=''>safeR</span> - React app with a React Native companion, complete with geolocation, that allows users to anonymously report local incidents. </li>
