@@ -17,36 +17,6 @@
   padding-bottom: 10px;
 }
 
-.menu-link::before {
-  content: "[";
-  margin-right: -5px;
-}
-
-.menu-link::after {
-  content: "]";
-  margin-left: -5px;
-}
-
-.menu-link::before,
-.menu-link::after {
-  opacity: 0;
-  transition: transform 0.3s, opacity 0.2s;
-}
-
-.menu-link:hover::before,
-.menu-link:focus::before {
-  margin-right: 5px;
-  opacity: 1;
-  transform: translateX(10px);
-}
-
-.menu-link:hover::after,
-.menu-link:focus::after {
-  margin-left: 5px;
-  opacity: 1;
-  transform: translateX(-10px);
-}
-
 /* Position and sizing of burger button */
 .bm-burger-button {
   position: absolute;
@@ -141,13 +111,42 @@ MEDIA QUERIES
   .desktop-menu {
     display: initial;
     float: right;
-    padding-top: 30px;
   }
 
   .menu-link {
     padding-left: 18px;
     font-size: 18px;
     text-shadow: 1px 1px 0px #000;
+  }
+
+  .menu-link::before {
+    content: "[";
+    margin-right: -5px;
+  }
+
+  .menu-link::after {
+    content: "]";
+    margin-left: -5px;
+  }
+
+  .menu-link::before,
+.menu-link::after {
+    opacity: 0;
+    transition: transform 0.3s, opacity 0.2s;
+  }
+
+  .menu-link:hover::before,
+.menu-link:focus::before {
+    margin-right: 5px;
+    opacity: 1;
+    transform: translateX(10px);
+  }
+
+  .menu-link:hover::after,
+.menu-link:focus::after {
+    margin-left: 5px;
+    opacity: 1;
+    transform: translateX(-10px);
   }
 }
 /* Extra large (desktop) */
