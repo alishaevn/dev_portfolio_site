@@ -23,12 +23,12 @@
 
 .contact-link::before {
   content: '[';
-  margin-right: -10px;
+  margin-right: -5px;
 }
 
 .contact-link::after {
   content: ']';
-  margin-left: -10px;
+  margin-left: -5px;
 }
 
 .contact-link::before,
