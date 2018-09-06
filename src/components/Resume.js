@@ -11,14 +11,14 @@ export default class Resume extends Component {
   }
   
   render() {
-    let title = this.props.match.path === '/resume'
-      ? 'RESUME'
-      : ''
+    // let title = this.props.match.path === '/resume'
+    //   ? 'RESUME'
+    //   : ''
 
     return(
       <section>
-        <Header 
-          title={title} />
+        <Header />
+          {/* title={title} /> */}
           <div className='resume-topper'>
             <section className='resume-one'>
               <div className='resume-one-about'>
