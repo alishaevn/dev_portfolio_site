@@ -17,11 +17,11 @@ export default class About extends Component {
         <h2 className='about-welcome'>
           My name is Alisha, thanks for stopping by.</h2>
         <p className='about-me'> 
-          Educated in Graphic Design and Web Development, I understand the jargon and methodologies of both disciplines; thus bridging the gap between them. I enjoy creating positive user experiences through beautiful user interfaces from scratch, or with Content Management Systems. As such, encouraging and following through on feedback about my work is one way that I continue to better my skillset. My personal and professional experiences with leadership, education and communication would prove valuable on a team of fellow motivated professionals. Furthermore, my inquisitiveness, integrity, creativity and overall friendly demeanor have led me to have positive interactions with my peers, co-workers, teachers, managers and more.              
+          Educated in Graphic Design <em>and</em> Web Development, I understand the jargon and methodologies of both disciplines; thus bridging the gap between them. I enjoy creating positive user experiences through beautiful user interfaces from scratch, or with Content Management Systems. I'm continuously working to improve my skillset and I encourage and follow through on feedback regarding my code. My inquisitiveness, integrity, creativity and overall friendly demeanor have led me to have positive interactions with my peers, co-workers, mentors, managers and more. Furthermore, my personal and professional experiences with leadership, education and communication would prove valuable on a team of fellow motivated professionals.               
           <br /><br />
           Apart from development & design I enjoy photography
             (<Link to='/photos' className='link about-link'>see here</Link>)
-          , brain games, coaching volleyball & being a sports (especially basketball) fan.
+          , brain games, coaching volleyball & being a sports fan (especially basketball 😎).
           </p>
 
         <h2 className='heading'>
@@ -73,4 +73,5 @@ export default class About extends Component {
 /**
 Resources:
  - https://github.com/zeit/next.js/issues/1605
+ - https://emojipedia.org/
  */
