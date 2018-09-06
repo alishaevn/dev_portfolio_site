@@ -1,16 +1,7 @@
 /* Extra small (mobile phone - portrait) */
-.header,
-.header-large {
-  padding: 9%;
-  background-color: #2C8199;
-}
-
 .header {
-  height: 37vh;
-}
-
-.header-large {
-  height: 42vh;
+  padding: 3% 9%;
+  background-color: #2C8199;
 }
 
 .header-title {
@@ -20,6 +11,19 @@
   line-height: 40px;
   text-align: center;
   padding-top: 65px;
+  animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.no-header-title {
+  display: none;
 }
 
 .header-tagline {
@@ -39,11 +43,6 @@ MEDIA QUERIES
 }
 /* Medium (tablet) */
 @media screen and (min-width: 768px) {
-  .header,
-.header-large {
-    height: 25vh;
-  }
-
   .header-title {
     padding-top: 55px;
     font-size: 45px;
@@ -56,12 +55,6 @@ MEDIA QUERIES
 }
 /* Large (laptop) */
 @media screen and (min-width: 992px) {
-  .header,
-.header-large {
-    padding: 2% 7% 7%;
-    height: 35vh;
-  }
-
   .header-title {
     font-size: 60px;
     padding-top: 100px;
@@ -74,11 +67,6 @@ MEDIA QUERIES
 }
 /* Extra large (desktop) */
 @media screen and (min-width: 1200px) {
-  .header,
-.header-large {
-    height: 40vh;
-  }
-
   .header-title {
     font-size: 70px;
     padding-top: 120px;
