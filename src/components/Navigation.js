@@ -18,6 +18,7 @@ export default class Navigation extends Component {
         {/* mobile menu */}
         <div className='mobile-menu'>
           <Menu 
+            width={'100%'}
             right 
             noOverlay >
             <a className='link menu-link' href='/'>home</a>

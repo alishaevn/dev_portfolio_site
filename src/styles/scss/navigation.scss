@@ -22,11 +22,11 @@
 /* Position and sizing of burger button */
 
 .bm-burger-button {
-  position: absolute;
+  position: relative;
+  float: right;
   width: 30px;
   height: 26px;
-  right: 9%;
-  top: 7%;
+  margin: 5px 0;
 }
 
 /* Color/shape of burger icon bars */
@@ -61,13 +61,14 @@
   background: $nickel;
   padding: 4.5em 1.5em 0;
   font-size: 1.35em;
+  text-align: center;
 }
 
 /* Wrapper for item list */
 
 .bm-item-list {
   color: #b8b7ad;
-  padding: 0.8em;
+  padding-top: 1em;
 }
 
 /* ============================ 
@@ -93,17 +94,9 @@ MEDIA QUERIES
 /* Medium (tablet) */
 
 @media screen and (min-width: 768px) {
-  .bm-overlay {
-    /* width: 0; */
-    /* background: 0%; */
-  }
-  .bm-menu-wrap {
-    /* width: 700px; */
-  }
-  .bm-cross-button,
-  .bm-cross {
-    /* width: 32px; */
-    /* height: 32px; */
+  .bm-item-list {
+    color: #b8b7ad;
+    padding-top: 10em;
   }
   .menu-link {
     font-size: 30px;
