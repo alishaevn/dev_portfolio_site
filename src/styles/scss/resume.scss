@@ -68,6 +68,37 @@ li>span {
   font-weight: $light;
 }
 
+.resume-link::before {
+  content: '[';
+  margin-left: -5px;
+}
+
+.resume-link::after {
+  content: ']';
+  margin-right: -5px;
+}
+
+.resume-link::before,
+.resume-link::after {
+  // display: inline-block;
+  opacity: 0;
+  transition: transform 0.3s, opacity 0.2s;
+}
+
+.resume-link:hover::before,
+.resume-link:focus::before {
+  margin-right: 5px;
+  opacity: 1;
+  transform: translateX(10px); // transform: translateX(0px);
+}
+
+.resume-link:hover::after,
+.resume-link:focus::after {
+  margin-left: 5px;
+  opacity: 1;
+  transform: translateX(-10px); // transform: translateX(0px);
+}
+
 /* ============================ 
 MEDIA QUERIES
 ============================*/
