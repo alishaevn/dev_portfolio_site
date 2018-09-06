@@ -2,7 +2,7 @@
 /* Extra small (mobile phone - portrait) */
 
 .resume-topper {
-  border-bottom: 5px double #2C8199;
+  border-bottom: 5px double $seaBlue;
   border-bottom-width: thick;
 }
 
@@ -10,6 +10,11 @@
 .resume-two {
   padding: 4% 9%;
   width: 100%;
+}
+
+.resume-one-details {
+  border-top: 4px solid $brown;
+  margin-top: 10px;
 }
 
 .resume-one,
@@ -39,18 +44,18 @@
 }
 
 .resume-header {
-  color: #2C8199;
+  color: $seaBlue;
   margin-bottom: 8px;
 }
 
 .resume-header-blue {
-  color: #D7CAB6;
+  color: $tan;
   font-weight: $bold;
   margin-top: 10px;
 }
 
 .resume-header-white {
-  color: #2C8199;
+  color: $seaBlue;
   font-weight: $bold;
   margin-top: 15px;
   text-decoration: underline;
@@ -113,9 +118,11 @@ MEDIA QUERIES
     display: flex;
   }
   .resume-one-details {
+    border-top: none;
+    border-left: 4px solid $brown;
     margin-left: 30px;
-    margin-top: 30px;
-    border-top: 4px solid $brown;
+    margin-top: 0px;
+    padding-left: 30px;
   }
   .h1 {
     font-size: 48px;
@@ -155,7 +162,11 @@ MEDIA QUERIES
     height: 1500px;
   }
   .resume-one-details {
+    border-top: 4px solid $brown;
+    border-left: none;
+    margin-top: 30px;
     margin-left: 0px;
+    padding-left: 0px;
   }
   .resume-two {
     width: 65%;

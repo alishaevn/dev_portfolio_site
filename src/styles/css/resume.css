@@ -10,6 +10,11 @@
   width: 100%;
 }
 
+.resume-one-details {
+  border-top: 4px solid #543C27;
+  margin-top: 10px;
+}
+
 .resume-one,
 .resume-text > a {
   background-color: #2C8199;
@@ -107,9 +112,11 @@ MEDIA QUERIES
   }
 
   .resume-one-details {
+    border-top: none;
+    border-left: 4px solid #543C27;
     margin-left: 30px;
-    margin-top: 30px;
-    border-top: 4px solid #543C27;
+    margin-top: 0px;
+    padding-left: 30px;
   }
 
   .h1 {
@@ -155,7 +162,11 @@ MEDIA QUERIES
   }
 
   .resume-one-details {
+    border-top: 4px solid #543C27;
+    border-left: none;
+    margin-top: 30px;
     margin-left: 0px;
+    padding-left: 0px;
   }
 
   .resume-two {
