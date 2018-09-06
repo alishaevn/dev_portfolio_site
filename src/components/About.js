@@ -61,7 +61,7 @@ export default class About extends Component {
                 Identity Design</h5>
               <p className='skill-description'>
                 I develop identities for brands & individuals which involves logos, style guides ( imagery, brand colors, tagline, etc.), social media concepts, print collateral & apparel. 
-                (<Link to='/identity' className='link about-link'>See here</Link>) </p>
+                (<Link to='/identity' className='link about-link'>see here</Link>) </p>
             </div>
           </aside>
         </section>
