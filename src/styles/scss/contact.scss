@@ -21,6 +21,36 @@
   color: $seaBlue;
 }
 
+.contact-link::before {
+  content: '[';
+  margin-right: -10px;
+}
+
+.contact-link::after {
+  content: ']';
+  margin-left: -10px;
+}
+
+.contact-link::before,
+.contact-link::after {
+  opacity: 0;
+  transition: transform 0.3s, opacity 0.2s;
+}
+
+.contact-link:hover::before,
+.contact-link:focus::before {
+  margin-right: 5px;
+  opacity: 1;
+  transform: translateX(10px);
+}
+
+.contact-link:hover::after,
+.contact-link:focus::after {
+  margin-left: 5px;
+  opacity: 1;
+  transform: translateX(-10px);
+}
+
 .social-media-icons,
 .copyright-info {
   text-align: center;
