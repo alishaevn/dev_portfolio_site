@@ -85,7 +85,7 @@ export default class FoodiePhonetics extends Component {
                 Key Features </h2>
               <ul className='standout-details'>
                 <li>
-                  Spaced repitition algorithm</li>
+                  Spaced repetition algorithm</li>
                 <li>
                   Keeps track of user score</li>
                 <li>
