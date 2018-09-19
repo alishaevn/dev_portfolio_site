@@ -239,7 +239,7 @@ MEDIA QUERIES
 
   .cs-mockup,
 .cs-mockup-title {
-    padding: 0 7%;
+    padding: 0 5%;
   }
 
   .cs-title {
@@ -247,7 +247,13 @@ MEDIA QUERIES
   }
 
   .cs-mockup-title {
-    font-size: 45px;
+    font-size: 32px;
+  }
+
+  .project-one,
+.project-two,
+.project-three {
+    width: 33%;
   }
 
   /* individual pages */
