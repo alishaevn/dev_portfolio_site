@@ -21,7 +21,7 @@ export default class About extends Component {
           <br /><br />
           Apart from development & design I enjoy photography
             (<Link to='/photos' className='link about-link'>see here</Link>)
-          , brain games, coaching volleyball & being a sports fan (especially basketball 😎).
+          , brain games, coaching volleyball and being a sports fan (especially basketball 😎).
           </p>
 
         <h2 className='heading'>
