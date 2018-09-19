@@ -193,6 +193,7 @@ MEDIA QUERIES
     width: 45px;
     height: 50px;
     margin-right: 15px;
+    display: block;
   }
 
   .id-icon {
