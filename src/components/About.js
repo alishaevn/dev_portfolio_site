@@ -30,7 +30,7 @@ export default class About extends Component {
           <aside className='skillset'>
             <img 
               src={require('../images/icon-FED.png')} 
-            alt='Front End Development' 
+            alt='Web Development' 
             className='skills-icon fed-icon' />
             <div>
               <h5 className='skill-type'>
