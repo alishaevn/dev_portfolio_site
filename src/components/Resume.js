@@ -36,7 +36,7 @@ export default class Resume extends Component {
                   <a href='https://www.linkedin.com/in/alishaevans/' className='link resume-link'>LinkedIn </a>
                 </p>
                 <h3 className='resume-header-blue'>WHY ME?</h3>
-                <p className='resume-text'>I’m a proven quick learner with several years experience in problem solving. A leader, effective communicator and team player on the court and in the office.  I’m steadily working on improving my skillset and am eager to make positive contributions as a web developer.</p>
+                <p className='resume-text'>I’m confident, yet humble. I have a calm, friendly demeanor and I enjoy helping others succeed. I’m self motivated, a great communicator, whether it be general or technical, and a proven problem solver. A leader and team player on the court and in the office, eager to make positive contributions to a development team.</p>
 
               </div>
             </section>
